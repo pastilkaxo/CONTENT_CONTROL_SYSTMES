@@ -1,0 +1,10 @@
+.about-main {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  padding-bottom: 50px;
+  & img {
+    width: 600px;
+    height: 400px;
+  }
+}

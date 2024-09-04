@@ -1,0 +1,86 @@
+header {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 45vh;
+
+  background-color: #97d3ff;
+
+  & .head {
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 30vw;
+
+    & .logo {
+      width: 20vw;
+
+      cursor: default;
+    }
+
+    & .cart {
+      cursor: pointer;
+
+      margin-top: 5vh;
+
+      width: 3vw;
+    }
+  }
+
+  & .body {
+    display: flex;
+
+    justify-content: center;
+
+    & h1 {
+      margin: 0;
+      padding: 0;
+
+      font-size: 3.5em;
+
+      text-align: center;
+    }
+  }
+
+  & nav {
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 3vh auto;
+
+    width: 30vw;
+
+    & a {
+      transition: 0.3s;
+
+      font-size: 1.4em;
+      font-weight: 500;
+      text-decoration: none;
+      background-image: linear-gradient(black, black);
+      background-position: 50% 100%;
+      background-size: 0px 3px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s;
+
+        background-size: 100% 2px;
+      }
+      &:visited {
+        color: black;
+        text-decoration: none;
+      }
+      &:link {
+        color: black;
+      }
+    }
+  }
+}
+
+
+

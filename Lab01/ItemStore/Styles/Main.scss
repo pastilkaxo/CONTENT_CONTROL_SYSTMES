@@ -1,0 +1,242 @@
+@import "header";
+@import "mains";
+@import "footer";
+@import "search";
+@import "modal";
+@import "help";
+@import "description";
+@import "about";
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  transition: 0.3s;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("../Images/background.png");
+  background-size: contain;
+}
+
+.container {
+  margin: 0 auto;
+
+  width: 80vw;
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+  header {
+    height: 40vh;
+
+    & .body h1 {
+      font-size: 3em;
+    }
+
+    & nav {
+      width: 45vw;
+    }
+  }
+
+  main .popular_slider {
+    height: 50vh;
+    & section {
+      height: 35vw;
+    }
+    & span {
+      font-size: 2vw;
+    }
+  }
+
+  main .cards .card {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 700px) and (min-width: 400px) {
+  header {
+    height: 30vh;
+
+    & .body h1 {
+      font-size: 2.3em;
+    }
+
+    & nav {
+      width: 55vw;
+
+      a {
+        font-size: 1em;
+      }
+    }
+  }
+
+  main .popular_slider section .name {
+    margin-top: 0;
+    font-size: 0.2em;
+  }
+
+  main .popular_slider section .price {
+    margin-top: 0;
+    font-size: 0.8em;
+  }
+
+  main .popular_slider {
+    height: 45vh;
+    width: 39vh;
+    margin-left: -3vw;
+    & .for_cell {
+      width: 45vw;
+    }
+    & section {
+      margin-left: 10px;
+      height: 40vh;
+      width: 13vh;
+    }
+  }
+
+  #get-card {
+    height: 35px;
+  }
+
+  #get-name {
+    width: 75px;
+  }
+
+  main .cards {
+    flex-wrap: wrap;
+  }
+
+  main .cards .card {
+    margin-top: 2vh;
+    width: 35vw;
+    height: 25vh;
+    & .item-img {
+      width: 150px;
+      height: 80px;
+    }
+    & .item-name {
+      font-size: 11px;
+    }
+    & .item-img {
+      width: 110px;
+    }
+    & .button {
+      width: 30px;
+    }
+  }
+
+  footer section div h3 {
+    font-size: 0.9em;
+  }
+
+  footer section div p {
+    font-size: 0.9em;
+  }
+
+  .categories {
+    p {
+      margin-left: 9px;
+      font-size: 5vw;
+      cursor: pointer;
+    }
+  }
+  input#search-bar {
+    display: none;
+  }
+
+  .modal-content-form {
+    width: 300px;
+  }
+
+  .item-info {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+
+    height: 650px;
+    & img {
+      width: 200px;
+      height: 220px;
+    }
+    & .lead {
+      margin-left: 50px;
+
+      & .bot {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) and (min-width: 100px) {
+  header {
+    height: 30vh;
+
+    & .head .logo {
+      width: 42vw;
+    }
+
+    & .head .cart {
+      width: 26vw;
+    }
+
+    & .body h1 {
+      font-size: 1.8em;
+    }
+
+    & nav {
+      width: 55vw;
+
+      a {
+        font-size: 0.7em;
+      }
+    }
+  }
+
+  main {
+    gap: 3vh;
+  }
+
+  main .popular_slider section .name {
+    margin-top: 0;
+    font-size: 0.6em;
+  }
+
+  main .popular_slider section .price {
+    margin-top: 0;
+    font-size: 0.6em;
+  }
+
+  main .popular_slider {
+    height: 30vh;
+  }
+
+  main .cards {
+    flex-wrap: wrap;
+  }
+
+  main .cards .card {
+    margin-top: 5vh;
+    width: 35vw;
+    height: 20vh;
+  }
+
+  footer section {
+    height: 35vh;
+  }
+
+  footer section div h3 {
+    font-size: 0.7em;
+  }
+
+  footer section div p {
+    font-size: 0.6em;
+  }
+}

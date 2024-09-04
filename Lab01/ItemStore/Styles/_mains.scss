@@ -1,0 +1,275 @@
+main {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7vh;
+
+  & .popular_slider {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 10vh;
+    padding: 2vh;
+
+    height: 55vh;
+    width: 80vw;
+
+    background: #eeeeee;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+
+    & section,
+    img {
+      border-radius: 10px;
+    }
+
+    & .for_cell {
+      width: 45vw;
+    }
+
+    & section {
+      display: flex;
+     text-align: center;
+      flex-direction: column;
+      justify-content: space-between;
+
+      width: 25vw;
+
+      background: white;
+
+      padding: 1vh;
+
+      & img {
+        height: 35vh;
+      }
+
+      & .name {
+        margin-top: -2vh;
+        text-align: center;
+      }
+
+      & .price {
+        color: brown;
+         font-size: 1vw;
+        text-align: center;
+
+       
+      }
+      & span {
+        margin-top: 1vh;
+
+        color: black;
+
+        text-decoration: line-through;
+        text-decoration-color: brown;
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+    & .card {
+      transition: 0.3s;
+
+      display: flex;
+
+      flex-direction: column;
+      justify-content: space-between;
+
+      padding: 2vh;
+
+      box-sizing: border-box;
+
+      width: 18vw;
+      height: 35vh;
+
+      background-color:white;
+
+      border-radius: 10px;
+
+      box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+
+     
+          
+      &:hover {
+        transition: 0.3s;
+
+        transform: scale(1.05);
+      }
+
+      & .button {
+        width: 3vw;
+        cursor: pointer;
+      }
+      
+      & .item-img {
+        margin-left: auto;
+        margin-right: auto;    
+        width: 10vw;
+        height: 9vw;
+      }
+       & .item-name{
+        font-size: 13px;
+        text-align: center;
+       }
+      & .item-name:hover {
+        cursor: pointer;
+        color: orange;
+
+      }
+      & .item-get {
+        display: flex;
+        justify-content: space-around;
+      }
+
+    }
+  }
+}
+
+.info {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5vh;
+
+  width: 100vw;
+  height: 40vh;
+
+  background-color: #97d3ff;
+}
+
+.information {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+
+  & .text {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+
+    width: 40vw;
+    height: 31vh;
+
+    & button {
+      transition: 0.3s;
+
+      align-self: flex-start;
+
+      margin-top: 16px;
+
+      height: 5vh;
+
+      background: #ffffff;
+
+      border: none;
+      border-radius: 10px;
+
+      box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+
+      cursor: pointer;
+
+      &:hover {
+        transition: 0.3s;
+
+        transform: scale(1.02);
+      }
+    }
+  }
+
+  & .cart_setter {
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 2vh;
+
+    height: 31vh;
+    width: 30vw;
+
+    background: white;
+
+    border-radius: 10px;
+
+    & input {
+      margin-top: auto;
+      outline: none;
+      border: hidden;
+      border-radius: 10px;
+      padding: 1vw;
+    }
+
+    & button {
+      transition: 0.3s;
+
+
+      margin-top: 70px;
+      width: auto;
+      height: 3vw;
+
+      background: #646464;
+
+      border: none;
+      border-radius: 10px;
+
+      box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+
+      cursor: pointer;
+
+      color: white;
+      
+      &:hover {
+        transition: 0.3s;
+
+        transform: scale(1.02);
+      }
+    }
+  }
+}
+
+.gets {
+  display: flex;
+   justify-content: space-around;
+  & .button {
+    width: 3vw;
+ height: auto ;
+    cursor: pointer;
+  }
+ 
+}
+
+.slider-card {
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+
+     & p {
+      font-size: 13px;
+     }
+
+    & p:hover {
+      cursor: pointer;
+      color: orange; 
+    }
+
+  &:hover {
+    transition: 0.3s;
+
+    transform: scale(1.05);
+  }
+}
+
+
+

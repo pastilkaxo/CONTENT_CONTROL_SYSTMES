@@ -1,0 +1,25 @@
+  
+  
+  .item-info{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    height: 550px;
+    & img {
+       width: 300px;
+       height: 320px;
+    }
+    & .lead {
+        margin-left: 50px;
+
+        & .bot {
+            display: flex;
+            gap: 100px;
+        }
+    }
+   }
+
+      .help-sum { 
+        display: flex;
+        justify-content: center;      }
