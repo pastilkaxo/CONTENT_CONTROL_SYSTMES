@@ -1,0 +1,2168 @@
+# Translation of Themes - Amaz Store in Russian
+# This file is distributed under the same license as the Themes - Amaz Store package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-21 07:52:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Amaz Store\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Amaz Store is a cool and modern eCommerce WordPress theme with lots of great features to sell your products online. It comes with uniquely outstanding and visually appealing Homepage sections. Ready to import pre made demos which makes your web designing more easy. It has Product sections to showcase your product in your homepage, Sections like – Tabbed Product carousel, Woo category section, Product Carousel, Product list carousel etc. Other than these sections theme has Frontpage Header Slider layout, Ribbon section with Image & Video, Banner layouts and Service section. Theme is integrated with Th advanced Product Search, Th Variation Swatches plugin and lead form builder.  WooCommerce plugin integration helps you promote your fashion items in style and sell them with ease."
+msgstr "Amaz Store — это крутая и современная тема WordPress для электронной коммерции с множеством замечательных функций для продажи ваших товаров в Интернете. Он поставляется с уникально выдающимися и визуально привлекательными разделами домашней страницы. Готов импортировать готовые демоверсии, что упрощает веб-дизайн. В нем есть разделы «Продукт» для демонстрации вашего продукта на вашей домашней странице, такие разделы, как «Карусель продуктов с вкладками», раздел категорий Woo, «Карусель продуктов», «Карусель списка продуктов» и т. Д. Помимо этих разделов, тема имеет макет слайдера заголовка главной страницы, раздел ленты с изображением и усилителем; Видео, макеты баннеров и сервисный раздел. Тема интегрирована с расширенным поиском продуктов Th, плагином Th Variation Swatches и конструктором лид-форм. Интеграция с плагином WooCommerce поможет вам стильно продвигать свои модные товары и продавать их с легкостью."
+
+#. Theme Name of the theme
+#: style.css lib/th-option/free-pro.php:7 lib/th-option/th-option.php:14
+#, gp-priority: high
+msgid "Amaz Store"
+msgstr "Amaz Store"
+
+#: functions.php:143
+msgid "Unlimited blocks For Gutenberg"
+msgstr "Неограниченное количество блоков для Gutenberg"
+
+#: dokan/store.php:59
+msgid "No products were found of this vendor!"
+msgstr "Не найдено товаров этого продавца!"
+
+#: lib/th-option/sidebar.php:8
+msgid "Upgrade To Amaz Store Premium"
+msgstr "Обновить до Amaz Store Premium"
+
+#: lib/th-option/sidebar.php:7
+msgid "If you like the free version of this theme, you will LOVE the full version of Amaz Store which includes numerous  Advanced features, Custom Sections, Section Ordering and more useful options to customize your website."
+msgstr "Если вам нравится бесплатная версия этой темы, вам понравится полная версия Amaz Store, которая включает в себя множество дополнительных функций, пользовательские разделы, заказ разделов и еще больше полезных опций для настройки вашего сайта."
+
+#: inc/footer-function.php:453
+msgid "Themehunk"
+msgstr "ThemeHunk"
+
+#: inc/footer-function.php:452
+msgid "https://themehunk.com/"
+msgstr "https://themehunk.com/"
+
+#: inc/footer-function.php:451
+msgid "Designed by"
+msgstr "Спроектировано"
+
+#. translators: Copyright date format, see https://www.php.net/date
+#: inc/footer-function.php:446
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: functions.php:153
+msgid "TH Product Compare"
+msgstr "TH Product Compare"
+
+#: functions.php:123 functions.php:193
+msgid "TH All In One Woo Cart"
+msgstr "TH All In One Woo Cart"
+
+#: customizer/pro-button/class-customize.php:87
+msgid "View Docs"
+msgstr "Смотреть документацию"
+
+#: customizer/pro-button/class-customize.php:86
+msgid "View Documentation"
+msgstr "Посмотреть документацию"
+
+#: customizer/pro-button/class-customize.php:75
+msgid "Go Pro"
+msgstr "Получить Pro"
+
+#: customizer/pro-button/class-customize.php:74
+msgid "Unlock Pro Features"
+msgstr "Разблокируйте функции PRO"
+
+#: lib/th-option/free-pro.php:137
+msgid "(Two Layouts)"
+msgstr "(Два макета)"
+
+#: lib/th-option/free-pro.php:108
+msgid "(Three Layout)"
+msgstr "(три макета)"
+
+#: lib/th-option/free-pro.php:66
+msgid "(Image & Video)"
+msgstr "(Изображение и видео)"
+
+#: lib/th-option/free-pro.php:60
+msgid "Ribbon Section"
+msgstr "Раздел ленты"
+
+#: customizer/repeater/class-amaz-store-repeater.php:322
+msgid "Go to Pro"
+msgstr "Перейти на Pro"
+
+#: customizer/repeater/class-amaz-store-repeater.php:321
+msgid "To get unlimited slides"
+msgstr "Чтобы получить неограниченное количество слайдов"
+
+#: customizer/register-panels-and-sections.php:158
+msgid "Below Footer (Pro)"
+msgstr "Нижний подвал (Pro)"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:35
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:29
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Изменить <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:17 template-parts/content-single.php:46
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Нет соответствий для ваших условий поиска. Пожалуйста, попробуйте снова с другими ключевыми словами."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: template-parts/author-bio.php:18
+msgid "Written by"
+msgstr "Написано"
+
+#: searchform.php:12
+msgid "search.."
+msgstr "поиск.."
+
+#. translators: %s theme name
+#: lib/welcome-bar/welcome-bar.php:34
+msgid "Get started with %s"
+msgstr "Начать с %s"
+
+#. translators: %1$s: theme name, %2$s link
+#: lib/welcome-bar/welcome-bar.php:26
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
+msgstr "Добро пожаловать! Спасибо за выбор %1$s! Чтобы в полной мере насладиться всем функционалом темы, пожалуйста, посетите нашу <a href=\"%2$s\">приветственную страницу</a>"
+
+#. translators: %1$s: theme name, %2$s theme version
+#: lib/welcome-bar/welcome-bar.php:20
+msgid "Welcome to %1$s - Version %2$s"
+msgstr "Добро пожаловать в %1$s - Версия %2$s"
+
+#: lib/th-option/welcome.php:71
+msgid "Footer Section"
+msgstr "Раздел подвала"
+
+#: lib/th-option/welcome.php:68
+msgid "FrontPage Sections"
+msgstr "Разделы главной страницы"
+
+#: lib/th-option/welcome.php:65
+msgid "Header Options"
+msgstr "Параметры заголовка"
+
+#: lib/th-option/welcome.php:58
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: lib/th-option/welcome.php:54
+msgid "4. Customizer Links"
+msgstr "4. Настройте ссылки"
+
+#: lib/th-option/welcome.php:48
+msgid "Start Customize"
+msgstr "Приступить к настройке"
+
+#: lib/th-option/welcome.php:46
+msgid "Amaz Store theme support live customizer for home page set up. Everything visible at home page can be changed through customize panel"
+msgstr "Тема Amaz Store поддерживает настройку главной страницы в режиме реального времени. Все, что отображается на главной странице, можно изменить с помощью панели настройки"
+
+#: lib/th-option/welcome.php:45
+msgid "3. Customize Your Website"
+msgstr "3. Настройте свой сайт"
+
+#: lib/th-option/welcome.php:33
+msgid "Go to Doc"
+msgstr "Перейти к документации"
+
+#: lib/th-option/welcome.php:20
+msgid "Set Home Page"
+msgstr "Установить главную страницу"
+
+#: lib/th-option/welcome.php:15
+msgid "Home Page Activated"
+msgstr "Главная страница активирована"
+
+#: lib/th-option/welcome.php:10
+msgid "Now go to Settings > Reading > Your homepage displays > A static page (select below) and set that page as your homepage."
+msgstr "Теперь перейдите в Настройки> Чтение> На главной странице отображать> Статическая страница (выберите ниже) и установите эту страницу в качестве главной."
+
+#: lib/th-option/welcome.php:9
+msgid "Go to Wp Dashboard > Pages > Add New > Create a Page using “Home Page Template” available in Page attribute."
+msgstr "Перейдите в Консоль WP > Страницы > Добавить новую > Создать страницу используя Шаблон главной страницы, доступный в атрибуте страницы."
+
+#: lib/th-option/welcome.php:8
+msgid "To set up the HomePage in Amaz Store theme, Just follow the below given Instructions."
+msgstr "Чтобы настроить главную страницу в теме Amaz Store, просто следуйте приведенным ниже инструкциям."
+
+#: lib/th-option/welcome.php:7
+msgid "2. Setup Home Page"
+msgstr "2. Настройте главную страницу"
+
+#: lib/th-option/welcome.php:4
+msgid "We highly Recommend to install ThemeHunk Customizer plugin to get all customization options in Amaz Store theme. Also install recommended plugins available in recommended tab."
+msgstr "Мы настоятельно рекомендуем установить плагин ThemeHunk Customizer, чтобы получить все параметры настройки в тему Amaz Store. Также установите рекомендуемые плагины."
+
+#: lib/th-option/welcome.php:3
+msgid "1. Install Recommended Plugins"
+msgstr "1. Установите рекомендуемые плагины"
+
+#: lib/th-option/th-option.php:199
+msgid "Activate Now"
+msgstr "Активировать сейчас"
+
+#: lib/th-option/th-option.php:177
+msgid "Install Now"
+msgstr "Установить сейчас"
+
+#: lib/th-option/th-option.php:172
+msgid "Activated"
+msgstr "Активировано"
+
+#: lib/th-option/th-option.php:144
+msgid "Details & Version"
+msgstr "Подробности и версии"
+
+#: lib/th-option/th-option.php:130
+msgid "Plugin Successfully Activated"
+msgstr "Плагин успешно активирован"
+
+#: lib/th-option/th-option.php:109
+msgid "No plugin specified"
+msgstr "Не указан плагин"
+
+#: lib/th-option/th-option.php:70
+msgid "Home Page"
+msgstr "Главная страница"
+
+#: lib/th-option/th-option.php:44
+msgid "Welcome To %1s Theme"
+msgstr "Добро пожаловать в тему %1s"
+
+#: lib/th-option/th-option.php:13
+msgid "Get Started with Amaz Store Options"
+msgstr "Начните работу с настройки Amaz Store"
+
+#: lib/th-option/tab-html.php:67
+msgid "Import Demo"
+msgstr "Импорт Демо"
+
+#: lib/th-option/tab-html.php:66
+msgid "You need to Install required plugins like- Themehunk Customizer, WooCommerce and One click demo import plugin. After installing required plugins import button will activate."
+msgstr "Вам необходимо установить необходимые плагины, такие как ThemeHunk Customizer, WooCommerce и One Click Demo Import. После установки необходимых плагинов активируется кнопка импорта."
+
+#: lib/th-option/tab-html.php:64
+msgid "Click Here To Import Demo Content"
+msgstr "Нажмите тут чтоб импортировать Демо содержимое"
+
+#: lib/th-option/tab-html.php:27
+msgid "Help"
+msgstr "Помощь"
+
+#: lib/th-option/tab-html.php:26
+msgid "Free Vs Pro"
+msgstr "Бесплатная или платная"
+
+#: lib/th-option/tab-html.php:25
+msgid "Get Child Theme"
+msgstr "Получить дочернюю тему"
+
+#: lib/th-option/tab-html.php:24
+msgid "Demo Import"
+msgstr "Импорт демо"
+
+#: lib/th-option/tab-html.php:23
+msgid "Recommended Plugin"
+msgstr "Рекомендуемый плагин"
+
+#: lib/th-option/tab-html.php:22
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: lib/th-option/tab-html.php:18
+msgid "FREE THEME"
+msgstr "БЕСПЛАТНАЯ ТЕМА"
+
+#: lib/th-option/sidebar.php:29
+msgid "Submit a Ticket"
+msgstr "Создать тикет"
+
+#: lib/th-option/sidebar.php:28
+msgid "Have a question, we are happy to help! Get in touch with our support team."
+msgstr "Есть вопросы? Мы рады помочь! Свяжитесь с нашей командой поддержки."
+
+#: lib/th-option/sidebar.php:22
+msgid "Watch Videos"
+msgstr "Смотреть видео"
+
+#: lib/th-option/sidebar.php:21
+msgid "Want a guide? We have video tutorials to walk you through getting started."
+msgstr "Хотите руководство? У нас есть видеоуроки, которые помогут вам начать работу."
+
+#: lib/th-option/sidebar.php:20
+msgid "Video Tutorials"
+msgstr "Видеоуроки"
+
+#: lib/th-option/sidebar.php:14
+msgid "Submit review"
+msgstr "Отправить отзыв"
+
+#: lib/th-option/sidebar.php:13
+msgid "We would love to hear your feedback."
+msgstr "Мы хотели бы услышать ваши отзывы."
+
+#: lib/th-option/sidebar.php:12
+msgid "Leave us a review"
+msgstr "Оставьте нам отзыв"
+
+#: lib/th-option/sidebar.php:4
+msgid "Amaz Store Pro WordPress Theme"
+msgstr "Тема Amaz Store Pro для WordPress"
+
+#: lib/th-option/need-help.php:35
+msgid " Join our Facebook Group"
+msgstr " Присоединяйтесь к нашей группе в Facebook"
+
+#: lib/th-option/need-help.php:32
+msgid "Join the community of friendly ThemeHunk users. Get connected, share opinion, ask questions and help each other !"
+msgstr "Присоединяйтесь к сообществу пользователей ThemeHunk. Будьте на связи, делитесь мнениями, задавайте вопросы и помогайте друг другу!"
+
+#: lib/th-option/need-help.php:31
+msgid "Join Group"
+msgstr "Присоединиться к группе"
+
+#: lib/th-option/need-help.php:24
+msgid " Go to docs"
+msgstr " Перейти к документации"
+
+#: lib/th-option/need-help.php:23
+msgid "Our WordPress Theme is well documented, you can go with our documentation and learn to customize Amaz Store."
+msgstr "Наша тема WordPress хорошо документирована, вы можете воспользоваться нашей документацией и научиться настраивать Amaz Store."
+
+#: lib/th-option/need-help.php:22
+msgid "Documentation"
+msgstr "Документация"
+
+#: lib/th-option/need-help.php:15
+msgid "Create Child Theme"
+msgstr "Создать дочернюю тему"
+
+#: lib/th-option/need-help.php:12
+msgid "Before modifying theme core files. You should create child theme to make those changes update proof. Please follow this link to create child theme."
+msgstr "Перед изменением основных файлов темы. Вы должны создать дочернюю тему, чтобы защитить изменения от обновления. Пожалуйста, перейдите по этой ссылке, чтобы создать дочернюю тему."
+
+#: lib/th-option/need-help.php:11
+msgid "Create a child theme"
+msgstr "Создать дочернюю тему"
+
+#: lib/th-option/need-help.php:5
+msgid "Need help ?"
+msgstr "Нужна помощь?"
+
+#: lib/th-option/need-help.php:3
+msgid "If you need any help you can contact to our support team"
+msgstr "Если вам нужна помощь, вы можете связаться с нашей службой поддержки"
+
+#: lib/th-option/need-help.php:2
+msgid "Contact Support"
+msgstr "Связаться с поддержкой"
+
+#: lib/th-option/get-child-theme.php:6
+msgid "That's why we recommended to use child theme to make your site update proof."
+msgstr "Вот почему мы рекомендуем использовать дочернюю тему, чтобы сделать ваш сайт защищенным от обновлений."
+
+#: lib/th-option/get-child-theme.php:5
+msgid "Child theme inherit the style and functionality of parent theme, you can easily update the parent theme without losing its Customization."
+msgstr "Дочерняя тема наследует стиль и функциональность родительской темы, вы можете легко обновлять родительскую тему, не теряя ее настройки."
+
+#: lib/th-option/free-pro.php:453
+msgid "Get Amaz Store Pro Now"
+msgstr "Получите Amaz Store Pro сейчас"
+
+#: lib/th-option/free-pro.php:452
+msgid "Access to all Pro features"
+msgstr "Доступ ко всем функциям Pro"
+
+#: lib/th-option/free-pro.php:449
+msgid "Pro Theme"
+msgstr "Платная тема"
+
+#: lib/th-option/free-pro.php:438
+msgid "Vertical Tabbed Product Widget"
+msgstr "Вертикальный виджет товара с вкладками"
+
+#: lib/th-option/free-pro.php:426
+msgid "Testimonial Widget"
+msgstr "Виджет Отзывы"
+
+#: lib/th-option/free-pro.php:415
+msgid "Tabbed Product Widget"
+msgstr "Виджет товара с вкладками"
+
+#: lib/th-option/free-pro.php:404
+msgid "Single Product Slide Widget"
+msgstr "Виджет слайда отдельного товара"
+
+#: lib/th-option/free-pro.php:393
+msgid "Tabbed Product list Carousel Section"
+msgstr "Раздел Карусель списка товаров со вкладками"
+
+#: lib/th-option/free-pro.php:382
+msgid "Tabbed Product Image Carousel Section"
+msgstr "Раздел карусель с изображением товара с вкладками"
+
+#: lib/th-option/free-pro.php:371
+msgid "Brand Section"
+msgstr "Раздел бренда"
+
+#: lib/th-option/free-pro.php:360
+msgid "Big Featured Product Section"
+msgstr "Раздел Большой Рекомендуемый товар"
+
+#: lib/th-option/free-pro.php:349
+msgid "Four Custom Section"
+msgstr "4-й пользовательских раздела"
+
+#: lib/th-option/free-pro.php:324
+msgid "(Priority)"
+msgstr "(Приоритет)"
+
+#: lib/th-option/free-pro.php:317 lib/th-option/sidebar.php:27
+msgid "Support"
+msgstr "Поддержка"
+
+#: lib/th-option/free-pro.php:300
+msgid "Post Slide Widget"
+msgstr "Виджет слайд записи"
+
+#: lib/th-option/free-pro.php:291
+msgid "(Zoom, Swap and Swap Slide)"
+msgstr "(увеличение, обмен и обмен слайдами)"
+
+#: lib/th-option/free-pro.php:288
+msgid "(Zoom )"
+msgstr "(увеличение)"
+
+#: lib/th-option/free-pro.php:266
+msgid "Product Quick View"
+msgstr "Быстрый просмотр товара"
+
+#: lib/th-option/free-pro.php:257
+msgid "(Numbered, Load More, Infinite Scroll)"
+msgstr "(Нумерация, Загрузить еще, Бесконечная прокрутка)"
+
+#: lib/th-option/free-pro.php:254
+msgid "(Numbered)"
+msgstr "(нумерация)"
+
+#: lib/th-option/free-pro.php:251
+msgid "Pagination option ( Shop Page, Blog Page)"
+msgstr "Опция пагинации (страница магазина, страница блога)"
+
+#: lib/th-option/free-pro.php:235
+msgid "Blog page setting"
+msgstr "Настройка страницы блога"
+
+#: lib/th-option/free-pro.php:220
+msgid "Pre loader"
+msgstr "Предварительный загрузчик"
+
+#: lib/th-option/free-pro.php:205
+msgid "Ajax Search"
+msgstr "Ajax-поиск"
+
+#: lib/th-option/free-pro.php:190
+msgid "Social Icons"
+msgstr "Значки соцсетей"
+
+#: lib/th-option/free-pro.php:176
+msgid "Fully Responsive"
+msgstr "Полностью адаптивная"
+
+#: lib/th-option/free-pro.php:161
+msgid "Move to top"
+msgstr "Перейти к началу"
+
+#: lib/th-option/free-pro.php:147
+msgid "Highlight Section  "
+msgstr "Выделить раздел  "
+
+#: lib/th-option/free-pro.php:140
+msgid "(Six Layouts)"
+msgstr "(шесть макетов)"
+
+#: lib/th-option/free-pro.php:133
+msgid "Banner Section  "
+msgstr "Раздел Баннер  "
+
+#: lib/th-option/free-pro.php:118
+msgid "Product List Carousel Section"
+msgstr "Раздел Карусель списка товара"
+
+#: lib/th-option/free-pro.php:103
+msgid "Woo Category Section "
+msgstr "Раздел Категории WooCommerce "
+
+#: lib/th-option/free-pro.php:90
+msgid "Product Carousel Section"
+msgstr "Раздел Карусель товаров"
+
+#: lib/th-option/free-pro.php:77
+msgid "Tabbed Product Carousel Section"
+msgstr "Раздел товара с вкладками Карусель"
+
+#: lib/th-option/free-pro.php:41
+msgid "(Advanced)"
+msgstr "(Расширенные)"
+
+#: lib/th-option/free-pro.php:40 lib/th-option/free-pro.php:321
+msgid "(Basic)"
+msgstr "(Основные)"
+
+#: lib/th-option/free-pro.php:37
+msgid "Full Color & Background Control"
+msgstr "Полный контроль цветов и фона"
+
+#: lib/th-option/free-pro.php:24
+msgid "Footer Layout"
+msgstr "Макет подвала"
+
+#: lib/th-option/free-pro.php:106
+msgid "(One Layout)"
+msgstr "(один макет)"
+
+#: lib/th-option/free-pro.php:14
+msgid "Section Hide Option"
+msgstr "Опция скрыть раздел"
+
+#: lib/th-option/free-pro.php:8
+msgid "Amaz Store Pro"
+msgstr "Amaz Store Pro"
+
+#: lib/th-option/free-pro.php:6
+msgid "Features"
+msgstr "Особенности"
+
+#: lib/th-option/child-notify.php:63 lib/th-option/get-child-theme.php:7
+msgid "Get Child Theme Now"
+msgstr "Получить дочернюю тему сейчас"
+
+#: lib/th-option/child-notify.php:62
+msgid "Child theme inherit the style and functionality of parent theme, you can easily update the parent theme without losing its Customization. That's why we highly recommend you to use Child theme to make your site update proof."
+msgstr "Дочерняя тема наследует стиль и функциональность родительской темы, вы можете легко обновлять родительскую тему, не теряя ее настройки. Вот почему мы настоятельно рекомендуем вам использовать дочернюю тему, чтобы защитить ваши настройки сайта от обновлений."
+
+#: lib/page-meta-box/amaz-store-page-meta-box.php:36
+msgid "Customizer Settings"
+msgstr "Параметры Настройки темы"
+
+#: lib/page-meta-box/amaz-store-page-meta-box.php:25
+msgid "Dynamic Sidebar"
+msgstr "Динамическая область виджетов"
+
+#: lib/breadcrumbs/breadcrumbs.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: lib/breadcrumbs/breadcrumbs.php:764 lib/breadcrumbs/breadcrumbs.php:1194
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: lib/breadcrumbs/breadcrumbs.php:763 lib/breadcrumbs/breadcrumbs.php:819
+#: lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: lib/breadcrumbs/breadcrumbs.php:762 lib/breadcrumbs/breadcrumbs.php:791
+#: lib/breadcrumbs/breadcrumbs.php:818 lib/breadcrumbs/breadcrumbs.php:845
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: lib/breadcrumbs/breadcrumbs.php:746
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "H"
+
+#: lib/breadcrumbs/breadcrumbs.php:729
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: lib/breadcrumbs/breadcrumbs.php:712
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "H:i"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: lib/breadcrumbs/breadcrumbs.php:260
+msgid "Week %s"
+msgstr "Неделя %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: lib/breadcrumbs/breadcrumbs.php:258
+msgid "Minute %s"
+msgstr "Минута %s"
+
+#. Translators: %s is the page number.
+#: lib/breadcrumbs/breadcrumbs.php:256
+msgid "Page %s"
+msgstr "Страница %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: lib/breadcrumbs/breadcrumbs.php:254
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результаты поиска для &#8220;%s&#8221;"
+
+#: lib/breadcrumbs/breadcrumbs.php:252
+msgid "Archives"
+msgstr "Архивы"
+
+#: lib/breadcrumbs/breadcrumbs.php:251
+msgid "404 Not Found"
+msgstr "Не найдено 404"
+
+#: lib/breadcrumbs/breadcrumbs.php:250
+msgid "Home"
+msgstr "Главная"
+
+#: lib/breadcrumbs/breadcrumbs.php:249
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Навигационные цепочки"
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Browse:"
+msgstr "Обзор:"
+
+#: inc/woocommerce/woocommerce-ajax.php:26
+msgid "<span class=\"count-item\">%d <span class=\"item\">item</span></span>"
+msgid_plural "<span class=\"count-item\">%d <span class=\"item\">items</span></span>"
+msgstr[0] "<span class=\"count-item\">%d <span class=\"item\">элемент</span></span>"
+msgstr[1] "<span class=\"count-item\">%d <span class=\"item\">элемента</span></span>"
+msgstr[2] "<span class=\"count-item\">%d <span class=\"item\">элементов</span></span>"
+
+#: inc/woocommerce/woo-function.php:497
+msgid "SALE"
+msgstr "РАСПРОДАЖА"
+
+#: inc/woocommerce/woo-function.php:402 inc/woocommerce/woo-function.php:436
+msgid "No categories"
+msgstr "Нет категорий"
+
+#: inc/woocommerce/woo-function.php:331
+msgid "Register"
+msgstr "Регистрация"
+
+#: inc/woocommerce/woo-function.php:328
+msgid "Account"
+msgstr "Учётная запись"
+
+#: inc/woocommerce/woo-function.php:309
+msgid "Added"
+msgstr "Добавлено"
+
+#: inc/woocommerce/woo-function.php:309
+msgid "Already"
+msgstr "Уже"
+
+#: inc/woocommerce/woo-function.php:309
+msgid "wishlist"
+msgstr "список пожеланий"
+
+#: inc/woocommerce/woo-function.php:252
+msgid "Meta Information"
+msgstr "Мета информация"
+
+#: inc/woocommerce/woo-core.php:578 inc/woocommerce/woo-core.php:580
+msgid "Load More"
+msgstr "Загрузить еще"
+
+#: inc/woocommerce/woo-core.php:506 inc/woocommerce/woo-core.php:510
+msgid "List View"
+msgstr "В виде списка"
+
+#: inc/woocommerce/woo-core.php:504 inc/woocommerce/woo-core.php:508
+msgid "Grid View"
+msgstr "В виде сетки"
+
+#: inc/woocommerce/woo-core.php:350
+msgid "Quick View"
+msgstr "Быстрый просмотр"
+
+#: inc/woocommerce/woo-core.php:337
+msgid "compare"
+msgstr "сравнить"
+
+#: inc/woocommerce/woo-core.php:248
+msgid "No more products to show."
+msgstr "Больше нет товаров для показа."
+
+#: inc/woocommerce/woo-core.php:102
+msgid "This sidebar will be used on Single Product page."
+msgstr "Эта область виджетов используется на странице отдельного товара."
+
+#: inc/woocommerce/woo-core.php:100
+msgid "Product Sidebar"
+msgstr "Область виджетов товара"
+
+#: inc/woocommerce/woo-core.php:93
+msgid "Add widgets here to appear in your WooCommerce Sidebar."
+msgstr "Добавьте сюда виджеты, которые будут отображаться на боковой панели WooCommerce."
+
+#: inc/woocommerce/woo-core.php:91
+msgid "WooCommerce Sidebar"
+msgstr "Область виджетов WooCommerce"
+
+#: inc/woocommerce/quick-view/quick-view-product-image.php:51
+msgid "Placeholder"
+msgstr "Заполнитель"
+
+#: inc/header-function.php:477
+msgid "Categories"
+msgstr "Категории"
+
+#: inc/header-function.php:40
+msgid "Assign Above header menu"
+msgstr "Назначить меню над заголовком"
+
+#: inc/footer-function.php:245 inc/footer-function.php:278
+#: inc/footer-function.php:311 inc/footer-function.php:344
+#: inc/footer-function.php:378 inc/footer-function.php:412
+msgid "Assign footer menu"
+msgstr "Назначить меню подвала"
+
+#: inc/footer-function.php:68 inc/footer-function.php:78
+#: inc/footer-function.php:83 inc/footer-function.php:94
+#: inc/footer-function.php:99 inc/footer-function.php:104
+#: inc/footer-function.php:118 inc/footer-function.php:123
+#: inc/footer-function.php:128 inc/footer-function.php:137
+#: inc/footer-function.php:152 inc/footer-function.php:157
+#: inc/footer-function.php:162 inc/footer-function.php:176
+#: inc/footer-function.php:181 inc/footer-function.php:186
+#: inc/footer-function.php:198 inc/footer-function.php:203
+#: inc/footer-function.php:211 inc/footer-function.php:216
+#: inc/footer-function.php:252 inc/footer-function.php:285
+#: inc/footer-function.php:318 inc/footer-function.php:352
+#: inc/footer-function.php:386 inc/footer-function.php:420
+#: inc/header-function.php:48
+msgid "Add Widget"
+msgstr "Добавить виджет"
+
+#: inc/blog-function.php:107 inc/blog-function.php:108
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: inc/blog-function.php:87
+msgid "Read More"
+msgstr "Читайте далее"
+
+#: inc/admin-function.php:573
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: inc/admin-function.php:41
+msgid "Footer Menu"
+msgstr "Нижнее меню"
+
+#: inc/admin-function.php:40
+msgid "Sticky"
+msgstr "Прикрепить"
+
+#: inc/admin-function.php:39
+msgid "Main"
+msgstr "Основное"
+
+#: inc/admin-function.php:38
+msgid "Header Above Menu"
+msgstr "Заголовок над меню"
+
+#: header.php:66
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:324
+msgid "Footer Widget Area %d"
+msgstr "Область виджетов в подвале %d"
+
+#: functions.php:314
+msgid "Footer Below Third Widget"
+msgstr "Третий виджет ниже подвала"
+
+#: functions.php:305
+msgid "Footer Below Second Widget"
+msgstr "Второй виджет ниже подвала"
+
+#: functions.php:296
+msgid "Footer Below First Widget"
+msgstr "Первый виджет ниже подвала"
+
+#: functions.php:287
+msgid "Footer Top Third Widget"
+msgstr "3-й виджет верхней части подвала"
+
+#: functions.php:278
+msgid "Footer Top Second Widget"
+msgstr "2-й виджет верхней части подвала"
+
+#: functions.php:271 functions.php:280 functions.php:289 functions.php:298
+#: functions.php:307 functions.php:316
+msgid "Add widgets here to appear in top footer."
+msgstr "Добавьте виджеты сюда, чтоб они отображались в верхней части подвала."
+
+#: functions.php:269
+msgid "Footer Top First Widget"
+msgstr "1-й виджет верхней части подвала"
+
+#: functions.php:262
+msgid "Add widgets here to appear in main header."
+msgstr "Добавьте виджеты сюда, чтоб они появились в основном заголовке."
+
+#: functions.php:260
+msgid "Main Header Widget"
+msgstr "Виджет основного заголовка"
+
+#: functions.php:250
+msgid "Above Header Third Widget"
+msgstr "Третий виджет над заголовком"
+
+#: functions.php:241
+msgid "Above Header Second Widget"
+msgstr "Второй виджет над заголовком"
+
+#: functions.php:234 functions.php:243 functions.php:252
+msgid "Add widgets here to appear in top header."
+msgstr "Добавьте сюда виджеты, чтобы они отображались в верхнем заголовке."
+
+#: functions.php:232
+msgid "Above Header First Widget"
+msgstr "Первый виджет над заголовком"
+
+#: functions.php:225
+msgid "Add widgets here to appear in your primary sidebar."
+msgstr "Добавьте сюда виджеты, которые будут отображаться на основной боковой панели."
+
+#: functions.php:223
+msgid "Primary Sidebar"
+msgstr "Основная область виджетов"
+
+#: functions.php:205
+msgid "Megamenu plugin from Themehunk."
+msgstr "Плагин Megamenu от ThemeHunk."
+
+#: functions.php:177
+msgid "One Click Demo Import"
+msgstr "One Click Demo Import"
+
+#: functions.php:171
+msgid "Themehunk Customizer"
+msgstr "Themehunk Customizer"
+
+#: functions.php:159
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: functions.php:138
+msgid "WP Popup Builder – Popup Forms & Newsletter"
+msgstr "WP Popup Builder - всплывающие формы и информационная рассылка"
+
+#: functions.php:133
+msgid "Lead Form Builder"
+msgstr "Lead Form Builder"
+
+#: functions.php:128
+msgid "TH Variation Swatches"
+msgstr "TH Variation Swatches"
+
+#: functions.php:118 functions.php:187
+msgid "TH Advance Product Search"
+msgstr "TH Advance Product Search"
+
+#: functions.php:113
+msgid "Themehunk Customizer (Highly Recommended)"
+msgstr "Themehunk Customizer (настоятельно рекомендуется)"
+
+#. Template Name of the theme
+msgid "Homepage Template"
+msgstr "Шаблон главной страницы"
+
+#: customizer/section/woo/single-product.php:108
+msgid "Display Related product"
+msgstr "Отображать сопутствующие товары"
+
+#: customizer/section/woo/single-product.php:100
+msgid "Related Product"
+msgstr "Сопутствующий товар"
+
+#: customizer/section/woo/single-product.php:37
+msgid "Display up sell product"
+msgstr "Отображать товар для доп. продаж"
+
+#: customizer/section/woo/single-product.php:29
+msgid "Up Sell Product"
+msgstr "Товар для доп. продаж"
+
+#: customizer/section/woo/single-product.php:14
+msgid "Force to disable sidebar in product page."
+msgstr "Принудительно отключите боковую панель на странице товара."
+
+#: customizer/section/woo/shop.php:48
+msgid "Load More Text"
+msgstr "Загрузить больше текста"
+
+#: customizer/section/woo/shop.php:29
+msgid "Shop Page Pagination"
+msgstr "Пагинация страницы магазина"
+
+#: customizer/section/woo/shop.php:15
+msgid "List"
+msgstr "Список"
+
+#: customizer/section/woo/shop.php:14
+msgid "Grid"
+msgstr "Сетка"
+
+#: customizer/section/woo/shop.php:10
+msgid "(Select layout to display products at shop page.)"
+msgstr "(Выберите макет для отображения товаров на странице магазина.)"
+
+#: customizer/section/woo/shop.php:9
+msgid "Display Product View"
+msgstr "Отображать просмотр товара"
+
+#: customizer/section/woo/product.php:45
+msgid "Enable Quick View."
+msgstr "Включить быстрый просмотр."
+
+#: customizer/section/woo/product.php:32
+msgid "Enable Product Title in Single line"
+msgstr "Включить название товара в отдельную строку"
+
+#: customizer/section/woo/product.php:21
+msgid "Slide Swap (Pro)"
+msgstr "Замена слайдов (Pro)"
+
+#: customizer/section/woo/product.php:20
+msgid "Fade Swap (Pro)"
+msgstr "Замена затухания (Pro)"
+
+#: customizer/section/woo/product.php:19
+msgid "Zoom"
+msgstr "Увеличение"
+
+#: customizer/section/woo/product.php:14 lib/th-option/free-pro.php:285
+msgid "Product Image Hover Style"
+msgstr "Стиль изображение товара при наведении"
+
+#: customizer/section/woo/checkout.php:38
+msgid "To know more go with this <a target=\"_blank\" href=\"%s\">Doc</a> !"
+msgstr "Чтобы узнать больше, ознакомьтесь с этим <a target=\"_blank\" href=\"%s\">Документом</a>!"
+
+#: customizer/section/woo/checkout.php:22
+msgid "Enable Distraction Free Checkout."
+msgstr "Включите оформление заказа без отвлекающих факторов."
+
+#: customizer/section/woo/cart.php:55
+#: customizer/section/woo/single-product.php:77
+#: customizer/section/woo/single-product.php:150
+msgid "Number Of Product To Show"
+msgstr "Количество товаров для отображения"
+
+#: customizer/section/woo/cart.php:33
+#: customizer/section/woo/single-product.php:53
+#: customizer/section/woo/single-product.php:126
+msgid "Number Of Column To Show"
+msgstr "Количество столбцов для отображения"
+
+#: customizer/section/layout/social-icon/social-icon.php:130
+msgid "Skype URL"
+msgstr "URL-адрес Skype"
+
+#: customizer/section/layout/social-icon/social-icon.php:117
+msgid "Dribble URL"
+msgstr "URL-адрес Dribble"
+
+#: customizer/section/layout/social-icon/social-icon.php:105
+msgid "Stumbleupon URL"
+msgstr "URL-адрес StumbleUpon"
+
+#: customizer/section/layout/social-icon/social-icon.php:93
+msgid "Youtube URL"
+msgstr "URL-адрес YouTube"
+
+#: customizer/section/layout/social-icon/social-icon.php:81
+msgid "Tumblr URL"
+msgstr "URL-адрес Tumblr"
+
+#: customizer/section/layout/social-icon/social-icon.php:69
+msgid "Instagram URL"
+msgstr "URL-адрес Instagram"
+
+#: customizer/section/layout/social-icon/social-icon.php:57
+msgid "Twitter URL"
+msgstr "URL-адрес Twitter"
+
+#: customizer/section/layout/social-icon/social-icon.php:44
+msgid "Pinterest URL"
+msgstr "URL-адрес Pinterest"
+
+#: customizer/section/layout/social-icon/social-icon.php:32
+msgid "LinkedIn URL"
+msgstr "URL-адрес LinkedIn"
+
+#: customizer/section/layout/social-icon/social-icon.php:19
+msgid "Facebook URL"
+msgstr "URL-адрес Facebook"
+
+#: customizer/section/layout/social-icon/social-icon.php:8
+msgid "Show Original Color"
+msgstr "Показать исходный цвет"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:105
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:82
+msgid "Blog Post Archives"
+msgstr "Архив записей блога"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:61
+msgid "Blog Layout"
+msgstr "Макет блога"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:40
+msgid "Page Layout"
+msgstr "Макет страницы"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:26
+#: customizer/section/layout/sidebar/sidebar-setting.php:47
+#: customizer/section/layout/sidebar/sidebar-setting.php:68
+#: customizer/section/layout/sidebar/sidebar-setting.php:89
+#: customizer/section/layout/sidebar/sidebar-setting.php:112
+#: lib/page-meta-box/amaz-store-page-meta-box.php:37
+msgid "Right Sidebar"
+msgstr "Правая область виджетов"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:25
+#: customizer/section/layout/sidebar/sidebar-setting.php:46
+#: customizer/section/layout/sidebar/sidebar-setting.php:67
+#: customizer/section/layout/sidebar/sidebar-setting.php:88
+#: customizer/section/layout/sidebar/sidebar-setting.php:111
+#: lib/page-meta-box/amaz-store-page-meta-box.php:39
+msgid "Left Sidebar"
+msgstr "Левая область виджетов"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:24
+#: customizer/section/layout/sidebar/sidebar-setting.php:45
+#: customizer/section/layout/sidebar/sidebar-setting.php:66
+#: customizer/section/layout/sidebar/sidebar-setting.php:87
+#: customizer/section/layout/sidebar/sidebar-setting.php:110
+#: lib/page-meta-box/amaz-store-page-meta-box.php:38
+msgid "No Sidebar"
+msgstr "Без области виджетов"
+
+#: customizer/section/layout/sidebar/sidebar-setting.php:20
+msgid "Default Layout"
+msgstr "Макет по умолчанию"
+
+#: customizer/section/layout/header/set-identity.php:75
+msgid "Logo Width"
+msgstr "Ширина логотипа"
+
+#: customizer/section/layout/header/set-identity.php:55
+msgid "Display Tagline"
+msgstr "Отображать краткое описание"
+
+#: customizer/section/layout/header/set-identity.php:40
+msgid "Display Site Title"
+msgstr "Отображать название сайта"
+
+#: customizer/section/layout/header/set-identity.php:27
+msgid "Retina Logo"
+msgstr "Логотип Retina"
+
+#: customizer/section/layout/header/main-header.php:288
+msgid "Choose Categories To Exclude"
+msgstr "Выбрать категории для исключения"
+
+#: customizer/section/layout/header/main-header.php:238
+msgid "Check to disable cart icon in mobile device"
+msgstr "Установите флажок, чтобы отключить значок корзины на мобильном устройстве"
+
+#: customizer/section/layout/header/main-header.php:226
+msgid "Check to disable account icon in mobile device"
+msgstr "Установите флажок, чтобы отключить значок учетной записи на мобильном устройстве"
+
+#: customizer/section/layout/header/main-header.php:214
+msgid "Check to disable whislist icon in mobile device"
+msgstr "Установите этот флажок, чтобы отключить значок списка пожеланий на мобильном устройстве"
+
+#: customizer/section/layout/header/main-header.php:201
+msgid "Effect Two"
+msgstr "Второй эффект"
+
+#: customizer/section/layout/header/main-header.php:200
+msgid "Effect One"
+msgstr "Первый эффект"
+
+#: customizer/section/layout/header/main-header.php:196
+msgid "Sticky Header Effect"
+msgstr "Эффект прикрепленного заголовка"
+
+#: customizer/section/layout/header/main-header.php:182
+msgid "Sticky Header Pro"
+msgstr "Прикрепленный заголовок (Pro)"
+
+#: customizer/section/layout/header/main-header.php:163
+msgid "Mobile Menu"
+msgstr "Меню для мобильных"
+
+#: customizer/section/layout/header/main-header.php:151
+#: customizer/section/layout/header/main-header.php:169
+msgid "Right"
+msgstr "Справа"
+
+#: customizer/section/layout/header/main-header.php:150
+msgid "center"
+msgstr "по центру"
+
+#: customizer/section/layout/header/main-header.php:149
+#: customizer/section/layout/header/main-header.php:167
+msgid "Left"
+msgstr "Слева"
+
+#: customizer/section/layout/header/main-header.php:145
+msgid "Menu Alignment"
+msgstr "Выравнивание меню"
+
+#: customizer/section/layout/header/main-header.php:44
+msgid "Text (Pro)"
+msgstr "Текст (Pro)"
+
+#: customizer/section/layout/header/main-header.php:40
+msgid "Call-To"
+msgstr "Позвонить"
+
+#: customizer/section/layout/header/main-header.php:35
+msgid "Right Column"
+msgstr "Правая колонка"
+
+#: customizer/section/layout/header/main-header.php:14
+msgid "Header Layout"
+msgstr "Макет заголовка"
+
+#: customizer/section/layout/header/loader.php:39
+msgid "(You can also use GIF image.)"
+msgstr "(Вы также можете использовать изображение в формате GIF.)"
+
+#: customizer/section/layout/header/loader.php:38
+msgid "Pre Loader Image"
+msgstr "Изображение анимации загрузки"
+
+#: customizer/section/layout/header/loader.php:8
+msgid "Enable Loader"
+msgstr "Включить анимацию загрузки"
+
+#: customizer/section/layout/header/above-header.php:230
+msgid "Inner Page slider (Pro)"
+msgstr "Слайдер внутренней страницы (Pro)"
+
+#: customizer/section/layout/header/above-header.php:229
+msgid "Home Page slider"
+msgstr "Слайдер главной страницы"
+
+#: customizer/section/layout/header/above-header.php:224
+msgid "Choose Option"
+msgstr "Выбрать вариант"
+
+#: customizer/section/layout/header/above-header.php:200
+#: customizer/section/layout/header/above-header.php:288
+msgid "Visible Area"
+msgstr "Видимая область"
+
+#: customizer/section/layout/header/above-header.php:182
+#: customizer/section/layout/header/above-header.php:270
+msgid "Slide Auto Play"
+msgstr "Автозапуск слайда"
+
+#: customizer/section/layout/header/above-header.php:160
+#: customizer/section/layout/header/above-header.php:248
+msgid "Slide"
+msgstr "Слайд"
+
+#: customizer/section/layout/header/above-header.php:159
+#: customizer/section/layout/header/above-header.php:247
+msgid "Add new Slide"
+msgstr "Добавить новый слайд"
+
+#: customizer/section/layout/header/above-header.php:157
+#: customizer/section/layout/header/above-header.php:245
+msgid "Slide Content"
+msgstr "Содержимое слайда"
+
+#: customizer/section/layout/header/above-header.php:138
+#: customizer/section/layout/header/main-header.php:71
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: customizer/section/layout/header/above-header.php:132
+#: customizer/section/layout/header/main-header.php:65
+msgid "#"
+msgstr "#"
+
+#: customizer/section/layout/header/above-header.php:111
+#: customizer/section/layout/header/main-header.php:99
+msgid "Call To Number"
+msgstr "Звонок на номер"
+
+#: customizer/section/layout/header/above-header.php:105
+#: customizer/section/layout/header/main-header.php:93
+msgid "+1800090098"
+msgstr "+1800090098"
+
+#: customizer/section/layout/header/above-header.php:99
+#: customizer/section/layout/header/main-header.php:86
+msgid "Call To Text"
+msgstr "Текст вызова"
+
+#: customizer/section/layout/header/above-header.php:93
+#: customizer/section/layout/header/main-header.php:80
+msgid "Call To"
+msgstr "Позвонить"
+
+#: customizer/section/layout/header/above-header.php:20
+#: customizer/section/layout/header/main-header.php:41
+msgid "Button (Pro)"
+msgstr "Кнопка (Pro)"
+
+#: customizer/section/layout/header/above-header.php:19
+msgid "Call To (Pro)"
+msgstr "Позвонить (Pro)"
+
+#: customizer/section/layout/header/above-header.php:18
+msgid "Social Media (Pro)"
+msgstr "Соцсети (Pro)"
+
+#: customizer/section/layout/header/above-header.php:17
+#: customizer/section/layout/header/main-header.php:43
+msgid "Widget (Pro)"
+msgstr "Виджет (Pro)"
+
+#: customizer/section/layout/header/above-header.php:10
+msgid "Area to be customize"
+msgstr "Область, которую необходимо настроить"
+
+#: searchform.php:13
+msgid "Search"
+msgstr "Поиск"
+
+#: customizer/section/layout/footer/above-footer.php:354
+msgid "Border Color"
+msgstr "Цвет рамки"
+
+#: customizer/section/layout/footer/above-footer.php:331
+msgid "Bottom Border"
+msgstr "Нижняя рамка"
+
+#: customizer/section/layout/footer/above-footer.php:305
+msgid "Height"
+msgstr "Высота"
+
+#: customizer/section/layout/footer/above-footer.php:216
+msgid "Column 3"
+msgstr "Столбец 3"
+
+#: customizer/section/layout/footer/above-footer.php:133
+msgid "Column 2"
+msgstr "Столбец 2"
+
+#: customizer/section/layout/footer/above-footer.php:117
+#: customizer/section/layout/footer/above-footer.php:202
+#: customizer/section/layout/footer/above-footer.php:251
+#: customizer/section/layout/header/above-header.php:49
+msgid "Go To Social Media"
+msgstr "Перейти в соцсети"
+
+#: customizer/section/layout/footer/above-footer.php:100
+#: customizer/section/layout/footer/above-footer.php:185
+#: customizer/section/layout/footer/above-footer.php:285
+#: customizer/section/layout/header/above-header.php:66
+msgid "Go To Menu"
+msgstr "Перейти в меню"
+
+#: customizer/section/layout/footer/above-footer.php:83
+#: customizer/section/layout/footer/above-footer.php:168
+#: customizer/section/layout/footer/above-footer.php:268
+#: customizer/section/layout/footer/widget-footer.php:64
+#: customizer/section/layout/header/above-header.php:82
+#: customizer/section/layout/header/main-header.php:116
+msgid "Go To Widget"
+msgstr "Перейти к виджету"
+
+#: customizer/section/layout/footer/above-footer.php:60
+#: customizer/section/layout/footer/above-footer.php:146
+#: customizer/section/layout/footer/above-footer.php:229
+#: customizer/section/layout/header/above-header.php:26
+#: customizer/section/layout/header/main-header.php:125
+#: inc/footer-function.php:237 inc/footer-function.php:271
+#: inc/footer-function.php:304 inc/footer-function.php:371
+#: inc/footer-function.php:405 inc/header-function.php:17
+#: inc/header-function.php:237
+msgid "Add your content here"
+msgstr "Добавьте своё содержимое сюда"
+
+#: customizer/section/layout/footer/above-footer.php:55
+#: customizer/section/layout/footer/above-footer.php:141
+#: customizer/section/layout/footer/above-footer.php:224
+msgid "Social Media"
+msgstr "Соцсети"
+
+#: customizer/section/layout/footer/above-footer.php:54
+#: customizer/section/layout/footer/above-footer.php:140
+#: customizer/section/layout/footer/above-footer.php:223
+msgid "Widget"
+msgstr "Виджет"
+
+#: customizer/section/layout/footer/above-footer.php:53
+#: customizer/section/layout/footer/above-footer.php:139
+#: customizer/section/layout/footer/above-footer.php:222
+#: customizer/section/layout/header/above-header.php:16
+#: inc/header-function.php:473
+msgid "Menu"
+msgstr "Меню"
+
+#: customizer/section/layout/footer/above-footer.php:47
+msgid "Column 1"
+msgstr "Столбец 1"
+
+#: customizer/section/layout/blog/blog.php:85
+msgid "Force to disable sidebar in single page."
+msgstr "Принудительно отключить боковую панель на отдельной странице."
+
+#: customizer/section/layout/blog/blog.php:76
+#: customizer/section/woo/shop.php:35
+msgid "Infinite Scroll (Pro)"
+msgstr "Бесконечная прокрутка (Pro)"
+
+#: customizer/section/layout/blog/blog.php:75
+#: customizer/section/woo/shop.php:34
+msgid "Load More (Pro)"
+msgstr "Загрузить еще (Pro)"
+
+#: customizer/section/layout/blog/blog.php:74
+#: customizer/section/woo/shop.php:33
+msgid "Numbered"
+msgstr "Нумерация"
+
+#: customizer/section/layout/blog/blog.php:70
+msgid "Post Pagination"
+msgstr "Пагинация записи"
+
+#: customizer/section/layout/blog/blog.php:54
+msgid "Read More Text"
+msgstr "Текст Читать далее"
+
+#: customizer/section/layout/blog/blog.php:34
+msgid "Excerpt Length"
+msgstr "Длина отрывка"
+
+#: customizer/section/layout/blog/blog.php:20
+msgid "No Content"
+msgstr "Нет содержимого"
+
+#: customizer/section/layout/blog/blog.php:19
+msgid "Excerpt Content"
+msgstr "Содержимое отрывка"
+
+#: customizer/section/layout/blog/blog.php:18
+msgid "Full Content"
+msgstr "Полное"
+
+#: customizer/section/layout/blog/blog.php:14
+msgid "Blog Post Content"
+msgstr "Содержимое записи блога"
+
+#: customizer/section/color/global-color.php:76
+msgid "Sidebar Title Color"
+msgstr "Цвет названия боковой панели"
+
+#: customizer/section/color/global-color.php:61
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: customizer/section/color/global-color.php:45
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: customizer/section/color/global-color.php:30
+msgid "Link Color"
+msgstr "Цвет ссылки"
+
+#: customizer/section/color/global-color.php:15
+msgid "Theme Color"
+msgstr "Цвет темы"
+
+#: customizer/section-ordering.php:39
+msgid "Icon Color"
+msgstr "Цвет значка"
+
+#: customizer/section-ordering.php:25
+#: customizer/section/layout/header/loader.php:23
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: customizer/section-ordering.php:10
+msgid "Enable"
+msgstr "Включить"
+
+#: customizer/repeater/class-amaz-store-repeater.php:935
+#: customizer/repeater/class-amaz-store-repeater.php:973
+msgid "Add Icon"
+msgstr "Добавить значок"
+
+#: customizer/repeater/class-amaz-store-repeater.php:930
+#: customizer/repeater/class-amaz-store-repeater.php:967
+msgid "Remove Icon"
+msgstr "Удалить значок"
+
+#. translators: Fontawesome link with full list of icons available
+#: customizer/repeater/class-amaz-store-repeater.php:905
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at Fontawesome website ."
+msgstr "Примечание. Некоторые значки могут здесь не отображаться. Вы можете посмотреть полный список иконок на сайте Fontawesome."
+
+#: customizer/repeater/class-amaz-store-repeater.php:900
+msgid "Social icons"
+msgstr "Значки соцсетей"
+
+#: customizer/repeater/class-amaz-store-repeater.php:886
+#: customizer/section/layout/footer/above-footer.php:51
+#: customizer/section/layout/footer/above-footer.php:137
+#: customizer/section/layout/footer/above-footer.php:220
+#: customizer/section/layout/header/above-header.php:14
+#: customizer/section/layout/header/above-header.php:228
+#: customizer/section/layout/header/main-header.php:39
+#: customizer/section/woo/product.php:18
+msgid "None"
+msgstr "Нет"
+
+#: customizer/repeater/class-amaz-store-repeater.php:880
+msgid "Image type"
+msgstr "Тип изображения"
+
+#: customizer/repeater/class-amaz-store-repeater.php:864
+#: customizer/repeater/class-amaz-store-repeater.php:885
+msgid "Logo Image"
+msgstr "Изображение логотипа"
+
+#: customizer/repeater/class-amaz-store-repeater.php:844
+#: customizer/repeater/class-amaz-store-repeater.php:867
+msgid "Upload Image"
+msgstr "Загрузить изображение"
+
+#: customizer/repeater/class-amaz-store-repeater.php:841
+#: customizer/repeater/class-amaz-store-repeater.php:884
+msgid "Image"
+msgstr "Изображение"
+
+#. translators: Fontawesome link with full list of icons available
+#: customizer/repeater/class-amaz-store-repeater.php:799
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at Fontawesome Website."
+msgstr "Примечание. Некоторые значки могут здесь не отображаться. Вы можете увидеть полный список значков на веб-сайте Fontawesome."
+
+#: customizer/repeater/class-amaz-store-repeater.php:793
+#: customizer/repeater/class-amaz-store-repeater.php:883
+msgid "Icon"
+msgstr "Значок"
+
+#: customizer/repeater/class-amaz-store-repeater.php:578
+#: customizer/repeater/class-amaz-store-repeater.php:721
+msgid "Delete field"
+msgstr "Удалить поле"
+
+#: customizer/repeater/class-amaz-store-repeater.php:559
+#: customizer/repeater/class-amaz-store-repeater.php:709
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: customizer/repeater/class-amaz-store-repeater.php:540
+#: customizer/repeater/class-amaz-store-repeater.php:691
+#: customizer/section/layout/header/above-header.php:119
+#: customizer/section/layout/header/above-header.php:125
+#: customizer/section/layout/header/main-header.php:52
+#: customizer/section/layout/header/main-header.php:58
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: customizer/repeater/class-amaz-store-repeater.php:530
+#: customizer/repeater/class-amaz-store-repeater.php:549
+#: customizer/repeater/class-amaz-store-repeater.php:682
+#: customizer/repeater/class-amaz-store-repeater.php:700
+#: customizer/repeater/class-amaz-store-repeater.php:927
+#: customizer/repeater/class-amaz-store-repeater.php:953
+msgid "Link"
+msgstr "Ссылка"
+
+#: customizer/repeater/class-amaz-store-repeater.php:521
+#: customizer/repeater/class-amaz-store-repeater.php:673
+#: customizer/section/layout/footer/above-footer.php:52
+#: customizer/section/layout/footer/above-footer.php:67
+#: customizer/section/layout/footer/above-footer.php:138
+#: customizer/section/layout/footer/above-footer.php:152
+#: customizer/section/layout/footer/above-footer.php:221
+#: customizer/section/layout/footer/above-footer.php:235
+#: customizer/section/layout/header/above-header.php:15
+#: customizer/section/layout/header/above-header.php:33
+#: customizer/section/layout/header/main-header.php:132
+msgid "Text"
+msgstr "Текст"
+
+#: customizer/repeater/class-amaz-store-repeater.php:512
+#: customizer/repeater/class-amaz-store-repeater.php:664
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+#: customizer/repeater/class-amaz-store-repeater.php:502
+#: customizer/repeater/class-amaz-store-repeater.php:653
+msgid "Number"
+msgstr "Число"
+
+#: customizer/repeater/class-amaz-store-repeater.php:491
+#: customizer/repeater/class-amaz-store-repeater.php:642
+msgid "Price"
+msgstr "Цена"
+
+#: customizer/repeater/class-amaz-store-repeater.php:480
+#: customizer/repeater/class-amaz-store-repeater.php:631
+msgid "Title"
+msgstr "Заголовок"
+
+#: customizer/repeater/class-amaz-store-repeater.php:459
+#: customizer/repeater/class-amaz-store-repeater.php:470
+#: customizer/repeater/class-amaz-store-repeater.php:611
+#: customizer/repeater/class-amaz-store-repeater.php:621
+msgid "Color"
+msgstr "Цвет"
+
+#: customizer/repeater/class-amaz-store-repeater.php:169
+msgid "Customizer Repeater"
+msgstr "Настройки повторителя"
+
+#: customizer/repeater/class-amaz-store-repeater.php:164
+msgid "Add new field"
+msgstr "Добавить новое поле"
+
+#: customizer/register-panels-and-sections.php:716
+msgid "Shop Page"
+msgstr "Страница магазина"
+
+#: customizer/register-panels-and-sections.php:709
+msgid "Cart Page"
+msgstr "Страница корзины"
+
+#: customizer/register-panels-and-sections.php:695
+msgid "Product Style"
+msgstr "Стиль товара"
+
+#: customizer/register-panels-and-sections.php:686
+msgid "Content Color"
+msgstr "Цвет содержимого"
+
+#: customizer/register-panels-and-sections.php:677
+msgid "Pan / Mobile Menu Color"
+msgstr "Цвет панорамного/мобильного меню"
+
+#: customizer/register-panels-and-sections.php:669
+#: lib/th-option/free-pro.php:338
+msgid "Section Ordering"
+msgstr "Порядок разделов"
+
+#: customizer/register-panels-and-sections.php:660
+msgid "Custom Section Four"
+msgstr "Пользовательский 4-й раздел"
+
+#: customizer/register-panels-and-sections.php:651
+msgid "Custom Section Three"
+msgstr "Пользовательский 3-й раздел"
+
+#: customizer/register-panels-and-sections.php:643
+msgid "Custom Section Two"
+msgstr "Пользовательский 2-й раздел"
+
+#: customizer/register-panels-and-sections.php:635
+msgid "Custom Section"
+msgstr "Пользовательский раздел"
+
+#: customizer/register-panels-and-sections.php:618
+msgid "Product Tab Image"
+msgstr "Изображение вкладки товара"
+
+#: customizer/register-panels-and-sections.php:524
+msgid "Frontpage"
+msgstr "Главная страница"
+
+#: customizer/register-panels-and-sections.php:513
+#: customizer/register-panels-and-sections.php:702
+msgid "Single Product"
+msgstr "Отдельный товар"
+
+#: customizer/register-panels-and-sections.php:505
+msgid "Sale Badge"
+msgstr "Бейдж распродажи"
+
+#: customizer/register-panels-and-sections.php:496
+msgid "Shopping Cart"
+msgstr "Корзина для покупок"
+
+#: customizer/register-panels-and-sections.php:488
+msgid "Product"
+msgstr "Товар"
+
+#: customizer/register-panels-and-sections.php:481
+msgid "Mobile Nav Bar"
+msgstr "Мобильная панель навигации"
+
+#: customizer/register-panels-and-sections.php:471
+msgid "Box Color"
+msgstr "Цвет блока"
+
+#: customizer/register-panels-and-sections.php:464 functions.php:148
+#: functions.php:182 lib/th-option/welcome.php:60
+msgid "Woocommerce"
+msgstr "WooCommerce"
+
+#: customizer/register-panels-and-sections.php:453
+msgid "Bottom Footer"
+msgstr "Нижняя часть подвала"
+
+#: customizer/register-panels-and-sections.php:445
+msgid "Footer Widget"
+msgstr "Виджет подвала"
+
+#: customizer/register-panels-and-sections.php:411
+msgid "Shop Icon"
+msgstr "Значок магазина"
+
+#: customizer/register-panels-and-sections.php:402
+msgid "Category"
+msgstr "Рубрика"
+
+#: customizer/register-panels-and-sections.php:376
+msgid "Off Canvas Sidebar"
+msgstr "Боковая панель Off Canvas"
+
+#: customizer/register-panels-and-sections.php:368
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: customizer/register-panels-and-sections.php:359
+msgid "Sticky Header"
+msgstr "Прикрепленный заголовок"
+
+#: customizer/register-panels-and-sections.php:351
+#: customizer/register-panels-and-sections.php:393
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: customizer/register-panels-and-sections.php:344
+msgid "Shop Icons"
+msgstr "Значок магазина"
+
+#: customizer/register-panels-and-sections.php:336
+msgid "Below Header"
+msgstr "Ниже заголовка"
+
+#: customizer/register-panels-and-sections.php:308 lib/th-option/welcome.php:59
+msgid "Global Colors"
+msgstr "Глобальные цвета"
+
+#: customizer/register-panels-and-sections.php:304
+msgid "Total Color & BG Options"
+msgstr "Все варианты цвета и фона"
+
+#: customizer/register-panels-and-sections.php:294
+msgid "Fourth Custom Section"
+msgstr "4-й пользовательский раздел"
+
+#: customizer/register-panels-and-sections.php:287
+msgid "Third Custom Section"
+msgstr "3-й пользовательский раздел"
+
+#: customizer/register-panels-and-sections.php:280
+msgid "Second Custom Section"
+msgstr "2-й пользовательский раздел"
+
+#: customizer/register-panels-and-sections.php:273
+msgid "First Custom Section"
+msgstr "1-й пользовательский раздел"
+
+#: customizer/register-panels-and-sections.php:267
+#: customizer/register-panels-and-sections.php:579
+msgid "Tabbed Product List Carousel"
+msgstr "Карусель списка товаров со вкладками"
+
+#: customizer/register-panels-and-sections.php:261
+#: customizer/register-panels-and-sections.php:625
+msgid "Big Featured Product"
+msgstr "Большой Рекомендуемый товар"
+
+#: customizer/register-panels-and-sections.php:254
+msgid "Tabbed Image Product Carousel"
+msgstr "Карусель товаров с изображениями"
+
+#: customizer/register-panels-and-sections.php:247
+#: customizer/register-panels-and-sections.php:603
+msgid "Brand"
+msgstr "Бренд"
+
+#: customizer/register-panels-and-sections.php:239
+#: customizer/register-panels-and-sections.php:611
+msgid "Highlight"
+msgstr "Выделение"
+
+#: customizer/register-panels-and-sections.php:232
+#: customizer/register-panels-and-sections.php:571
+msgid "Product List Carousel"
+msgstr "Карусель списка товаров"
+
+#: customizer/register-panels-and-sections.php:225
+#: customizer/register-panels-and-sections.php:587
+msgid "Banner"
+msgstr "Баннер"
+
+#: customizer/register-panels-and-sections.php:218
+#: customizer/register-panels-and-sections.php:555
+msgid "Product Carousel"
+msgstr "Карусель товаров"
+
+#: customizer/register-panels-and-sections.php:210
+#: customizer/register-panels-and-sections.php:539
+msgid "Woo Category"
+msgstr "Категория WooCommerce"
+
+#: customizer/register-panels-and-sections.php:203
+#: customizer/register-panels-and-sections.php:547
+#: customizer/register-panels-and-sections.php:595
+msgid "Ribbon"
+msgstr "Лента"
+
+#: customizer/register-panels-and-sections.php:195
+#: customizer/register-panels-and-sections.php:563
+msgid "Tabbed Product Carousel"
+msgstr "Карусель похожих товаров"
+
+#: customizer/register-panels-and-sections.php:188
+#: customizer/register-panels-and-sections.php:531
+msgid "Top Slider"
+msgstr "Верхний слайдер"
+
+#: customizer/register-panels-and-sections.php:184
+msgid "Frontpage Sections"
+msgstr "Разделы главной страницы"
+
+#: customizer/register-panels-and-sections.php:175
+msgid "Social Icon"
+msgstr "Значок соцсетей"
+
+#: customizer/register-panels-and-sections.php:168
+msgid "Preloader"
+msgstr "Анимация загрузки"
+
+#: customizer/register-panels-and-sections.php:150
+msgid "Widget Footer"
+msgstr "Виджет подвала"
+
+#: customizer/register-panels-and-sections.php:142
+#: customizer/register-panels-and-sections.php:437
+msgid "Above Footer"
+msgstr "Выше подвала"
+
+#: customizer/register-panels-and-sections.php:135
+msgid "Move To Top"
+msgstr "Перейти к началу"
+
+#: customizer/register-panels-and-sections.php:128
+#: customizer/register-panels-and-sections.php:421
+#: lib/page-meta-box/amaz-store-page-meta-box.php:31
+msgid "Sidebar"
+msgstr "Область виджетов"
+
+#: customizer/register-panels-and-sections.php:120
+#: customizer/register-panels-and-sections.php:430
+msgid "Footer"
+msgstr "Подвал"
+
+#: customizer/register-panels-and-sections.php:113 inc/admin-function.php:580
+msgid "Blog"
+msgstr "Блог"
+
+#: customizer/register-panels-and-sections.php:104
+msgid "Innerpage Header Slider"
+msgstr "Слайдер заголовка внутренней страницы"
+
+#: customizer/register-panels-and-sections.php:96 lib/th-option/free-pro.php:47
+msgid "Frontpage Header Slider"
+msgstr "Слайдер заголовка главной страницы"
+
+#: customizer/register-panels-and-sections.php:87
+msgid "Exclude Category"
+msgstr "Исключить категорию"
+
+#: customizer/register-panels-and-sections.php:78
+#: customizer/register-panels-and-sections.php:328
+msgid "Main Header"
+msgstr "Главный заголовок"
+
+#: customizer/register-panels-and-sections.php:70
+#: customizer/register-panels-and-sections.php:320
+msgid "Above Header"
+msgstr "Выше заголовка"
+
+#: customizer/register-panels-and-sections.php:62
+#: customizer/register-panels-and-sections.php:314
+#: customizer/register-panels-and-sections.php:384
+msgid "Header"
+msgstr "Заголовок"
+
+#: customizer/register-panels-and-sections.php:57
+#: customizer/section/layout/footer/above-footer.php:17
+#: customizer/section/layout/footer/widget-footer.php:16
+msgid "Layout"
+msgstr "Макет"
+
+#: customizer/register-panels-and-sections.php:46
+msgid "Background"
+msgstr "Фон"
+
+#: customizer/register-panels-and-sections.php:39
+#: customizer/section-ordering.php:56
+#: customizer/section/color/global-color.php:108
+#: customizer/section/layout/blog/blog.php:102
+#: customizer/section/layout/footer/above-footer.php:371
+#: customizer/section/layout/footer/widget-footer.php:81
+#: customizer/section/layout/header/loader.php:55
+#: customizer/section/layout/header/main-header.php:256
+#: customizer/section/layout/header/main-header.php:303
+#: customizer/section/layout/header/set-identity.php:99
+#: customizer/section/layout/social-icon/social-icon.php:147
+#: customizer/section/woo/cart.php:80 customizer/section/woo/product.php:61
+#: customizer/section/woo/shop.php:64
+#: customizer/section/woo/single-product.php:174
+msgid "To know more go with this"
+msgstr "Чтобы узнать больше, перейдите сюда"
+
+#: customizer/register-panels-and-sections.php:24
+msgid "WordPress Default"
+msgstr "WordPress по умолчанию"
+
+#: customizer/models/class-amaz-store-defaults-models.php:335
+#: customizer/models/class-amaz-store-defaults-models.php:361
+msgid "Designer"
+msgstr "Дизайнер"
+
+#: customizer/models/class-amaz-store-defaults-models.php:308
+msgid "Marketer"
+msgstr "Маркетолог"
+
+#: customizer/models/class-amaz-store-defaults-models.php:307
+msgid "Maurics"
+msgstr "Maurics"
+
+#: customizer/models/class-amaz-store-defaults-models.php:282
+#: customizer/models/class-amaz-store-defaults-models.php:309
+#: customizer/models/class-amaz-store-defaults-models.php:336
+#: customizer/models/class-amaz-store-defaults-models.php:362
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "Lorem Ipsum - это просто фиктивный текст, используемый в полиграфии и типографском деле."
+
+#: customizer/models/class-amaz-store-defaults-models.php:281
+msgid "Developer"
+msgstr "Разработчик"
+
+#: customizer/models/class-amaz-store-defaults-models.php:280
+msgid "Gabriel"
+msgstr "Gabriel"
+
+#: customizer/models/class-amaz-store-defaults-models.php:263
+#: customizer/models/class-amaz-store-defaults-models.php:334
+#: customizer/models/class-amaz-store-defaults-models.php:360
+msgid "Ramedrin"
+msgstr "Ramedrin"
+
+#: customizer/models/class-amaz-store-defaults-models.php:255
+msgid "Artist"
+msgstr "Исполнитель"
+
+#: customizer/models/class-amaz-store-defaults-models.php:254
+msgid "Nataliya"
+msgstr "Nataliya"
+
+#: customizer/models/class-amaz-store-defaults-models.php:248
+#: customizer/models/class-amaz-store-defaults-models.php:256
+#: customizer/models/class-amaz-store-defaults-models.php:265
+msgid "\"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in finibus eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium risus sed metus ultrices blandit. Pellentesque rhoncus est non nunc ultricies accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis mattis consectetur.\""
+msgstr "\"Nunc eu elementum libero. Etiam egestas leo eget urna ultrices, in finibus eros gravida. Donec scelerisque pulvinar dapibus. Nam pretium risus sed metus ultrices blandit. Pellentesque rhoncus est non nunc ultricies accumsan. Nullam gravida turpis et lacinia cursus. Fusce iaculis mattis consectetur.\""
+
+#: customizer/models/class-amaz-store-defaults-models.php:247
+#: customizer/models/class-amaz-store-defaults-models.php:264
+msgid "Business Owner"
+msgstr "Владелец бизнеса"
+
+#: customizer/models/class-amaz-store-defaults-models.php:246
+msgid "Surbhi"
+msgstr "Surbhi"
+
+#: customizer/models/class-amaz-store-defaults-models.php:224
+msgid "Seo"
+msgstr "SEO"
+
+#: customizer/models/class-amaz-store-defaults-models.php:216
+msgid "Design"
+msgstr "Дизайн"
+
+#: customizer/models/class-amaz-store-defaults-models.php:209
+#: customizer/models/class-amaz-store-defaults-models.php:217
+#: customizer/models/class-amaz-store-defaults-models.php:225
+msgid "Nam varius mauris eget sodales tempus. Quisque sollicitudin consectetur accumsan. Ut imperdiet mi velit, ut congue justo sagittis eget"
+msgstr "Nam varius mauris eget sodales tempus. Quisque sollicitudin consectetur accumsan. Ut imperdiet mi velit, ut congue justo sagittis eget"
+
+#: customizer/models/class-amaz-store-defaults-models.php:208
+msgid "Development"
+msgstr "Разработка"
+
+#: customizer/models/class-amaz-store-defaults-models.php:147
+#: customizer/models/class-amaz-store-defaults-models.php:153
+#: customizer/models/class-amaz-store-defaults-models.php:159
+#: customizer/models/class-amaz-store-defaults-models.php:165
+#: customizer/models/class-amaz-store-defaults-models.php:171
+#: customizer/models/class-amaz-store-defaults-models.php:177
+#: customizer/models/class-amaz-store-defaults-models.php:183
+#: customizer/models/class-amaz-store-defaults-models.php:189
+msgid "Nulla et sodales nisl. Nam auctor quis odio eu congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr "Nulla et sodales nisl. Nam auctor quis odio eu congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+#: customizer/models/class-amaz-store-defaults-models.php:145
+#: customizer/models/class-amaz-store-defaults-models.php:151
+#: customizer/models/class-amaz-store-defaults-models.php:157
+#: customizer/models/class-amaz-store-defaults-models.php:163
+#: customizer/models/class-amaz-store-defaults-models.php:169
+#: customizer/models/class-amaz-store-defaults-models.php:175
+#: customizer/models/class-amaz-store-defaults-models.php:181
+#: customizer/models/class-amaz-store-defaults-models.php:187
+msgid "What do you want to know"
+msgstr "Что вы хотите узнать"
+
+#: customizer/models/class-amaz-store-defaults-models.php:113
+#: customizer/models/class-amaz-store-defaults-models.php:119
+#: customizer/models/class-amaz-store-defaults-models.php:125
+#: customizer/models/class-amaz-store-defaults-models.php:131
+msgid "On all order over "
+msgstr "При заказе на сумму свыше "
+
+#: customizer/models/class-amaz-store-defaults-models.php:112
+#: customizer/models/class-amaz-store-defaults-models.php:118
+#: customizer/models/class-amaz-store-defaults-models.php:124
+#: customizer/models/class-amaz-store-defaults-models.php:130
+msgid "Free Shiping"
+msgstr "Бесплатная доставка"
+
+#: customizer/extend-customizer/class-amaz-store-wp-customize-section.php:52
+msgid "Customizing"
+msgstr "Настройка"
+
+#: customizer/extend-customizer/class-amaz-store-wp-customize-section.php:50
+msgid "Customizing &#9656; %s"
+msgstr "Настройка &#9656; %s"
+
+#: customizer/custom-customizer.php:530
+msgid "Doc"
+msgstr "Документ"
+
+#: customizer/background/class-amaz-store-background-image-control.php:300
+msgid "Scroll"
+msgstr "Прокручивать"
+
+#: customizer/background/class-amaz-store-background-image-control.php:299
+msgid "Fixed"
+msgstr "Зафиксировать"
+
+#: customizer/background/class-amaz-store-background-image-control.php:296
+msgid "Center Bottom"
+msgstr "По центру внизу"
+
+#: customizer/background/class-amaz-store-background-image-control.php:295
+msgid "Center Center"
+msgstr "В самом центре"
+
+#: customizer/background/class-amaz-store-background-image-control.php:294
+msgid "Center Top"
+msgstr "По центру вверху"
+
+#: customizer/background/class-amaz-store-background-image-control.php:293
+msgid "Right Bottom"
+msgstr "Справа внизу"
+
+#: customizer/background/class-amaz-store-background-image-control.php:292
+msgid "Right Center"
+msgstr "Справа по центру"
+
+#: customizer/background/class-amaz-store-background-image-control.php:291
+msgid "Right Top"
+msgstr "Справа вверху"
+
+#: customizer/background/class-amaz-store-background-image-control.php:290
+msgid "Left Bottom"
+msgstr "Слева внизу"
+
+#: customizer/background/class-amaz-store-background-image-control.php:289
+msgid "Left Center"
+msgstr "Слева по центру"
+
+#: customizer/background/class-amaz-store-background-image-control.php:288
+msgid "Left Top"
+msgstr "Слева вверху"
+
+#: customizer/background/class-amaz-store-background-image-control.php:285
+msgid "Contain"
+msgstr "Поместить"
+
+#: customizer/background/class-amaz-store-background-image-control.php:284
+msgid "Cover"
+msgstr "Перекрыть"
+
+#: customizer/background/class-amaz-store-background-image-control.php:280
+msgid "Tile Vertically"
+msgstr "Плитка вертикально"
+
+#: customizer/background/class-amaz-store-background-image-control.php:279
+msgid "Tile Horizontally"
+msgstr "Плитка горизонтально"
+
+#: customizer/background/class-amaz-store-background-image-control.php:278
+msgid "Tile"
+msgstr "Плитка"
+
+#: customizer/background/class-amaz-store-background-image-control.php:277
+msgid "No Repeat"
+msgstr "Не повторять"
+
+#: customizer/background/class-amaz-store-background-image-control.php:260
+msgid "Background Attachment"
+msgstr "Привязка фона"
+
+#: customizer/background/class-amaz-store-background-image-control.php:259
+msgid "Background Position"
+msgstr "Позиция фона"
+
+#: customizer/background/class-amaz-store-background-image-control.php:258
+msgid "Background Size"
+msgstr "Размер фона"
+
+#: customizer/background/class-amaz-store-background-image-control.php:257
+msgid "Background Repeat"
+msgstr "Повторение фона"
+
+#: customizer/background/class-amaz-store-background-image-control.php:242
+msgid "Choose Image"
+msgstr "Выбрать изображение"
+
+#: customizer/background/class-amaz-store-background-image-control.php:240
+msgid "No image selected"
+msgstr "Изображения не выбрано"
+
+#: customizer/background/class-amaz-store-background-image-control.php:239
+#: customizer/background/class-amaz-store-background-image-control.php:283
+#: customizer/section/layout/sidebar/sidebar-setting.php:44
+#: customizer/section/layout/sidebar/sidebar-setting.php:65
+#: customizer/section/layout/sidebar/sidebar-setting.php:86
+#: customizer/section/layout/sidebar/sidebar-setting.php:109
+msgid "Default"
+msgstr "По умолчанию"
+
+#: customizer/background/class-amaz-store-background-image-control.php:238
+msgid "Remove"
+msgstr "Удалить"
+
+#: customizer/background/class-amaz-store-background-image-control.php:237
+msgid "Change Image"
+msgstr "Изменить изображение"
+
+#: customizer/background/class-amaz-store-background-image-control.php:236
+#: customizer/background/class-amaz-store-background-image-control.php:241
+msgid "Select Image"
+msgstr "Выбрать изображение"
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к %2$s"
+msgstr[1] "%1$s комментария к %2$s"
+msgstr[2] "%1$s комментариев к %2$s"
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Один комментарий к &ldquo;%1$s&rdquo;"
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Похоже, что здесь ничего найдено. Может попробовать поискать?"
+
+#: 404.php:22
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Страница не найдена."
+
+#: 404.php:21
+msgid "404"
+msgstr "404"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://www.themehunk.com"
+msgstr "https://www.themehunk.com"
+
+#. Author of the theme
+#: style.css lib/th-option/th-option.php:42
+#, gp-priority: low
+msgid "ThemeHunk"
+msgstr "ThemeHunk"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://themehunk.com/product/amaz-store/"
+msgstr "https://themehunk.com/product/amaz-store/"

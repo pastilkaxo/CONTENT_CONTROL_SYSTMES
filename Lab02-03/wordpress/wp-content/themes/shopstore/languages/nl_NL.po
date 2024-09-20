@@ -1,0 +1,1096 @@
+# Translation of Themes - shopstore in Dutch
+# This file is distributed under the same license as the Themes - shopstore package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-19 11:24:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - shopstore\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "ShopStore is a sleek multipurpose WordPress WooCommerce theme. The theme is fully responsive that make your site look good on any devices and screens . Its attractive design and impressive product display options make this shopping theme an excellent choice for online shops. it's free WooCommerce WordPress Theme suitable for eCommerce websites of any Store , Shop type: fashion, sport, technology, fashion, furniture, digitals etc. Its modern design is perfect to create a website for your business. Online Store includes plenty of customization options that are easy to use. ShopStore works perfectly with Gutenberg and the most popular page builders  (  WPBakery Page Builder, Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). ShopStore is also responsive, RTL & translation ready etc, so that is was easy for you to create extra layouts and pages. And thanks to the most popular and powerful WooCommerce plugin you can create a versatile and completely customizable WordPress shop. Check out Demo at https://athemeart.com/demo/shopstore"
+msgstr "ShopStore is een gestroomlijnd multifunctioneel WordPress WooCommerce thema. Het thema is volledig responsive waardoor je site er goed uitziet op alle apparaten en schermen. Het aantrekkelijke ontwerp en de indrukwekkende productweergave opties maken dit winkelthema een uitstekende keuze voor online winkels. het is een gratis WooCommerce WordPress thema geschikt voor eCommerce sites van elke winkel, winkeltype: mode, sport, technologie, mode, meubels, digitals enz. Het moderne ontwerp is perfect om een site voor je bedrijf te maken. Online Store bevat tal van aanpassingsopties die gemakkelijk te gebruiken zijn. ShopStore werkt perfect met Gutenberg en de meest populaire paginabouwers (WPBakery Page Builder, Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). ShopStore is ook responsive, RTL & vertaling klaar enz., dus het was makkelijk voor je om extra lay-outs en pagina's te maken. En dankzij de meest populaire en krachtige WooCommerce plugin kun je een veelzijdige en volledig aanpasbare WordPress winkel creëren. Bekijk de demo op https://athemeart.com/demo/shopstore"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "shopstore"
+msgstr "shopstore"
+
+#. translators: 1: Current Year, 2: Blog Name 3: Theme Developer 4: WordPress.
+#: footer.php:31
+msgid "Copyright &copy; %1$s %2$s , All Right Reserved.%3$s %4$s Theme by aThemeArt - Proudly powered by WordPress"
+msgstr "Copyright &copy; &copy; %1$s %2$s , Alle rechten voorbehouden.%3$s %4$s Thema door aThemeArt - Met trots aangedreven door WordPress"
+
+#: inc/theme-core.php:161
+msgid "Replace Header Search Bar"
+msgstr "Header zoekbalk vervangen"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Naar de inhoud springen"
+
+#: inc/theme-core.php:151
+msgid "Static Home Page"
+msgstr "Statische homepagina"
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:20
+msgid "Archives"
+msgstr "Archieven"
+
+#: woocommerce/result-count.php:64
+msgid "ALL"
+msgstr "ALLE"
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "Bekijken:"
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Aantal"
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr "Aantal"
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+msgid "%s quantity"
+msgstr "%s: hoeveelheid"
+
+#. Template Name of the theme
+msgid "Full Container"
+msgstr "Volledige breedte"
+
+#. Template Name of the theme
+msgid "No Sidebar"
+msgstr "Geen zijbalk"
+
+#: inc/customizer/theme-option.php:47
+msgid "The theme comes with unlimited color schemes for your theme's styling. upgrade pro for color options & features"
+msgstr "Het thema wordt geleverd met onbeperkte kleurenschema's voor de stijling van je thema. upgrade pro voor kleuropties & functies"
+
+#: inc/customizer/theme-option.php:45
+msgid "Primary Color Scheme:"
+msgstr "Primair kleurschema:"
+
+#: inc/customizer/theme-option.php:27
+msgid "Styling Options"
+msgstr "Stijlingsopties"
+
+#: footer.php:61
+msgid "BACK TO TOP"
+msgstr "TERUG NAAR BOVEN"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3528
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s (%2$d/%3$d) aan het installeren"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3526
+msgid "All installations have been completed."
+msgstr "Alle installaties zijn voltooid."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3525
+msgid "%1$s installed successfully."
+msgstr "%1$s met succes geïnstalleerd."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het installatieproces begint. Dit proces kan een tijdje duren op sommige hosts, dus wees geduldig."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin installeren en activeren %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations and activations have been completed."
+msgstr "Alle installaties en activeringen zijn voltooid."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+#: inc/tgm/class-tgm-plugin-activation.php:3525
+msgid "Hide Details"
+msgstr "Verberg details"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+#: inc/tgm/class-tgm-plugin-activation.php:3525
+msgid "Show Details"
+msgstr "Toon details"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s succesvol geïnstalleerd en geactiveerd."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het installatie- en activeringsproces is begonnen. Dit proces kan een tijdje duren afhankelijk van je webhost, een moment geduld."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3511
+msgid "The installation of %1$s failed."
+msgstr "De installatie van %1$s is mislukt."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Er is een fout opgetreden tijdens het installeren van %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3506
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin aan het updaten %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3166
+msgid "Plugin activation failed."
+msgstr "Plugin activatie mislukt."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2942
+msgid "No plugins are available to be activated at this time."
+msgstr "Er zijn op dit moment geen plugins beschikbaar om te activeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2916
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Er werden geen plugins geselecteerd om geactiveerd te worden. Geen actie ondernomen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2810
+msgid "No plugins are available to be updated at this time."
+msgstr "Er zijn op dit moment geen plugins beschikbaar om te worden geüpdatet."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2808
+msgid "No plugins are available to be installed at this time."
+msgstr "Er zijn op dit moment geen plugins beschikbaar om te installeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2767
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Er zijn geen plugins geselecteerd om te worden geüpdatet. Geen actie ondernomen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2765
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Er werden geen plugins geselecteerd om te worden geïnstalleerd. Geen actie ondernomen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2734
+msgid "Activate"
+msgstr "Activeren"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2731
+msgid "Update"
+msgstr "Update"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2725
+msgid "Install"
+msgstr "Installeren"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2692
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade bericht van de plugin auteur:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2622
+msgid "Activate %2$s"
+msgstr "Activeer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2616
+msgid "Update %2$s"
+msgstr "Werk %2$s bij"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2611
+msgid "Install %2$s"
+msgstr "Installeer %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2562
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2561
+msgid "Version"
+msgstr "Versie"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2557
+msgid "Type"
+msgstr "Type"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2556
+msgid "Source"
+msgstr "Bron"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2555
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2541
+msgid "No plugins to install, update or activate."
+msgstr "Geen plugins te installeren, updaten of activeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2518
+msgid "Available version:"
+msgstr "Beschikbare versie:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2506
+msgid "Minimum required version:"
+msgstr "Minimaal vereiste versie:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Installed version:"
+msgstr "Geïnstalleerde versie:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "onbekend"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2408
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Om er <span class=\"count\">(%s)</span> te activeren"
+msgstr[1] "Om er <span class=\"count\">(%s)</span> te activeren"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2404
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update beschikbaar <span class=\"count\">(%s)</span>"
+msgstr[1] "Update beschikbaar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Om er <span class=\"count\">(%s)</span> te installeren"
+msgstr[1] "Om er <span class=\"count\">(%s)</span> te installeren"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alles <span class=\"count\">(%s)</span>"
+msgstr[1] "Alles <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2350
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2341
+msgid "Update recommended"
+msgstr "Update aanbevolen"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2338
+msgid "Requires Update"
+msgstr "Vereist update"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2335
+msgid "Required Update not Available"
+msgstr "Vereiste update niet beschikbaar"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2329
+msgid "Active"
+msgstr "Actief"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Installed But Not Activated"
+msgstr "Geïnstalleerd maar niet geactiveerd"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2323
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2306
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2303
+msgid "External Source"
+msgstr "Externe bron"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2300
+msgid "WordPress Repository"
+msgstr "WordPress repository"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2284
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2281
+msgid "Required"
+msgstr "Vereist"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1990
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1129
+#: inc/tgm/class-tgm-plugin-activation.php:2956
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "en"
+
+#: inc/tgm/class-tgm-plugin-activation.php:945
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "De remote plugin pakket bestaat uit meer dan een bestand, maar de bestanden zijn niet verpakt in een map."
+
+#: inc/tgm/class-tgm-plugin-activation.php:942
+#: inc/tgm/class-tgm-plugin-activation.php:945
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Neem contact op met de plugin provider en vraag hen om hun plugin te verpakken volgens de WordPress richtlijnen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:942
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Het pakket voor externe plugins bevat geen map met de gewenste slug en het hernoemen werkte niet."
+
+#: inc/tgm/class-tgm-plugin-activation.php:531
+msgid "Update Required"
+msgstr "Update vereist"
+
+#: inc/tgm/class-tgm-plugin-activation.php:530
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Deze plugin moet worden geüpdatet om compatibel te zijn met je thema."
+
+#: inc/tgm/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr "Neem contact op met de beheerder van deze site voor hulp."
+
+#: inc/tgm/class-tgm-plugin-activation.php:404
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Er zijn een of meer vereiste of aanbevolen plugins om te installeren, te updaten of te activeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:403
+msgid "Dismiss this notice"
+msgstr "Negeer dit bericht"
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:402
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins zijn succesvol geïnstalleerd en geactiveerd. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:400
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin niet geactiveerd. Een hogere versie van %s is nodig voor dit thema. Update de plugin."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:398
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Geen actie ondernomen. Plugin %1$s was al actief."
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+#: inc/tgm/class-tgm-plugin-activation.php:2960
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "De volgende plugin is succesvol geactiveerd:"
+msgstr[1] "De volgende plugins zijn succesvol geactiveerd:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+#: inc/tgm/class-tgm-plugin-activation.php:3167
+msgid "Plugin activated successfully."
+msgstr "Plugin met succes geactiveerd."
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/class-tgm-plugin-activation.php:835
+#: inc/tgm/class-tgm-plugin-activation.php:2541
+#: inc/tgm/class-tgm-plugin-activation.php:3588
+msgid "Return to the Dashboard"
+msgstr "Keer terug naar het Dashboard"
+
+#: inc/tgm/class-tgm-plugin-activation.php:393
+msgid "Return to Required Plugins Installer"
+msgstr "Terug naar vereiste plugins installer"
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin activering plugin"
+msgstr[1] "Begin activering van plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Begin met updaten plugin"
+msgstr[1] "Begin met updaten plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin met installeren plugin"
+msgstr[1] "Begin met installeren plugins"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "De volgende aanbevolen plugin is momenteel inactief: %1$s."
+msgstr[1] "De volgende aanbevolen plugins zijn momenteel inactief: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "De volgende vereiste plugin is momenteel inactief: %1$s."
+msgstr[1] "De volgende vereiste plugins zijn momenteel inactief: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:358
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Er is een update beschikbaar voor: %1$s."
+msgstr[1] "Er zijn updates beschikbaar voor de volgende plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:351
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "De volgende plugin moet worden geüpdatet naar de nieuwste versie om maximale compatibiliteit met dit thema te garanderen: %1$s."
+msgstr[1] "De volgende plugins moeten worden geüpdatet naar hun nieuwste versie om maximale compatibiliteit met dit thema te garanderen: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:343
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dit thema beveelt de volgende plugin aan: %1$s."
+msgstr[1] "Dit thema beveelt de volgende plugins aan: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dit thema vereist de volgende plugin: %1$s."
+msgstr[1] "Dit thema vereist de volgende plugins: %1$s."
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Er ging iets mis met de plugin API."
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Plugin aan het updaten: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Installeren plugin: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Plugins installeren"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installeer vereiste plugins"
+
+#: inc/posts-hooks.php:444
+msgid "Posts navigation"
+msgstr "Berichten navigatie"
+
+#: inc/posts-hooks.php:443
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: inc/posts-hooks.php:442
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: inc/posts-hooks.php:416
+msgid "(Edit)"
+msgstr "(Bewerk)"
+
+#. translators: 1: date, 2: time
+#: inc/posts-hooks.php:415
+msgid "%1$s at %2$s"
+msgstr "%1$s bij%2$s"
+
+#: inc/posts-hooks.php:371
+msgid "Next Article"
+msgstr "Volgend artikel"
+
+#: inc/posts-hooks.php:359
+msgid "Previous Article"
+msgstr "Vorig artikel"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/posts-hooks.php:317
+msgctxt "list item separator"
+msgid " "
+msgstr " "
+
+#. translators: %s: Name of current post
+#: inc/posts-hooks.php:265
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#. translators: %s: post title
+#: inc/posts-hooks.php:258
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Laat een bericht achter <span class=\"screen-reader-text\"> on %s</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/posts-hooks.php:248
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post author
+#: inc/posts-hooks.php:239
+msgid "by %s"
+msgstr "door %s"
+
+#: inc/custom-header.php:33
+msgid "Default Header Image"
+msgstr "Standaard koptekstafbeelding"
+
+#: inc/theme-core.php:141
+msgid "Footer Widgets"
+msgstr "Footer-widgets"
+
+#: inc/theme-core.php:133 inc/theme-core.php:143 inc/theme-core.php:153
+#: inc/theme-core.php:163
+msgid "Add widgets here."
+msgstr "Voeg hier widgets toe."
+
+#: inc/theme-core.php:131
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: inc/theme-core.php:48
+msgid "Top Bar Navigation"
+msgstr "Navigatie van de bovenste balk"
+
+#: inc/theme-core.php:47
+msgid "Primary"
+msgstr "primair"
+
+#: inc/customizer/theme-option.php:221
+msgid "Phone"
+msgstr "Telefoon"
+
+#: inc/customizer/theme-option.php:206
+msgid "email"
+msgstr "e-mail"
+
+#: inc/customizer/theme-option.php:192
+msgid "Location:"
+msgstr "Plaats:"
+
+#: inc/customizer/theme-option.php:176
+msgid "Top Bar Address"
+msgstr "Top Bar-adres"
+
+#: inc/customizer/theme-option.php:166
+msgid "Page Management"
+msgstr "Paginabeheer"
+
+#: inc/customizer/theme-option.php:155
+msgid "Full Post"
+msgstr "Volledige post"
+
+#: inc/customizer/theme-option.php:154
+msgid "Excerpt Only"
+msgstr "Alleen uittreksel"
+
+#: inc/customizer/theme-option.php:151
+msgid "Blog Looop Content"
+msgstr "Blog Looop-inhoud"
+
+#: inc/customizer/theme-option.php:132
+msgid "Set Blog Excerpt Length"
+msgstr "Stel de lengte van de blogfragment in"
+
+#: inc/customizer/theme-option.php:113
+msgid "Blog Management"
+msgstr "Blog Management"
+
+#: inc/customizer/theme-option.php:81
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: inc/customizer/theme-option.php:78
+msgid "Youtube URL"
+msgstr "YouTube-URL"
+
+#: inc/customizer/theme-option.php:75
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: inc/customizer/theme-option.php:72
+msgid "Twitter URL"
+msgstr "Twitter-URL"
+
+#: inc/customizer/theme-option.php:69
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/customizer/theme-option.php:58
+msgid "Footer Social Link"
+msgstr "Voettekst sociale link"
+
+#: inc/customizer/theme-option.php:17
+msgid "Theme Options"
+msgstr "Thema opties"
+
+#: inc/customizer/customizer.php:44
+msgid "Upgrade To Pro"
+msgstr "Upgraden naar Pro"
+
+#: inc/customizer/customizer.php:43
+msgid "ShopStore Pro"
+msgstr "ShopStore Pro"
+
+#: inc/customizer/core/default.php:30
+msgid "Copyright All right reserved"
+msgstr "Copyright Alle rechten voorbehouden"
+
+#: inc/theme-layout.php:214
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Deze pagina kon niet worden gevonden."
+
+#. translators:straing
+#: inc/theme-layout.php:210
+msgid "Search Results for: %s"
+msgstr "Zoek resultaten voor: %s"
+
+#: inc/woocommerce.php:331
+msgid "Search here..."
+msgstr "Zoek hier..."
+
+#: inc/woocommerce.php:323
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: inc/pro/admin-page.php:440
+msgid "More Information"
+msgstr "Meer informatie"
+
+#: inc/pro/admin-page.php:431
+msgid "You can control overall everything without code"
+msgstr "U kunt algehele alles besturen zonder code"
+
+#: inc/pro/admin-page.php:426
+msgid "WooCommerce Layout Options"
+msgstr "WooCommerce lay-outopties"
+
+#: inc/pro/admin-page.php:421
+msgid "WooCommerce Child Theme"
+msgstr "WooCommerce Child Theme"
+
+#: inc/pro/admin-page.php:416
+msgid "WooCommerce Customizable Options"
+msgstr "WooCommerce aanpasbare opties"
+
+#: inc/pro/admin-page.php:411
+msgid "WooCommerce Custom Plugins"
+msgstr "WooCommerce aangepaste plugins"
+
+#: inc/pro/admin-page.php:408
+msgid "Fully customizable feature"
+msgstr "Volledig aanpasbare functie"
+
+#: inc/pro/admin-page.php:407
+msgid "Basic feature"
+msgstr "Basisfunctie"
+
+#: inc/pro/admin-page.php:406
+msgid "WooCommerce "
+msgstr "WooCommerce "
+
+#: inc/pro/admin-page.php:401
+msgid "Footer Carditis"
+msgstr "Footer Carditis"
+
+#: inc/pro/admin-page.php:396
+msgid "Sidebar Disable / Enable"
+msgstr "Zijbalk uitschakelen / inschakelen"
+
+#: inc/pro/admin-page.php:392
+msgid "Three Style"
+msgstr "Drie stijl"
+
+#: inc/pro/admin-page.php:391
+msgid "One Style"
+msgstr "Eén stijl"
+
+#: inc/pro/admin-page.php:390
+msgid "Sidebar Style"
+msgstr "Zijbalkstijl"
+
+#: inc/pro/admin-page.php:385
+msgid "Social Share"
+msgstr "Sociaal aandeel"
+
+#: inc/pro/admin-page.php:380
+msgid "Related Posts "
+msgstr "Gerelateerde berichten "
+
+#: inc/pro/admin-page.php:377
+msgid "Standard,Grids, Standard left, Standard right layout"
+msgstr "Standaard, rasters, standaard links, standaard rechts lay-out"
+
+#: inc/pro/admin-page.php:376
+msgid "Standard layout"
+msgstr "Standaard opmaak"
+
+#: inc/pro/admin-page.php:375
+msgid "Blog Posts Layout"
+msgstr "Blogberichten Lay-out"
+
+#: inc/pro/admin-page.php:369
+msgid "Custom Blog Template"
+msgstr "Aangepaste blogsjabloon"
+
+#: inc/pro/admin-page.php:363
+msgid "Custom Page Template"
+msgstr "Aangepaste paginasjabloon"
+
+#: inc/pro/admin-page.php:357
+msgid "Unlimited Fonts"
+msgstr "Onbeperkte lettertypen"
+
+#: inc/pro/admin-page.php:352
+msgid "Unlimited colors"
+msgstr "Onbeperkte kleuren"
+
+#: inc/pro/admin-page.php:346
+msgid "Latest Posts Wigets"
+msgstr "Laatste berichten Wigets"
+
+#: inc/pro/admin-page.php:341
+msgid "Pricing Sections"
+msgstr "Prijzen Secties"
+
+#: inc/pro/admin-page.php:335
+msgid "Testimonials Sections"
+msgstr "Testimonials Sections"
+
+#: inc/pro/admin-page.php:329
+msgid "Portfolio & Project Sections"
+msgstr "Portfolio & Projectsecties"
+
+#: inc/pro/admin-page.php:324
+msgid "Team Sections"
+msgstr "Teamsecties"
+
+#: inc/pro/admin-page.php:319
+msgid "Features Sections"
+msgstr "Beschikt over secties"
+
+#: inc/pro/admin-page.php:314
+msgid "Services Sections"
+msgstr "Services Secties"
+
+#: inc/pro/admin-page.php:311
+msgid "Theme Own Slider or 3rd party plugins"
+msgstr "Eigen sliders voor thema's of plugins van derden"
+
+#: inc/pro/admin-page.php:310
+msgid "3rd party plugins"
+msgstr "Plugins van derden"
+
+#: inc/pro/admin-page.php:309
+msgid "Slider Plugins"
+msgstr "Slider plugins"
+
+#: inc/pro/admin-page.php:306
+msgid "Theme Own Addons"
+msgstr "Thema Eigen toevoegingen"
+
+#: inc/pro/admin-page.php:305
+msgid "Only Elementor plugins"
+msgstr "Alleen Elementor plugins"
+
+#: inc/pro/admin-page.php:304
+msgid "Elementor Page Builder toolkit & Addons"
+msgstr "Toolkit voor elementorpagina-opbouw & add-ons"
+
+#: inc/pro/admin-page.php:301
+msgid "Full features Customizer"
+msgstr "Volledige functies Customizer"
+
+#: inc/pro/admin-page.php:300
+msgid "lite features Customizer"
+msgstr "lite beschikt over Customizer"
+
+#: inc/pro/admin-page.php:296
+msgid "Own Ticket, email , Skype &amp; Teamviewer ( 24 / 7 )"
+msgstr "Eigen ticket, e-mail, Skype & amp; Teamviewer (24/7)"
+
+#: inc/pro/admin-page.php:295
+msgid "WP forum ( 48 / 5 )"
+msgstr "WP-forum (48/5)"
+
+#: inc/pro/admin-page.php:294
+msgid "24/7 Priority Support"
+msgstr "24/7 Priority-ondersteuning"
+
+#: inc/pro/admin-page.php:289
+msgid "shopstore PRO"
+msgstr "winkelwinkel PRO"
+
+#: inc/pro/admin-page.php:288
+msgid "Shopstore"
+msgstr "Winkel"
+
+#: inc/pro/admin-page.php:287
+msgid "Features"
+msgstr "Kenmerken"
+
+#: inc/pro/admin-page.php:229
+msgid "View changelog below:"
+msgstr "Bekijk de changelog hieronder:"
+
+#: inc/pro/admin-page.php:212
+msgid "Go to Dashboard"
+msgstr "Ga naar het dashboard"
+
+#: inc/pro/admin-page.php:212
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Ga naar Dashboard & rarr; Huis"
+
+#: inc/pro/admin-page.php:209
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Keer terug naar Dashboard & rarr; updates"
+
+#: inc/pro/admin-page.php:209
+msgid "Return to Updates"
+msgstr "Terug naar updates"
+
+#: inc/pro/admin-page.php:199
+msgid "Info about PRO version"
+msgstr "Info over PRO-versie"
+
+#: inc/pro/admin-page.php:198 inc/pro/admin-page.php:281
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Upgrade naar de PRO versie voor nog meer spannende functies."
+
+#: inc/pro/admin-page.php:197
+msgid "Need more features?"
+msgstr "Meer functies nodig?"
+
+#: inc/pro/admin-page.php:193
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: inc/pro/admin-page.php:192
+msgid "Please put it in our support forum."
+msgstr "Zet het alsjeblieft op ons ondersteuningsforum."
+
+#: inc/pro/admin-page.php:191
+msgid "Got theme support question?"
+msgstr "Heeft u een vraag voor een ondersteunend thema?"
+
+#. translators: %s: plugin name.
+#: inc/pro/admin-page.php:187
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: inc/pro/admin-page.php:186
+msgid "All Theme Options are available via Customize screen."
+msgstr "Alle themakeuzes zijn beschikbaar via het scherm Aanpassen."
+
+#: inc/pro/admin-page.php:185 inc/pro/admin-page.php:299
+msgid "Theme Customizer"
+msgstr "Thema-aanpasser"
+
+#: inc/pro/admin-page.php:145
+msgid "Changelog"
+msgstr "changelog"
+
+#: inc/pro/admin-page.php:142
+msgid "Free Vs PRO"
+msgstr "Gratis Vs PRO"
+
+#: inc/pro/admin-page.php:129
+msgid "Rate this theme"
+msgstr "Beoordeel dit thema"
+
+#: inc/pro/admin-page.php:127
+msgid "View PRO version Demo"
+msgstr "Bekijk PRO-versie Demo"
+
+#: inc/pro/admin-page.php:125
+msgid "View Demo"
+msgstr "Demo bekijken"
+
+#: inc/pro/admin-page.php:123
+msgid "Theme Info"
+msgstr "Themagegevens"
+
+#: inc/pro/admin-page.php:116
+msgid "About"
+msgstr "Over"
+
+#: inc/pro/admin-page.php:100
+msgid "Get started with shopstore"
+msgstr "Ga aan de slag met de winkelwinkel"
+
+#. translators: %s: plugin name.
+#: inc/pro/admin-page.php:98
+msgid "Welcome! Thank you for choosing ShopStore! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr "Welkom! Bedankt dat je voor ShopStore hebt gekozen! Om volledig te profiteren van de beste die ons thema kan bieden, moet je zeker onze %1$s welkom pagina %2$s bezoeken."
+
+#. translators: %s: plugin name.
+#: inc/pro/admin-page.php:97
+msgid "Dismiss"
+msgstr "Negeren"
+
+#. translators: %s: plugin name.
+#: inc/pro/admin-page.php:83
+msgid "Cheatin&#8217; huh?"
+msgstr "Valsspelen, hé?"
+
+#. translators: %s: plugin name.
+#: inc/pro/admin-page.php:78
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie: mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: inc/pro/admin-page.php:36 inc/pro/admin-page.php:37
+msgid "Getting Started"
+msgstr "Ermee beginnen"
+
+#: inc/template-functions.php:61
+msgid "Add a menu"
+msgstr "Voeg een menu toe"
+
+#: comments.php:99
+msgid "Comment"
+msgstr "Commentaar"
+
+#: comments.php:93
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:87
+msgid "Your Email"
+msgstr "Jouw email"
+
+#: comments.php:82
+msgid "Your Name"
+msgstr "Je naam"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s gedachte over&ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachten over&ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Eén gedachte over & ldquo; %1$s & rdquo;"
+
+#: 404.php:31
+msgid "Back to home"
+msgstr "Terug naar huis"
+
+#: 404.php:29
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Het lijkt erop dat niets gevonden is op deze locatie. Wellicht kan je één van de volgende links gebruiken of je kan zoeken?"
+
+#: 404.php:28
+msgid " Oops! That page can&#39;t be found."
+msgstr " Oeps! Die pagina kan niet gevonden worden."
+
+#: woocommerce/single-product/rating.php:38
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s klantbeoordeling"
+msgstr[1] "%s klantbeoordelingen"
+
+#: woocommerce/single-product/title.php:27
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Categorie:"
+msgstr[1] "Categorien:"
+
+#: woocommerce/single-product/stock.php:25
+msgid "Availablity"
+msgstr "availablity"
+
+#: woocommerce/single-product/meta.php:35
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Tag:"
+msgstr[1] "Tags:"
+
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr "N/B"
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr "SKU:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:48
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Lees verder <span class=\"screen-reader-text\">\"%s\"</span>"
+
+#: inc/posts-hooks.php:511 inc/posts-hooks.php:531
+#: template-parts/content-search.php:37
+msgid "Continue Reading"
+msgstr "Lees verder"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/posts-hooks.php:328 template-parts/content-page.php:33
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Bewerk <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:20 template-parts/content-single.php:59
+msgid "Pages:"
+msgstr "pagina's:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden waar je naar zoekt. Misschien kun je er naar zoeken."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Er kwam niets kwam overeen met je zoektermen. Probeer het opnieuw met een aantal andere keywords."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Ga hier aan de slag</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "niets gevonden"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "http://athemeart.com/"
+msgstr "http://athemeart.com/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "aThemeArt"
+msgstr "aThemeArt"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.net/downloads/shopstore/"
+msgstr "https://athemeart.net/downloads/shopstore/"

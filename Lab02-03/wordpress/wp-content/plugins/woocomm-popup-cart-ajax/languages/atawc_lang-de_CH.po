@@ -1,0 +1,245 @@
+# Translation of Plugins - WooCommerce Modal Fly Cart + Ajax add to cart - Development (trunk) in German (Switzerland)
+# This file is distributed under the same license as the Plugins - WooCommerce Modal Fly Cart + Ajax add to cart - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-05 16:01:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: de_CH\n"
+"Project-Id-Version: Plugins - WooCommerce Modal Fly Cart + Ajax add to cart - Development (trunk)\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Modal Fly Cart + Ajax Add to cart"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce Modal Fly Cart + Ajax add to cart."
+msgstr "WooCommerce Modal Fly Cart + Ajax add to cart."
+
+#: inc/class-admin.php:168
+msgid "WooCommerce Modal Fly Cart + Ajax add to cart"
+msgstr "WooCommerce Modal Fly Cart + Ajax add to cart"
+
+#: inc/class-frontend.php:316
+msgid "Have no product in the cart!"
+msgstr "Sie haben kein Produkt im Warenkorb!"
+
+#: inc/class-frontend.php:312
+msgid "Continue Shopping"
+msgstr "Weiter einkaufen"
+
+#: inc/class-frontend.php:301 inc/class-frontend.php:308
+msgid "Checkout"
+msgstr "Kasse"
+
+#: inc/class-frontend.php:301 inc/class-frontend.php:305
+msgid "Cart"
+msgstr "Warenkorb"
+
+#: inc/class-frontend.php:296
+msgid "Total"
+msgstr "Summe"
+
+#: inc/class-frontend.php:233 inc/class-frontend.php:326
+#: inc/class-frontend.php:340
+msgid "Permissions check failed!"
+msgstr "Prüfung der Rechte fehlgeschlagen!"
+
+#: inc/class-admin.php:518
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: inc/class-admin.php:515
+msgid "Upload image"
+msgstr "Bild hochladen"
+
+#: inc/class-admin.php:496
+msgid "Hide the cart button in the Cart & Checkout page?"
+msgstr "Soll der Warenkorb-Button auf den Seiten Warenkorb und Kasse ausgeblendet werden?"
+
+#: inc/class-admin.php:485
+msgid "Hide in Cart & Checkout page"
+msgstr "In Warenkorb und Kasse ausblenden"
+
+#: inc/class-admin.php:479
+msgid "Hide the cart button if have no product in the cart?"
+msgstr "Soll der Warenkorb-Button ausgeblendet werden, wenn keine Produkte im Warenkorb sind?"
+
+#: inc/class-admin.php:468
+msgid "Button Hide if empty"
+msgstr "Button ausblenden, wenn leer"
+
+#: inc/class-admin.php:442
+msgid "Bottom Right"
+msgstr "Unten rechts"
+
+#: inc/class-admin.php:441
+msgid "Bottom Left"
+msgstr "Unten links"
+
+#: inc/class-admin.php:440
+msgid "Top Right"
+msgstr "Oben rechts"
+
+#: inc/class-admin.php:439
+msgid "Top Left"
+msgstr "Oben links"
+
+#: inc/class-admin.php:432 inc/class-admin.php:453
+msgid "Cart button position"
+msgstr "Position des Warenkorb-Buttons"
+
+#: inc/class-admin.php:416
+msgid "Show cart button"
+msgstr "Warenkorb-Button anzeigen"
+
+#: inc/class-admin.php:410
+msgid "The cart will be reloaded when opening the page? If you use the cache for your site, please turn on this option."
+msgstr "Soll der Warenkorb beim Öffnen der Seite neu geladen werden? Wenn Sie Caching für Ihre Website verwenden, schalten Sie diese Option bitte ein."
+
+#: inc/class-admin.php:399
+msgid "Reload the cart on page load"
+msgstr "Warenkorb beim Seitenaufruf aktualisieren"
+
+#: inc/class-admin.php:393
+msgid "Show the continue shopping button at the end of mini-cart?"
+msgstr "Soll der Button «Weiter einkaufen» am Ende des Mini-Warenkorbs angezeigt werden?"
+
+#: inc/class-admin.php:382
+msgid "Show continue shopping"
+msgstr "«Weiter einkaufen» anzeigen"
+
+#: inc/class-admin.php:374
+msgid "Checkout only"
+msgstr "Nur an der Kasse"
+
+#: inc/class-admin.php:373
+msgid "Cart only"
+msgstr "Nur im Warenkorb"
+
+#: inc/class-admin.php:372
+msgid "Cart & Checkout"
+msgstr "Warenkorb und Kasse"
+
+#: inc/class-admin.php:365
+msgid "Show action buttons"
+msgstr "Aktions-Buttons anzeigen"
+
+#: inc/class-admin.php:349
+msgid "Show total price"
+msgstr "Gesamtpreis anzeigen"
+
+#: inc/class-admin.php:343
+msgid "Show attributes of variation product under product title on the list?"
+msgstr "Sollen die Attribute der Produktvariation unter dem Produkttitel in der Liste angezeigt werden?"
+
+#: inc/class-admin.php:332
+msgid "Show attributes of variation product"
+msgstr "Attribute der Produktvariation anzeigen"
+
+#: inc/class-admin.php:320
+msgid "Background image "
+msgstr "Hintergrundbild "
+
+#: inc/class-admin.php:307
+msgid "Background color "
+msgstr "Hintergrundfarbe "
+
+#: inc/class-admin.php:295
+msgid "Secondary color "
+msgstr "Sekundärfarbe "
+
+#: inc/class-admin.php:283
+msgid "Primary colors "
+msgstr "Primärfarbe "
+
+#: inc/class-admin.php:274
+msgid "05 - Page Center"
+msgstr "05 – Mittig auf der Seite"
+
+#: inc/class-admin.php:273
+msgid "04 - Page Bottom"
+msgstr "04 – Unten auf der Seite"
+
+#: inc/class-admin.php:272
+msgid "03 - Page Top"
+msgstr "03 – Oben auf der Seite"
+
+#: inc/class-admin.php:271
+msgid "02 - Page Left"
+msgstr "02 – Links auf der Seite"
+
+#: inc/class-admin.php:270
+msgid "01 - Page Right"
+msgstr "01 – Rechts auf der Seite"
+
+#: inc/class-admin.php:263
+msgid "Fly Cart Showing Position"
+msgstr "Position des schwebenden Warenkorbs"
+
+#: inc/class-admin.php:255
+msgid ""
+"Fill class or id of the button, when click to this button the mini cart\n"
+"\t\t\t\t\t\t\twill be show up.<br/>Example <code>.mini-cart-btn</code> or <code>#mini-cart-btn</code>"
+msgstr ""
+"Geben Sie die Klasse oder ID des Buttons an. Wenn man auf diesen Button klickt,\n"
+"\t\t\t\t\t\t\twird der Mini-Warenkorb angezeigt.<br/>Beispiel <code>.mini-cart-btn</code> oder <code>#mini-cart-btn</code>"
+
+#: inc/class-admin.php:248
+msgid "Manual show up button"
+msgstr "Button manuell einblenden"
+
+#: inc/class-admin.php:242
+msgid "The mini cart will be show up immediately after whenever click to normal Add to cart buttons (AJAX is not enable) or Add to cart button in single product page?"
+msgstr "Soll der Mini-Warenkorb sofort angezeigt werden, wenn man auf die normalen «In den Warenkorb»-Buttons (AJAX ist deaktiviert) oder auf den «In den Warenkorb»-Button auf einer Einzelprodukt-Seite klickt?"
+
+#: inc/class-admin.php:231
+msgid "Show up after normal add to cart"
+msgstr "Nach den normalen «In den Warenkorb»-Buttons einblenden"
+
+#: inc/class-admin.php:223
+msgid "The mini cart will be show up immediately after whenever click to AJAX Add to cart buttons (AJAX enable)? See <a href=\""
+msgstr "Soll der Mini-Warenkorb sofort angezeigt werden, wenn man auf die «In den Warenkorb»-AJAX-Buttons klickt (AJAX ist aktiviert)? Siehe <a href=\""
+
+#: inc/class-admin.php:220 inc/class-admin.php:239 inc/class-admin.php:340
+#: inc/class-admin.php:357 inc/class-admin.php:390 inc/class-admin.php:407
+#: inc/class-admin.php:424 inc/class-admin.php:476 inc/class-admin.php:493
+msgid "No"
+msgstr "Nein"
+
+#: inc/class-admin.php:219 inc/class-admin.php:238 inc/class-admin.php:339
+#: inc/class-admin.php:356 inc/class-admin.php:389 inc/class-admin.php:406
+#: inc/class-admin.php:423 inc/class-admin.php:475 inc/class-admin.php:492
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/class-admin.php:212
+msgid "Show up after AJAX add to cart"
+msgstr "Nach den «In den Warenkorb»-AJAX-Buttons einblenden"
+
+#: inc/class-admin.php:121
+msgid "Use image"
+msgstr "Bild verwenden"
+
+#: inc/class-admin.php:120
+msgid "Choose an image"
+msgstr "Bild auswählen"
+
+#: woocommerce-modal-fly-cart.php:110
+msgid "WooCommerce Popup Cart + ajax is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "WooCommerce Modal Fly Cart + Ajax add to cart ist aktiviert, aber nicht wirksam. Es benötigt WooCommerce, um zu funktionieren."
+
+#. Author URI of the plugin
+msgid "http://athemeart.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "aThemeArt"
+msgstr "aThemeArt"
+
+#. Plugin URI of the plugin
+msgid "https://athemeart.net/downloads/woocommerce-popup-cart-ajax/"
+msgstr ""

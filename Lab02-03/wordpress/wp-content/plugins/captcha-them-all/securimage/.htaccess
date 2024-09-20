@@ -1,0 +1,4 @@
+<Files securimage_show.php>
+    Order Allow,Deny
+    Allow from all
+</Files>

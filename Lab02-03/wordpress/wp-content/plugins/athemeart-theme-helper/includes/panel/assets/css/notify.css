@@ -1,0 +1,81 @@
+/* review notice */
+
+.athemeart-review-notice{
+    padding: 50px 25px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 20px 20px 0 0;
+    border-left: 4px solid transparent;
+}
+.athemeart-review-notice:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.athemeart-review-thumbnail{
+    float: left;
+    line-height: 85px;
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 85px;
+    height: 85px;
+    background: #424242;
+    border-radius: 100%;
+    margin: auto 10px;
+}
+.athemeart-review-thumbnail img {
+    width: 55px;
+    vertical-align: middle;
+    opacity: .85;
+    transition: all .3s;
+}
+.athemeart-shop-notice .athemeart-review-thumbnail {
+    background: #f1f1f1;
+    width: 155px;
+    height: 155px;
+    margin-right: 45px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+.athemeart-shop-notice .athemeart-review-thumbnail img {
+    width: 240px;
+    opacity: 1;
+    margin-left: -30px;
+}
+.athemeart-review-thumbnail img:hover {
+    opacity: 1;
+}
+.athemeart-review-text{
+    overflow: hidden;
+}
+.athemeart-review-text h3{
+    font-size: 24px;
+    margin: 0 0 5px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.athemeart-review-text p{
+    font-size: 13px;
+    margin: 0 0 5px;
+}
+.athemeart-review-ul{
+    margin: 0;
+    padding: 0;
+}
+.athemeart-review-ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.athemeart-review-ul li a{
+    display: inline-block;
+    color: #10738B;
+    text-decoration: none;
+    padding-left: 26px;
+    position: relative;
+}
+.athemeart-review-ul li a span{
+    position: absolute;
+    left: 0;
+    top: -2px;
+}

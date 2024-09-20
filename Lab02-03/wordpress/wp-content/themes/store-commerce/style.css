@@ -1,0 +1,183 @@
+/*
+Theme Name:   Store Commerce
+Author:		  aThemeArt
+Author URI:    https://www.athemeart.com
+Description:   Store Commerce is a modern and flexible child theme of the shopstore eCommerce theme, designed specifically for use with the Elementor page builder. Its minimalist design makes it a great choice for a wide range of storefront websites. Outstanding choice for basically any kind of online store, apparel store, startup business, personal blog, auto parts or freelancer site. With its extensive array of WooCommerce features, this template is suitable for selling almost any type of product online. Including electronics, fashion items, sports equipment, furniture, accessories, automobiles, jewelry, gadgets, and more. Stands out from others thanks to its advanced product search, smart swatches, and modal fly cart features. Work with the most popular plugins search as Smart Slider 3, Gutenberg, WooCommerce, WP Super Cache, Contact Form 7, Yoast SEO, SiteOrigin. So, you could be built all niches and classic shop, store or markets in a matter of minutes, without having to write a line of code.
+Template:     shopstore
+Version:      1.2.1
+License:      GPLv3
+License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:  store-commerce
+Requires at least: 5.0
+Tested up to: 6.2.2
+Requires PHP: 7.0
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, photography
+*/
+
+/* Write here your own personal stylesheet */
+
+.store-commerce-blog{
+	background:#FFF;
+	box-shadow: 0px 0px 131px 0px rgba(74,74,74,0.1);
+	-webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+    transform: translateY(-30px);
+	padding:30px;
+	position:relative;
+	z-index:99;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.store-commerce-blog.mt-0{
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+.store-commerce-loop-post .divider25{
+	display:none;	
+}
+.store-commerce-loop-post  ul.meta-post{
+	 font-size: 0.8rem;
+     color: #2d2d2d;
+}
+.store-commerce-loop-post .meta.author.vcard img{
+	width:35px;
+	height:35px;	
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin-right:10px;
+		-webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+#logo.store-commerce{
+	text-align:center;
+	padding-bottom: 25px;
+}
+.store-commerce-header .col-lg-6.col-md-6.col-sm-12{
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	width:100%;
+}
+.rd-navbar-static .rd-navbar-subpanel {
+    margin: 0px auto;
+    margin: 0px
+}
+
+.store-commerce-search-icon {
+	height: 48px;
+	line-height: 40px;
+	width: 48px;
+	text-align: center;
+	border: 2px solid #e5e5e5;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	margin: 0px 8px;
+	margin-right: 8px;
+	position: relative;
+}
+
+.header-middle .box-icon-cart{
+	margin-top:80px;	
+}
+@media only screen and (max-width: 700px) {
+	.header-middle .box-icon-cart{
+		margin-top:0px;
+		float:none;
+		display:block;
+		text-align:center;
+	}
+}
+.u-column1.col-1,
+.u-column2.col-2,
+#customer_login .col-1,
+#customer_login .col-2{
+	max-width: 50%!important;
+	float: left!important;
+}
+
+.apsw-theme-search-bar.col-lg-7.col-md-7.col-sm-12{
+	width:100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;	
+}
+
+#header .header-middle .col-lg-7.col-md-7.col-sm-12{
+	width: 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+	border-radius: 1px soild #000;
+}
+.store-commerce-header #mega-menu {
+  top: 0;
+}
+#mega-menu {
+  position: relative;
+  top: -10px;
+  height: 40px;
+  width: 250px;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  float: left;
+  margin-bottom: 21px;
+}
+.store-commerce-header #mega-menu > .btn-mega {
+  height: 52px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 52px;
+  background-color: #00060c !important;
+}
+
+.store-commerce-header #mega-menu > .btn-mega > span {
+  top: 25px;
+}
+.store-commerce-header{
+		-webkit-box-align: end !important;
+		-ms-flex-align: end !important;
+		align-items: flex-end !important;
+}
+article.main-post .content-post h3.title-post a:hover,
+article.main-post .content-post h3.title-post a:focus{
+	color: #37BF91;	
+}
+
+#mega-menu ul.menu li li a {
+  height: 50px;
+  line-height: 51px;
+  padding: 0 24px;
+  border-bottom: 1px solid #e5e5e5;
+  display: block;
+  position: relative;
+}
+#mega-menu > ul.menu{
+	height: auto!important;
+}
+/* Product Box */
+.product-box {
+	height:380px;
+	overflow:hidden;
+}
+#mega-menu ul.menu li li:last-child a{
+	border-bottom: none;
+}

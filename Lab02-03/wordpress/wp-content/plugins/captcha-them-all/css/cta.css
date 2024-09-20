@@ -1,0 +1,25 @@
+.emailHP {
+	display: none !important;
+}
+
+.visualCaptcha-refresh-button > a > img, .visualCaptcha-accessibility-button > a > img {
+	-webkit-box-shadow: unset;
+	box-shadow: unset;
+}
+
+.visualCaptcha-refresh-button > a, .visualCaptcha-accessibility-button > a {
+	-webkit-box-shadow: unset;
+	box-shadow: unset;
+	-webkit-transition: unset;
+	transition: unset;
+	transition: unset;
+	transition: unset;
+}
+
+.visualCaptcha-refresh-button, .visualCaptcha-accessibility-button {
+	height: 38px;
+}
+
+iframe[title*="recaptcha"], iframe[title*="reCAPTCHA"] {
+    height: 100% !important;
+}

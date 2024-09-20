@@ -1,0 +1,335 @@
+# Translation of Themes - Hello Elementor in Russian
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-09 08:10:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Theme Name of the theme
+#: style.css
+#, gp-priority: high
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:375
+#: includes/settings/settings-header.php:365
+#: includes/settings/settings-header.php:382
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title"
+msgstr "Перейдите в раздел <a href=\"%s\">Свойства сайта</a>, чтобы управлять названием вашего сайта"
+
+#: includes/settings/settings-footer.php:594
+#: includes/settings/settings-header.php:628
+msgid "Upgrade"
+msgstr "Обновление"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: includes/settings/settings-header.php:513
+msgid "Menu Layout"
+msgstr "Макет меню"
+
+#: includes/settings/settings-header.php:517
+msgid "Horizontal"
+msgstr "Горизонтальный"
+
+#: includes/settings/settings-header.php:546
+msgid "Breakpoint"
+msgstr "Брейкпоинт"
+
+#: includes/settings/settings-header.php:518
+msgid "Dropdown"
+msgstr "Выпадающее меню"
+
+#: includes/settings/settings-header.php:541
+msgid "None"
+msgstr "Отстутствует"
+
+#: includes/settings/settings-header.php:574
+msgid "Toggle Color"
+msgstr "Переключить цвет"
+
+#: includes/settings/settings-header.php:625
+msgid "Create a custom header with multiple options"
+msgstr "Создайте собственную шапку с множественными опциями"
+
+#: includes/settings/settings-header.php:638
+msgid "Create Header"
+msgstr "Создать шапку"
+
+#: functions.php:30 includes/settings/settings-header.php:45
+msgid "Header"
+msgstr "Шапка"
+
+#: functions.php:31 includes/settings/settings-footer.php:44
+msgid "Footer"
+msgstr "Подвал"
+
+#: includes/admin-functions.php:132
+msgid "Get Elementor"
+msgstr "Получить Elementor"
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:288
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:283
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+#: includes/settings/settings-footer.php:54
+#: includes/settings/settings-footer.php:66
+#: includes/settings/settings-footer.php:78
+#: includes/settings/settings-footer.php:90
+#: includes/settings/settings-header.php:55
+#: includes/settings/settings-header.php:66
+#: includes/settings/settings-header.php:77
+msgid "Show"
+msgstr "Показать"
+
+#: includes/settings/settings-footer.php:55
+#: includes/settings/settings-footer.php:67
+#: includes/settings/settings-footer.php:79
+#: includes/settings/settings-footer.php:91
+#: includes/settings/settings-header.php:56
+#: includes/settings/settings-header.php:67
+#: includes/settings/settings-header.php:78
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:444
+#: includes/settings/settings-footer.php:472
+#: includes/settings/settings-header.php:75
+#: includes/settings/settings-header.php:458
+#: includes/settings/settings-header.php:493
+#: template-parts/dynamic-header.php:65
+msgid "Menu"
+msgstr "Меню"
+
+#: includes/settings/settings-footer.php:119
+#: includes/settings/settings-header.php:104
+msgid "Layout"
+msgstr "Макет"
+
+#: includes/settings/settings-footer.php:130
+#: includes/settings/settings-header.php:115
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/settings/settings-footer.php:126
+#: includes/settings/settings-header.php:111
+msgid "Centered"
+msgstr "По центру"
+
+#: includes/settings/settings-footer.php:208
+#: includes/settings/settings-header.php:193
+msgid "Width"
+msgstr "Ширина"
+
+#: includes/settings/settings-footer.php:210
+#: includes/settings/settings-header.php:195
+msgid "Boxed"
+msgstr "Блочный"
+
+#: includes/settings/settings-footer.php:211
+#: includes/settings/settings-header.php:196
+msgid "Full Width"
+msgstr "На всю ширину"
+
+#: includes/settings/settings-footer.php:223
+#: includes/settings/settings-header.php:208
+msgid "Content Width"
+msgstr "Ширина содержимого"
+
+#: includes/settings/settings-footer.php:275
+#: includes/settings/settings-header.php:270
+msgid "Background"
+msgstr "Фон"
+
+#: includes/settings/settings-footer.php:298
+#: includes/settings/settings-header.php:300
+msgid "Type"
+msgstr "Тип"
+
+#: includes/settings/settings-footer.php:302
+#: includes/settings/settings-header.php:304
+msgid "Logo"
+msgstr "Логотип"
+
+#: includes/settings/settings-footer.php:303
+#: includes/settings/settings-header.php:305
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/settings/settings-footer.php:313
+#: includes/settings/settings-header.php:315
+msgid "Logo Width"
+msgstr "Ширина логотипа"
+
+#: includes/settings/settings-footer.php:344
+#: includes/settings/settings-footer.php:402
+#: includes/settings/settings-footer.php:541
+#: includes/settings/settings-header.php:346
+#: includes/settings/settings-header.php:416
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: includes/settings/settings-footer.php:360
+#: includes/settings/settings-footer.php:417
+#: includes/settings/settings-footer.php:504
+#: includes/settings/settings-footer.php:556
+#: includes/settings/settings-header.php:362
+#: includes/settings/settings-header.php:431
+#: includes/settings/settings-header.php:589
+msgid "Typography"
+msgstr "Типографика"
+
+#: includes/settings/settings-footer.php:453
+#: includes/settings/settings-header.php:474
+msgid "— Select a Menu —"
+msgstr "— выберите меню —"
+
+#: includes/settings/settings-footer.php:463
+#: includes/settings/settings-header.php:484
+msgid "There are no menus in your site."
+msgstr "На вашем сайте нет меню."
+
+#: includes/settings/settings-footer.php:463
+#: includes/settings/settings-header.php:484
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "Перейдите в раздел <a href=\"%s\" target=\"_blank\">меню</a>, чтобы создать одно."
+
+#: includes/settings/settings-footer.php:476
+#: includes/settings/settings-header.php:497
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "Перейдите в раздел <a href=\"%s\" target=\"_blank\">меню</a>, чтобы управлять вашими меню."
+
+#: includes/settings/settings-footer.php:484
+#: includes/settings/settings-header.php:505
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr "Изменения отразятся на экране предпросмотре только после перезагрузки страницы."
+
+#: includes/settings/settings-footer.php:492
+#: includes/settings/settings-header.php:560
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/settings/settings-footer.php:591
+msgid "Create a custom footer with multiple options"
+msgstr "Создайте собственный подвал с множественными опциями"
+
+#: includes/settings/settings-footer.php:592
+#: includes/settings/settings-header.php:626
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr "Переходите на Elementor Pro и наслаждайтесь бесплатными шаблонами и многими другими функциями"
+
+#: includes/settings/settings-footer.php:604
+msgid "Create Footer"
+msgstr "Создать подвал"
+
+#: includes/settings/settings-footer.php:122
+#: includes/settings/settings-header.php:107
+msgid "Inverted"
+msgstr "Инвертированный"
+
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:392
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:399
+msgid "Tagline"
+msgstr "Краткое описание"
+
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-footer.php:516
+msgid "Copyright"
+msgstr "Copyright"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:431
+#: includes/settings/settings-header.php:445
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's tagline"
+msgstr "Перейдите на страницу <a href=\"%s\">Свойства сайта</a>, чтобы управлять коротким описанием вашего сайта"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:316
+#: includes/settings/settings-header.php:318
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr "Перейдите в раздел <a href=\"%s\">Свойства сайта</a> чтобы настроить логотип сайта"
+
+#: includes/settings/settings-footer.php:534
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+#: includes/admin-functions.php:42
+#: includes/customizer/customizer-action-links.php:77
+#: includes/customizer/customizer-action-links.php:79
+#: assets/js/hello-admin.js:181 assets/js/hello-admin.js:183
+msgid "Activate Elementor"
+msgstr "Активировать Elementor"
+
+#: includes/admin-functions.php:51
+#: includes/customizer/customizer-action-links.php:58
+#: includes/customizer/customizer-action-links.php:60
+#: assets/js/hello-admin.js:173 assets/js/hello-admin.js:175
+msgid "Install Elementor"
+msgstr "Установить Elementor"
+
+#: includes/admin-functions.php:135
+msgid "Thanks for installing the Hello Theme!"
+msgstr "Благодарим за установку темы Hello!"
+
+#: template-parts/404.php:16
+msgid "The page can&rsquo;t be found."
+msgstr "Страница не найдена."
+
+#: template-parts/single.php:31
+msgid "Tagged "
+msgstr "Метки: "
+
+#: template-parts/dynamic-footer.php:34 template-parts/dynamic-header.php:40
+#: template-parts/header.php:30
+msgid "Home"
+msgstr "Главная"
+
+#: template-parts/search.php:17
+msgid "Search results for: "
+msgstr "Результаты поиска для: "
+
+#: template-parts/search.php:43
+msgid "It seems we can't find what you're looking for."
+msgstr "Похоже, здесь нет того, что вы ищете."
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One Response"
+msgstr "Один ответ"
+
+#: template-parts/404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr "Похоже, здесь ничего не найдено."
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Elementor Team"
+msgstr "Команда Elementor"
