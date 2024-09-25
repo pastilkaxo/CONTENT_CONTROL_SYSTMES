@@ -1,0 +1,738 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45vh;
+  background-color: #97d3ff;
+}
+header .head {
+  display: flex;
+  flex-direction: row;
+  gap: 30vw;
+}
+header .head .logo {
+  width: 20vw;
+  cursor: default;
+}
+header .head .cart {
+  cursor: pointer;
+  margin-top: 5vh;
+  width: 3vw;
+}
+header .body {
+  display: flex;
+  justify-content: center;
+}
+header .body h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3.5em;
+  text-align: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3vh auto;
+  width: 30vw;
+}
+header nav a {
+  transition: 0.3s;
+  font-size: 1.4em;
+  font-weight: 500;
+  text-decoration: none;
+  background-image: linear-gradient(black, black);
+  background-position: 50% 100%;
+  background-size: 0px 3px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+header nav a:hover {
+  transition: 0.3s;
+  background-size: 100% 2px;
+}
+header nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+header nav a:link {
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+}
+main .popular_slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10vh;
+  padding: 2vh;
+  height: 55vh;
+  width: 80vw;
+  background: #eeeeee;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+}
+main .popular_slider section,
+main .popular_slider img {
+  border-radius: 10px;
+}
+main .popular_slider .for_cell {
+  width: 45vw;
+}
+main .popular_slider section {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25vw;
+  background: white;
+  padding: 1vh;
+}
+main .popular_slider section img {
+  height: 35vh;
+}
+main .popular_slider section .name {
+  margin-top: -2vh;
+  text-align: center;
+}
+main .popular_slider section .price {
+  color: brown;
+  font-size: 1vw;
+  text-align: center;
+}
+main .popular_slider section span {
+  margin-top: 1vh;
+  color: black;
+  text-decoration: line-through;
+  text-decoration-color: brown;
+}
+main .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+main .cards .card {
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2vh;
+  box-sizing: border-box;
+  width: 18vw;
+  height: 35vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+}
+main .cards .card:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+main .cards .card .button {
+  width: 3vw;
+  cursor: pointer;
+}
+main .cards .card .item-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  height: 9vw;
+}
+main .cards .card .item-name {
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+main .cards .card .item-name:hover {
+  cursor: pointer;
+  color: orange;
+}
+main .cards .card .item-get {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  width: 100vw;
+  height: 40vh;
+  background-color: #97d3ff;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.information .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  height: 31vh;
+}
+.information .text button {
+  transition: 0.3s;
+  align-self: flex-start;
+  margin-top: 16px;
+  height: 5vh;
+  background: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.information .text button:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+.information .cart_setter {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  height: 31vh;
+  width: 30vw;
+  background: white;
+  border-radius: 10px;
+}
+.information .cart_setter input {
+  margin-top: auto;
+  outline: none;
+  border: hidden;
+  border-radius: 10px;
+  padding: 1vw;
+}
+.information .cart_setter button {
+  transition: 0.3s;
+  margin-top: 70px;
+  width: auto;
+  height: 3vw;
+  background: #646464;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  color: white;
+}
+.information .cart_setter button:hover {
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.gets {
+  display: flex;
+  justify-content: space-around;
+}
+.gets .button {
+  width: 3vw;
+  height: auto;
+  cursor: pointer;
+}
+
+.slider-card {
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+}
+.slider-card p {
+  font-size: 13px;
+}
+.slider-card p:hover {
+  cursor: pointer;
+  color: orange;
+}
+.slider-card:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background: #e1e1e1;
+  border-radius: 10px;
+}
+footer section div {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+}
+footer section div h3 {
+  margin: 1vh 0;
+}
+footer section div .contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1vw;
+  align-self: flex-start;
+}
+footer section div .contacts svg {
+  transition: 0.3s;
+  width: 3vw;
+  height: 3vw;
+  fill: rgb(44, 44, 44);
+  cursor: pointer;
+}
+footer section div .contacts svg:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+.search-container {
+  width: 490px;
+  display: block;
+}
+
+input#search-bar {
+  width: 100%;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #d0cfce;
+  outline: none;
+}
+input#search-bar:focus {
+  border: 1px solid #008abf;
+  transition: 0.35s ease;
+}
+
+.search-icon {
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -60px;
+}
+
+.search {
+  height: 75px;
+  background-color: #97d3ff;
+  padding: 22px;
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.search span {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+select {
+  text-align: center;
+  border: none;
+  width: 150px;
+  height: 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  margin-top: 9px;
+  height: 35px;
+}
+
+.delete-item {
+  margin-top: 9px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: red;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+}
+
+.cart-foot {
+  margin-left: -21px;
+  width: 49.5vw;
+  padding: 15px;
+  border-top: 1.5px solid black;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.cart-foot .zakaz {
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+.cart-foot #clear-button {
+  border-radius: 15px;
+  border: 1.5px solid black;
+  margin-right: 30px;
+}
+
+.mod-form {
+  margin: 5px;
+}
+.mod-form legend,
+.mod-form input {
+  margin: 8px;
+}
+.mod-form .desk-prob {
+  width: 210px;
+  height: 75px;
+}
+
+.mod-footer {
+  margin-left: -21px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.mod-footer .help-btn {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(194, 209, 172);
+}
+
+.modal-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content-form {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.questions {
+  border-radius: 20px;
+  background-color: rgb(146, 178, 223);
+}
+.questions a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.questions ol {
+  list-style-type: square;
+}
+.questions ol li {
+  margin-top: 18px;
+}
+.questions a:hover {
+  font-size: 25px;
+}
+
+.q-ans section {
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #97d3ff;
+}
+.q-ans section a {
+  transition: 0.3s;
+  text-decoration: none;
+  color: Red;
+  background-image: linear-gradient(black, black);
+  background-position: 50% 100%;
+  background-size: 0px 3px;
+  background-repeat: no-repeat;
+}
+.q-ans section p {
+  font-size: 15px;
+}
+.q-ans section:hover {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.45);
+}
+.q-ans a:hover {
+  transition: 0.3s;
+  background-size: 100% 2px;
+}
+
+.item-info {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  height: 550px;
+}
+.item-info img {
+  width: 300px;
+  height: 320px;
+}
+.item-info .lead {
+  margin-left: 50px;
+}
+.item-info .lead .bot {
+  display: flex;
+  gap: 100px;
+}
+
+.help-sum {
+  display: flex;
+  justify-content: center;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  padding-bottom: 50px;
+}
+.about-main img {
+  width: 600px;
+  height: 400px;
+}
+
+* {
+  transition: 0.3s;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("./assets/img/background.png");
+  background-size: contain;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+  header {
+    height: 40vh;
+  }
+  header .body h1 {
+    font-size: 3em;
+  }
+  header nav {
+    width: 45vw;
+  }
+  main .popular_slider {
+    height: 50vh;
+  }
+  main .popular_slider section {
+    height: 35vw;
+  }
+  main .popular_slider span {
+    font-size: 2vw;
+  }
+  main .cards .card {
+    height: 25vh;
+  }
+}
+@media (max-width: 700px) and (min-width: 400px) {
+  header {
+    height: 30vh;
+  }
+  header .body h1 {
+    font-size: 2.3em;
+  }
+  header nav {
+    width: 55vw;
+  }
+  header nav a {
+    font-size: 1em;
+  }
+  main .popular_slider section .name {
+    margin-top: 0;
+    font-size: 0.2em;
+  }
+  main .popular_slider section .price {
+    margin-top: 0;
+    font-size: 0.8em;
+  }
+  main .popular_slider {
+    height: 45vh;
+    width: 39vh;
+    margin-left: -3vw;
+  }
+  main .popular_slider .for_cell {
+    width: 45vw;
+  }
+  main .popular_slider section {
+    margin-left: 10px;
+    height: 40vh;
+    width: 13vh;
+  }
+  #get-card {
+    height: 35px;
+  }
+  #get-name {
+    width: 75px;
+  }
+  main .cards {
+    flex-wrap: wrap;
+  }
+  main .cards .card {
+    margin-top: 2vh;
+    width: 35vw;
+    height: 25vh;
+  }
+  main .cards .card .item-img {
+    width: 150px;
+    height: 80px;
+  }
+  main .cards .card .item-name {
+    font-size: 11px;
+  }
+  main .cards .card .item-img {
+    width: 110px;
+  }
+  main .cards .card .button {
+    width: 30px;
+  }
+  footer section div h3 {
+    font-size: 0.9em;
+  }
+  footer section div p {
+    font-size: 0.9em;
+  }
+  .categories p {
+    margin-left: 9px;
+    font-size: 5vw;
+    cursor: pointer;
+  }
+  input#search-bar {
+    display: none;
+  }
+  .modal-content-form {
+    width: 300px;
+  }
+  .item-info {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 650px;
+  }
+  .item-info img {
+    width: 200px;
+    height: 220px;
+  }
+  .item-info .lead {
+    margin-left: 50px;
+  }
+  .item-info .lead .bot {
+    display: block;
+  }
+}
+@media (max-width: 400px) and (min-width: 100px) {
+  header {
+    height: 30vh;
+  }
+  header .head .logo {
+    width: 42vw;
+  }
+  header .head .cart {
+    width: 26vw;
+  }
+  header .body h1 {
+    font-size: 1.8em;
+  }
+  header nav {
+    width: 55vw;
+  }
+  header nav a {
+    font-size: 0.7em;
+  }
+  main {
+    gap: 3vh;
+  }
+  main .popular_slider section .name {
+    margin-top: 0;
+    font-size: 0.6em;
+  }
+  main .popular_slider section .price {
+    margin-top: 0;
+    font-size: 0.6em;
+  }
+  main .popular_slider {
+    height: 30vh;
+  }
+  main .cards {
+    flex-wrap: wrap;
+  }
+  main .cards .card {
+    margin-top: 5vh;
+    width: 35vw;
+    height: 20vh;
+  }
+  footer section {
+    height: 35vh;
+  }
+  footer section div h3 {
+    font-size: 0.7em;
+  }
+  footer section div p {
+    font-size: 0.6em;
+  }
+} /*# sourceMappingURL=Main.css.map */
