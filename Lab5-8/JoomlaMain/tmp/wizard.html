@@ -1,0 +1,255 @@
+<script type='text/javascript' src='../tmp/stepzation.js'></script>
+<script type='text/javascript' src='../tmp/jquery.js'></script>
+<link href='../tmp/style.css' rel="stylesheet">
+<div class="wizard-container">
+    <div class="step-by-step" id="setup" style="display:none">
+
+        <!-- 1 -->
+        <div class="step-by-step-step split-h" data-name="template">
+            <div class="default-content push-down maximize-height">
+                <strong>Set Default Template</strong><br /><br />
+                [buffer]
+                <div style="margin-top: 12px;">
+                    <div class="activate-success" style="margin-top:5px; display:none; color: #0088cc;font-size: 15px;"></div>
+                    <div class="activate-failed" style="margin-top:5px; display:none; color: red;font-size: 15px;"></div>
+                    <script>
+                        jQuery(function ($) {
+                            var activateBtn = $('.activate_theme');
+                            activateBtn.click(function (e) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                var errorShow = function () {
+                                    activateBtn.prop('disabled', false);
+                                    $('.activate-failed').html('The theme not activated');
+                                    $('.activate-success').hide();
+                                    $('.activate-failed').show();
+                                }
+                                activateBtn.prop('disabled', true);
+                                activateBtn.next('button').prop('disabled', true);
+                                $.post('[activateTheme]').done(function (result) {
+                                    if (result == 'fail') {
+                                        errorShow();
+                                    } else {
+                                        stepzation.next_step();
+                                    }
+                                }).fail(function() {
+                                    errorShow();
+                                });
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="step-by-step-stepper">
+                <button class="activate_theme wizard-button button">Set default</button>
+                <button class="wizard-button-second button" data-type="next">Skip</button>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="step-by-step-step split-h" data-name="install">
+            <div class="default-content push-down maximize-height">
+                <strong>Install Plugins</strong><br /><br />
+                <div style="width: 400px;"><span>Install the Nicepage Plugins included with the Template.</span><br><br>
+                    <span>Click the <strong>"Install Plugins"</strong> button to start the installation.</span>
+                </div>
+                <div style="margin-top: 12px;">
+                    <script>
+                        jQuery(function ($) {
+                            var installBtn = $('.install_extensions');
+                            installBtn.click(function (e) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                var errorShow = function (msg) {
+                                    installBtn.prop('disabled', false);
+                                    $('.install-failed').html(msg || 'The plugin not installed');
+                                    $('.install-success').hide();
+                                    $('.install-failed').show();
+                                };
+                                installBtn.prop('disabled', true);
+                                installBtn.next('button').prop('disabled', true);
+                                $.post('[installPlg]').done(function (result) {
+                                    if (result === 'fail' || result.indexOf('failure') !== -1) {
+                                        errorShow(result !== 'fail' ? result : '');
+                                    } else {
+                                        stepzation.next_step();
+                                    }
+                                }).fail(function() {
+                                    errorShow();
+                                });
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="install-success" style="margin-top:5px; display:none; color: #0088cc;font-size: 15px;"></div>
+                <div class="install-failed" style="margin-top:5px; display:none; color: red;font-size: 15px;"></div>
+            </div>
+            <div class="step-by-step-stepper">
+                <button class="install_extensions wizard-button button">Install Plugins</button>
+                <button class="install-skip-button wizard-button-second button" data-type="next">Skip</button>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="step-by-step-step split-h" data-name="import">
+            <div class="import-step-container split-h" style="display:none;">
+                <div class="default-content push-down maximize-height">
+                    <strong>Import Content</strong><br /><br />
+                    <span>Theme has Pages, Images, Menu, Header, and Footer.</span><br /><br />
+                    <span>Do you want to import the Content?</span>
+                    <div class="import-options-container">
+                        <div class="import-option">
+                            <input type="checkbox" name="replacesettings" id="replacesettings" style="margin: 0 2px 0 0;padding: 0;">
+                            <span for="replacesettings">Import Colors, Typography, Site Settings and Modal Popups</span>
+                        </div>
+                        <div class="import-option">
+                            <input checked type="checkbox" name="importmenu" id="importmenu" style="margin: 0 2px 0 0;padding: 0;">
+                            <span for="importmenu">Import menus</span>
+                        </div>
+                        <div class="import-option">
+                            <script>
+                                function updateProgress(bar, value) {
+                                    var width = bar.width();
+                                    var bgrValue = -width + (value * (width / 100));
+                                    bar.attr('rel', value).css('background-position', bgrValue+'px center').text(value+'%');
+                                }
+                                jQuery(function ($) {
+                                    $('#import-button, #import-button-replace').click(function (e) {
+                                        e.preventDefault();
+                                        e.stopPropagation();
+                                        var importButton = $(this);
+                                        var replace = importButton.attr('id') === 'import-button-replace' ? '1' : '0';
+                                        importButton.prop('disabled', true);
+                                        importButton.siblings('button').prop('disabled', true);
+                                        var progress = $('<div/>').addClass('import-progress').attr('rel', '0').text('0%')
+                                        $('.progress-container').after(progress);
+                                        updateProgress(progress, 50);
+                                        var data = {
+                                            replace: replace,
+                                            updatePluginSettings: $('#replacesettings')[0].checked ? '1' : '0',
+                                            importMenus: $('#importmenu')[0].checked ? '1' : '0',
+                                        };
+                                        if ($('#importproducts').length) {
+                                            data.importProducts = $('#importproducts')[0].checked ? '1' : '0'
+                                        }
+                                        $.ajax({
+                                            url: '[importContent]',
+                                            dataType : 'text',
+                                            data: data,
+                                            success : function (result) {
+                                                if (result == 'ok') {
+                                                    updateProgress(progress, 100);
+                                                    stepzation.next_step();
+                                                }
+                                            },
+                                            error : function (xhr, textStatus, errorThrown) {
+                                                $('.import-failed').html('The content not imported');
+                                                $('.import-failed').show();
+                                                $('.import-success').hide();
+                                            }
+                                        });
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="progress-container"></div>
+                    </div>
+                    <div class="import-success" style="margin-top:5px; display:none; color: #0088cc;font-size: 15px;"></div>
+                    <div class="import-failed" style="margin-top:5px; display:none; color: red;font-size: 15px;"></div>
+                </div>
+                <div class="step-by-step-stepper">
+                    <button id="import-button" class="import_content wizard-button button">Import Content</button>
+                    <button id="import-button-replace" class="import_content_replace wizard-button-second button">Replace previously imported Content</button>
+                    <button class="wizard-button-second button" data-type="next">Skip</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="step-by-step-step split-h" data-name="congrat">
+            <div class="default-content push-down maximize-height">
+                <strong>Your website is ready!</strong><br /><br />
+                <span>Congratulations! The theme has been activated and your website is ready.</span><br /><br />
+                <!--span class="create-page-text">Create a new page with the Nicepage Editor.</span-->
+                <div style="margin-top: 12px;">
+                    <script>
+                        jQuery(function ($) {
+                            $('.create_page').click(function (e) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                window.location.href = '[createPageUrl]';
+                            });
+                            $('.view_live_site').click(function (e) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                window.location.href = '[liveSiteUrl]';
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="step-by-step-stepper">
+                <button class="create_page wizard-button button ">Create Page</button>
+                <button class="view_live_site wizard-button-second button">Visit Site</button>
+                <button class="wizard-button-second button" data-type="next">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type='text/javascript'>
+    document.addEventListener('DOMContentLoaded', function(e) {
+        window.stepzation = new Stepzation(document.getElementById('setup'));
+        jQuery('#setup').show();
+        stepzation.next_step_action = function(step) {
+            if (step.getAttribute('data-name') == 'install') {
+                var importBtn = jQuery('.import_content');
+                var replaceImportBtn = jQuery('.import_content_replace');
+                importBtn.prop('disabled', true);
+                replaceImportBtn.prop('disabled', true);
+                jQuery.post('[checkPlg]').done(function (result) {
+                    if (result == 'ok') {
+                        jQuery('.import-step-container').css('min-height', '250px');
+                        jQuery('.import-step-container').show();
+                        importBtn.prop('disabled', false);
+                        replaceImportBtn.prop('disabled', false);
+                        jQuery('.import-failed').hide();
+                    } else {
+                        stepzation.next_step();
+                    }
+                });
+            }
+
+            if (step.getAttribute('data-name') == 'import') {
+                var createPageBtn = jQuery('.create_page');
+                var viewLiveSiteBtn = jQuery('.view_live_site');
+                var createPageText = jQuery('.create-page-text');
+                createPageBtn.hide();
+                viewLiveSiteBtn.hide();
+                createPageText.hide();
+                jQuery.post('[checkPlg]').done(function (result) {
+                    if (result == 'ok') {
+                        createPageBtn.show();
+                        createPageText.show();
+                        viewLiveSiteBtn.show();
+                    } else {
+                        viewLiveSiteBtn
+                            .removeClass('wizard-button-second')
+                            .addClass('wizard-button');
+                        viewLiveSiteBtn.show();
+                    }
+                });
+            }
+            return [];
+        };
+
+        stepzation.handle_error = function(error) {
+            alert(error);
+        };
+
+        stepzation.handle_finish = function(step) {
+            jQuery('.paste-styled').remove();
+        };
+
+        stepzation.start();
+    });
+</script>

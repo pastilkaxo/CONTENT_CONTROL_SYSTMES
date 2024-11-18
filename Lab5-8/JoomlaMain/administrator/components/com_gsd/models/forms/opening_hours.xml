@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="openinghours">
+        <field name="businesslisting_hours_available" type="list"
+            label=""
+            default="0">
+            <option value="0">GSD_BUSINESSLISTING_NO_HOURS_AVAILABLE</option>
+            <option value="1">GSD_BUSINESSLISTING_ALWAYS_OPEN</option>
+            <option value="2">GSD_BUSINESSLISTING_OPEN_ON_SELECTED_HOURS</option>
+        </field>
+        <field name="businesslisting_inline_monday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_monday" type="checkbox" 
+            label="Monday"
+            value="1">
+        </field>
+        <field name="businesslisting_monday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_monday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_monday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_monday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_monday_more_start" type="nr_time"
+            showon="businesslisting_monday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_monday_more_sep" type="spacer"
+            showon="businesslisting_monday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_monday_more_end" type="nr_time"
+            showon="businesslisting_monday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_monday_more_end" type="nr_inline" 
+            end="1"
+        />
+        <field name="businesslisting_inline_tuesday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_tuesday" type="checkbox" 
+            label="Tuesday"
+            value="1">
+        </field>
+        <field name="businesslisting_tuesday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_tuesday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_tuesday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_tuesday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_tuesday_more_start" type="nr_time"
+            showon="businesslisting_tuesday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_tuesday_more_sep" type="spacer"
+            showon="businesslisting_tuesday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_tuesday_more_end" type="nr_time"
+            showon="businesslisting_tuesday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_tuesday_end" type="nr_inline" 
+            end="1"
+        />
+        <field name="businesslisting_inline_wednesday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_wednesday" type="checkbox" 
+            label="Wednesday" 
+            value="1">
+        </field>
+        <field name="businesslisting_wednesday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_wednesday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_wednesday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_wednesday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_wednesday_more_start" type="nr_time"
+            showon="businesslisting_wednesday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_wednesday_more_sep" type="spacer"
+            showon="businesslisting_wednesday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_wednesday_more_end" type="nr_time"
+            showon="businesslisting_wednesday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_wednesday_end" type="nr_inline" 
+            end="1"
+        />
+        <field name="businesslisting_inline_thursday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_thursday" type="checkbox" 
+            label="Thursday" 
+            value="1">
+        </field>
+        <field name="businesslisting_thursday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_thursday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_thursday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_thursday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_thursday_more_start" type="nr_time"
+            showon="businesslisting_thursday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_thursday_more_sep" type="spacer"
+            showon="businesslisting_thursday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_thursday_more_end" type="nr_time"
+            showon="businesslisting_thursday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_thursday_end" type="nr_inline" 
+            end="1"
+        />
+        <field name="businesslisting_inline_friday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_friday" type="checkbox" 
+            label="Friday" 
+            value="1">
+        </field>
+        <field name="businesslisting_friday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_friday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_friday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_friday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_friday_more_start" type="nr_time"
+            showon="businesslisting_friday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_friday_more_sep" type="spacer"
+            showon="businesslisting_friday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_friday_more_end" type="nr_time"
+            showon="businesslisting_friday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_friday_end" type="nr_inline" 
+            end="1"
+        />
+        <field name="businesslisting_inline_saturday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_saturday" type="checkbox" 
+            label="Saturday" 
+            value="1">
+        </field>
+        <field name="businesslisting_saturday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_saturday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_saturday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_saturday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_saturday_more_start" type="nr_time"
+            showon="businesslisting_saturday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_saturday_more_sep" type="spacer"
+            showon="businesslisting_saturday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_saturday_more_end" type="nr_time"
+            showon="businesslisting_saturday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_saturday_end" type="nr_inline" 
+            end="1"
+        />
+        <field name="businesslisting_inline_sunday_start" type="nr_inline" 
+            showon="businesslisting_hours_available:2"
+            class="timetable"
+        />
+        <field name="businesslisting_sunday" type="checkbox" 
+            label="Sunday" 
+            value="1">
+        </field>
+        <field name="businesslisting_sunday_start" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_sunday_sep" type="spacer"
+            label="-"
+        />
+        <field name="businesslisting_sunday_end" type="nr_time"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_sunday_more" type="nrtoggle"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_sunday_more_start" type="nr_time"
+            showon="businesslisting_sunday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_sunday_more_sep" type="spacer"
+            showon="businesslisting_sunday_more:1"
+            label="-"
+        />
+        <field name="businesslisting_sunday_more_end" type="nr_time"
+            showon="businesslisting_sunday_more:1"
+            hiddenLabel="true"
+        />
+        <field name="businesslisting_inline_sunday_end" type="nr_inline" 
+            end="1"
+        />
+    </fieldset>
+</form>

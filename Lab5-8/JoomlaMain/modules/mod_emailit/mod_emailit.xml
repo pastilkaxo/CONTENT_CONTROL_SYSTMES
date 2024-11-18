@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0.1" type="module" client="site" method="upgrade">
+    <name>Share Buttons by E-MAILiT</name>
+    <author>E-MAILiT</author>
+    <copyright>Copyright (C) 2016 E-MAILiT </copyright>
+    <license>GPL 3.0</license>
+    <authorUrl>www.e-mailit.com</authorUrl>
+    <version>4.0.1</version>
+    <creationDate>10-02-2016</creationDate>
+    <description>EMAILIT_DESCRIPTION</description>
+    <!-- supported languages -->
+    <languages folder="language">
+        <language tag="en-GB">en-GB.mod_emailit.ini</language>
+		<language tag="en-GB">en-GB.mod_emailit.sys.ini</language>
+    </languages>	
+    <files>
+        <filename module="mod_emailit">mod_emailit.php</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fields</folder>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>		
+    </files>
+    <config>
+        <fields name="params" class="emailit_options ">
+            <fieldset name="emailit_options" label="EMAILIT_SHARE_BUTTONS" addfieldpath="modules/mod_emailit/fields">
+                <field type="spacer" label="EMAILIT_CUSTOMIZE_YOUR_BUTTONS" />
+                <field name="toolbar_position" type="radio" default="" label="EMAILIT_POSITION" description="">
+                  <option value="">EMAILIT_SHARE_TOOLBAR_CONTENT</option>
+                  <option value="left">EMAILIT_SHARE_TOOLBAR_LEFT_FLOAT</option>
+                  <option value="right">EMAILIT_SHARE_TOOLBAR_RIGHT_FLOAT</option>
+                </field>                  
+                <field name="toolbar_type" type="radio" default="square" label="EMAILIT_STYLE" description="">
+                    <option value="square">EMAILIT_SQUARE</option>
+                    <option value="wide">EMAILIT_WIDE</option>
+                    <option value="circular">EMAILIT_CIRCLE</option>
+                    <option value="native">EMAILIT_NATIVE</option>
+                </field>
+                <field name="size"  class="btn-group" type="radio" default="32" label="EMAILIT_SIZE">
+                    <option value="16">16px</option>
+                    <option value="20">20px</option>
+                    <option value="24">24px</option>
+                    <option value="32">32px</option>
+                    <option value="40">40px</option>
+                    <option value="48">48px</option>
+                </field>
+                <field name="rounded" class="btn-group" type="radio" default="0" label="EMAILIT_ROUNDED">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>                 
+                <field name="back_color" type="color" default=""
+                       label="EMAILIT_BACKGROUND_COLOR"
+                       description="" />
+                <field name="text_color" type="color" default=""
+                       label="EMAILIT_TEXT_COLOR"
+                       description="" />  
+                <field name="display_counter" class="btn-group" type="radio" default="0" label="EMAILIT_COUNTERS">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>
+                <field name="combine_counters" class="btn-group" type="radio" default="0" label="EMAILIT_COMBINE_COUNTERS">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>				
+                <field type="spacer" hr="true" />
+                <field type="spacer" label="EMAILIT_CUSTOMIZE_GLOBAL_BUTTON" />
+                <field name="global_button" type="radio" default="last" label="ORDER" description="">
+                  <option value="last">EMAILIT_SHOW_LAST</option>
+                  <option value="first">EMAILIT_SHOW_FIRST</option>
+                  <option value="deactivate">EMAILIT_DEACTIVATE</option>
+                </field>
+                <field name="open_on" class="btn-group" type="radio" default="onclick" label="EMAILIT_OPEN_ON" description="">
+                  <option value="onclick">EMAILIT_CLICK</option>
+                  <option value="onmouseover">EMAILIT_HOVER</option>
+                </field>
+                <field name="text_display" type="text" label="EMAILIT_SHARE_TEXT" description=""/>                 
+                <field name="global_back_color" type="color" default=""
+                       label="EMAILIT_BACKGROUND_COLOR"
+                       description="" />
+                <field name="global_text_color" type="color" default=""
+                       label="EMAILIT_TEXT_COLOR"
+                       description="" />             
+                <field name="auto_popup" type="number" default="0" label="EMAILIT_AUTO_SHOW" description="" min="0" max="1000" step="1" size="2"/>
+                <field type="spacer" hr="true" />
+                <field type="spacer" label="EMAILIT_CUSTOMIZE_FLOATING" />
+                <field name="mobile_bar" class="btn-group" type="radio" default="1" label="EMAILIT_MOBILE_SHARE">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>
+                <field name="mobile_back_color" type="color" default=""
+                        label="EMAILIT_BACKGROUND_COLOR_MOB"
+                        description="" />
+                <field name="mobile_position" type="radio" default="bottom" label="EMAILIT_POSITION" description="">
+                    <option value="bottom">EMAILIT_BOTTOM</option>
+                    <option value="top">EMAILIT_TOP</option>
+                </field>							
+                <field name="mob_button_set" type="radio" default="mob_default" label="EMAILIT_SERVICES" description="">
+                  <option value="mob_default">EMAILIT_SERVICES_DEFAULT_MOB</option>
+                  <option value="mob_same">EMAILIT_SERVICES_STANDALONE_MOB</option>
+                  <option value="mob_custom">EMAILIT_SERVICES_CUSTOM_MOB</option>
+                </field>
+				<field name="mobile_services" hint="Facebook,Twitter,WhatsApp" type="textarea" label="EMAILIT_SERVICES_CUSTOM_MOB_HINT" description="" rows="10" cols="5" />								
+                <field type="spacer" hr="true" />
+                <field type="spacer" label="EMAILIT_CUSTOMIZE_STANDALONE_SERVICES" />
+                <field name="default_buttons" type="Services" default="Facebook,Twitter,Send_via_Email,Pinterest,LinkedIn" label="EMAILIT_SERVICES" />                
+                <field name="TwitterID" type="text" label="EMAILIT_TWEET_VIA" description=""/>                 
+				<field name="FB_appId" type="text" label="EMAILIT_FB_APPID" description=""/>   								
+                <field name="hover_pinit" class="btn-group" type="radio" default="0" label="EMAILIT_PINTEREST_SHAREABLE_IMAGES">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>
+                <field name="popup" class="btn-group" type="radio" default="0" label="EMAILIT_POPUP">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field> 				
+            </fieldset>
+            <fieldset name="emailit_advanced" label="E-MAILiT Advanced">
+                <field name="emailit_branding" class="btn-group" type="radio" default="1" label="EMAILIT_BRANDING">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>				
+				<field name="logo" type="text" hint="http://" label="EMAILIT_LOGO" description="" size="10" />
+                <field name="after_share_dialog" class="btn-group" type="radio" default="1" label="EMAILIT_AFTER_SHARE_PROMO">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>
+				<field name="display_ads" class="btn-group" type="radio" default="1" label="EMAILIT_DISPLAY_ADVERTS">
+                    <option value="1">EMAILIT_ON</option>
+                    <option value="0">EMAILIT_OFF</option>
+                </field>
+                <field name="ad_url" type="text" hint="http://" label="EMAILIT_AD_UNIT" description="" size="10" />				
+                <field name="thanks_message" type="text" default="Follow us!" label="EMAILIT_AFTER_SHARE_PROMO_HEADING" description="" size="10" />                
+                <field name="follow_services" type="Follows" label="EMAILIT_FOLLOW_SERVICES" description=""/>                
+            </fieldset>
+            <fieldset name="emailit_notrack" label="EMAILIT_NOTRACK">
+				<field name="share" type="spacer" label="EMAILIT_NOTRACK_HINT" />
+				<field name="notrack" type="radio" class="btn-group" default="0" label="EMAILIT_NOTRACK_LABEL" description="">
+                    <option value="1">EMAILIT_YES</option>
+                    <option value="0">No</option>
+                </field>				
+			</fieldset>	
+		</fields>
+    </config>
+	<updateservers>
+		<server type="extension" priority="1" name="E-MAILiT Updates">http://www.e-mailit.com/download/extension/joomla/module/update.xml</server>
+	</updateservers>		
+</extension>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addons>
+    <addon name="content"
+        label="Joomla Content"
+        description="Add Structured Data to Joomla! Articles"
+        docalias="the-joomla-content-integration"
+        proonly="false"
+    />
+    <addon name="k2"
+        label="K2"
+        description="Add Structured Data to K2 items."
+        docalias="the-k2-integration"
+    />
+    <addon name="easyblog"
+        label="EasyBlog"
+        description="Add Structured Data to EasyBlog posts."
+        docalias="the-easyblog-integration"
+    />
+    <addon name="rsblog"
+        label="RSBlog"
+        description="Add Structured Data to RSBlog posts."
+        docalias="the-rsblog-integration"
+    />
+    <addon name="rseventspro"
+        label="RSEvents!Pro"
+        description="Add Structured Data to RSEvents!Pro events."
+        docalias="the-rseventspro-integration"
+    />
+    <addon name="sppagebuilder"
+        label="SP Page Builder"
+        description="Add Structured Data to SP Page Builder pages."
+        docalias="the-sppagebuilder-integration"
+    />
+    <addon name="j2store"
+        label="J2Store"
+        description="Add Structured Data to J2Store Products."
+        docalias="the-j2store-integration"
+    />
+    <addon name="hikashop"
+        label="HikaShop"
+        description="Add Structured Data to HikaShop products."
+        docalias="the-hikashop-integration"
+    />
+    <addon name="jshopping"
+        label="JoomShopping"
+        description="Add Structured Data to JShopping products."
+        docalias="the-jshopping-integration"
+    />
+    <addon name="virtuemart"
+        label="VirtueMart"
+        description="Add Structured Data to VirtueMart products."
+        docalias="the-virtuemart-integration"
+    />
+    <addon name="zoo"
+        label="Zoo"
+        description="Add Structured Data to Zoo items."
+        docalias="the-zoo-integration"
+    />
+    <addon name="menus"
+        label="Menu Manager"
+        description="Add Structured Data to Menu Manager Items."
+        docalias="the-menu-integration"
+    />
+    <addon name="eventbooking"
+        label="Event Booking"
+        description="Add Structured Data to Event Booking items."
+        docalias="the-event-booking-integration"
+    />
+    <addon name="eshop"
+        label="Eshop"
+        description="Add Structured Data to Eshop product pages."
+        docalias="the-eshop-integration"
+    />
+    <addon name="djcatalog2"
+        label="DJ-Catalog2"
+        description="Add Structured Data to DJ-Catalog2 product pages."
+        docalias="the-djcatalog2-integration"
+    />
+    <addon name="quix"
+        label="Quix Page Builder"
+        description="Add Structured Data to Quix Page Builder pages."
+        docalias="the-quix-page-builder-integration"
+    />
+    <addon name="djclassifieds"
+        label="DJ Classifieds"
+        description="Add Structured Data to DJ Classifieds items."
+        docalias="the-djclassifieds-integration"
+    />
+    <addon name="djevents"
+        label="DJ Events"
+        description="Add Structured Data to DJ Events items."
+        docalias="the-djevents-integration"
+    />
+    <addon name="jevents"
+        label="JEvents"
+        description="Add Structured Data to JEvents items."
+        docalias="the-jevents-integration"
+    />
+    <addon name="sobipro"
+        label="SobiPro"
+        description="Add Structured Data to SobiPro Entries."
+        docalias="the-sobipro-integration"
+    />
+    <addon name="jcalpro"
+        label="JCal Pro"
+        description="Add Structured Data to JCal Pro items."
+        docalias="the-jcal-pro-integration"
+    />
+    <addon name="gridbox"
+        label="Gridbox"
+        description="Add Structured Data to Gridbox pages."
+        docalias="the-gridbox-integration"
+    />
+    <addon name="jbusinessdirectory"
+        label="J-BusinessDirectory"
+        description="Add Structured Data to J-BusinessDirectory businesses, events and offers."
+        docalias="the-jbusinessdirectory-integration"
+    />
+    <addon name="icagenda"
+        label="iCagenda"
+        description="Add Structured Data to iCagenda events."
+        docalias="the-icagenda-integration"
+    />
+    <addon name="dpcalendar"
+        label="DPCalendar"
+        description="Add Structured Data to DPCalendar events."
+        docalias="the-dpcalendar-integration"
+    />
+    <addon name="jreviews"
+        label="JReviews"
+        description="Add Structured Data to JReviews listings."
+        docalias="the-jreviews-integration"
+    />
+</addons>

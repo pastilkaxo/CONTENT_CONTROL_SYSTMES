@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addons>
+    <addon name="articles"
+        label="GSD_ARTICLE"
+        description="GSD_ARTICLE_DESC"
+        docalias="article-schema"
+        proonly="false"
+        icon="File"
+    />
+    <addon name="books"
+        label="GSD_BOOK"
+        description="GSD_BOOK_DESC"
+        docalias="book-schema"
+        icon="AddressAutocomplete"
+    />
+    <addon name="courses"
+        label="GSD_COURSE"
+        description="GSD_COURSE_DESC"
+        docalias="course-schema"
+        icon="KnowledgeBase"
+    />
+    <addon name="products"
+        label="GSD_PRODUCT"
+        description="GSD_PRODUCT_DESC"
+        docalias="product-schema"
+        icon="Product"
+    />
+    <addon name="events"
+        label="GSD_EVENT"
+        description="GSD_EVENT_DESC"
+        docalias="event-schema"
+        icon="Date"
+    />
+    <addon name="recipes"
+        label="GSD_RECIPE"
+        description="GSD_RECIPE_DESC"
+        docalias="recipe-schema"
+        icon="Food"
+    />
+    <addon name="reviews"
+        label="GSD_REVIEW"
+        description="GSD_REVIEW_DESC"
+        docalias="review-schema"
+        icon="StarOutline"
+    />
+    <addon name="factchecks"
+        label="GSD_FACTCHECK"
+        description="GSD_FACTCHECK_DESC"
+        docalias="factcheck-schema"
+        icon="Done"
+    />
+    <addon name="videos"
+        label="GSD_VIDEO"
+        description="GSD_VIDEOS_DESC"
+        docalias="video-schema"
+        icon="Video"
+    />
+    <addon name="jobposting"
+        label="Job Posting"
+        description="Improve the job seeking experience by adding job posting structured data to your job posting web pages."
+        docalias="jobposting-schema"
+        icon="Case"
+    />
+    <addon name="faq"
+        label="GSD_FAQ"
+        description="GSD_FAQ_DESC"
+        docalias="faq-schema"
+        icon="FAQ"
+    />
+    <addon name="localbusiness"
+        label="GSD_LOCAL_BUSINESS"
+        description="GSD_LOCAL_BUSINESS_DESC"
+        docalias="localbusiness-schema"
+        icon="Map"
+    />
+    <addon name="movie"
+        label="GSD_MOVIE"
+        description="GSD_MOVIE_DESC"
+        docalias="movie-schema"
+        icon="Movie"
+    />
+    <addon name="service"
+        label="GSD_SERVICE"
+        description="GSD_SERVICE_DESC"
+        docalias="service-schema"
+        icon="Service"
+    />
+    <addon name="person"
+        label="GSD_PERSON"
+        description="GSD_PERSON_DESC"
+        docalias="person-schema"
+        icon="Support"
+    />
+    <addon name="howto"
+        label="GSD_HOWTO"
+        description="GSD_HOWTO_DESC"
+        docalias="howto-schema"
+        icon="Question"
+    />
+</addons>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5"	client="administrator" method="upgrade">
+	<name>MOD_NICEPAGEMENU</name>
+    <creationDate/>
+    <author>Nicepage https://www.nicepage.com</author>
+    <authorEmail/>
+    <authorUrl>https://nicepage.com/</authorUrl>
+    <copyright>Copyright (c) 2016 - 2019 Nicepage</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later</license>
+    <version/>
+	<description>MOD_NICEPAGEMENU_XML_DESCRIPTION</description>
+    <updateservers>
+        <server type="extension" name="Nicepage">https://nicepage.com/downloads/joomla4_nicepage_update.xml</server>
+    </updateservers>
+	<files>
+		<filename module="mod_nicepagemenu">mod_nicepagemenu.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.mod_nicepagemenu.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.mod_nicepagemenu.sys.ini</language>
+    </languages>
+    <config>
+    <fields name="params">
+    <fieldset name="advanced">
+    </fieldset>
+    </fields>
+    </config>
+</extension>

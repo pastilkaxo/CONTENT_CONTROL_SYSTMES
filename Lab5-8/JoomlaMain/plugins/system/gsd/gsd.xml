@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="system" method="upgrade">
+	<name>plg_system_gsd</name>
+	<description>PLG_SYSTEM_GSD_DESC</description>
+    <version>5.6.5</version>
+	<creationDate>April 2016</creationDate>
+	<author>Tassos Marinos</author>
+	<copyright>Copyright © 2024 Tassos Marinos All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>info@tassos.gr</authorEmail>
+	<authorUrl>http://www.tassos.gr</authorUrl>
+	<scriptfile>script.install.php</scriptfile>
+	<files>
+		<filename plugin="gsd">gsd.php</filename>
+		<filename>script.install.helper.php</filename>
+		<filename>version.php</filename>
+		<folder>language</folder>
+	</files>
+    <updateservers>
+        <server type="extension" priority="1" name="Google Structured Data">
+            https://www.tassos.gr/updates/google-structured-data-free.xml
+        </server>
+    </updateservers>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="plugins/system/nrframework/fields">
+				<field name="btn" type="nrurl"
+					label="GSD_CONFIG"
+					text="GSD_CONFIG"
+					url="{{base}}index.php?option=com_gsd&amp;view=config"
+					class="btn btn-primary"
+					target="_self"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+
+    <!-- Watchful -->
+    <variant>free</variant>
+</extension>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="contenttype">
+        <fields name="article">
+            <field name="type" type="list"
+                label="GSD_ARTICLE_SCHEMA"
+                description="GSD_ARTICLE_SCHEMA_DESC"
+                default="Article"
+                required="true">
+                <option value="Article">Article</option>
+                <option value="NewsArticle">NewsArticle</option>
+                <option value="BlogPosting">BlogPosting</option>
+            </field>
+            <field name="headline" type="map"
+                label="NR_TITLE"
+                description="GSD_ARTICLE_HEADLINE_DESC"
+                hint="Article headline"
+                default="gsd.item.headline"
+                custom_class="input-xlarge"
+                required="true"
+            />
+            <field name="description" type="map"
+                label="GSD_ITEM_DESC"
+                description="GSD_ITEM_DESC_DESC"
+                default="gsd.item.description"
+                custom_class="input-xlarge"
+                required="true"
+            />
+            <field name="author" type="mapuser"
+                label="GSD_AUTHOR_NAME"
+                description="GSD_AUTHOR_DESC"
+                required="true"
+                default="user.name"
+            />
+            <field name="authorUrl" type="map"
+                label="GSD_AUTHOR_URL"
+                description="GSD_AUTHOR_URL_DESC"
+                required="true"
+                default="url"
+            />
+            <field name="image" type="mapimage"
+                label="NR_IMAGE"
+                description="GSD_IMAGE_OPTION_DESC"
+                default="gsd.item.image"
+                required="true"
+            />
+            <field name="publisher_name" type="mapuser"
+                label="GSD_PUBLISHER_NAME"
+                description="GSD_PUBLISHER_NAME_DESC"
+                default="gsd.sitename"
+            />
+            <field name="publisher_logo" type="mapimage"
+                label="GSD_PUBLISHER_LOGO"
+                description="GSD_PUBLISHER_LOGO_DESC"
+                default="gsd.sitelogo"
+            />
+            <field name="publish_up" type="mapdate"
+                label="GSD_DATE_PUBLISHED"
+                description="GSD_DATE_PUBLISHED_DESC"
+                default="gsd.item.publish_up"
+            />
+            <field name="modified" type="mapdate"
+                label="GSD_DATE_MODIFIED"
+                description="GSD_DATE_MODIFIED_DESC"
+                default="gsd.item.modified"
+            />
+        </fields>
+    </fieldset>
+</form>

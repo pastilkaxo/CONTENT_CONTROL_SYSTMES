@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter" addfieldpath="administrator/components/com_gsd/models/forms/fields">
+		<field name="search" type="text"
+			label="JSEARCH_FILTER_LABEL"
+			hint="JSEARCH_FILTER"
+			class="span4"
+		/>
+		<field name="context" type="integrations"
+			showselect="false"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+	<fields name="list">
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="20"
+			label="NR_LIST_LIMIT"
+			description="NN_LIST_LIMIT_DESC"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+</form>

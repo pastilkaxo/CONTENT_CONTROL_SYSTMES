@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="4.0.1" method="upgrade">
+    <name>E-MAILiT package</name>
+    <author>E-MAILiT</author>
+    <creationDate>27-06-2016</creationDate>
+	<packagename>emailit</packagename>
+    <license>GPL 3.0</license>
+	<version>4.0.1</version>
+	<url>www.e-mailit.com</url>
+	<packager>E-MAILiT Developers Package Team</packager>
+	<packagerurl>http://www.e-mailit.com/download/extension/joomla/fullpackage/E-MAILiT_full.zip</packagerurl>
+	<description>The most flexible sharing tools, including E-MAILiT's global mobile-optimized sharing menu, Twitter, Facebook, WhatsApp, SMS and many more.</description>
+	<files folder="emailit">
+		<file type="module" id="mod_emailit" client="site">module_E-MAILiT.zip</file>
+		<file type="plugin" id="emailit" group="content">plugin_E-MAILiT.zip</file>
+	</files>
+ </extension>

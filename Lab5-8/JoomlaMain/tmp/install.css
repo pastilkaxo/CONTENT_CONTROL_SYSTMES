@@ -1,0 +1,125 @@
+.nicepageinstall-icon > span {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABfCAMAAADMH1dkAAABjFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy8vK/v78AAAAAAAAAAACJiYnj4+P7+/sAAAAAAAD39/f6+voAAAAAAABBQUEAAAAAAAAAAAA/Pz8AAAAAAADo6OgAAAAAAACLi4sAAAAAAADAwMC4uLj6+voAAACysrIAAAAAAADt7e3h4eEAAAC9vb0AAADi4uI9PT0AAADJyckAAABpaWmxsbHp6ekAAAAAAAC8vLzi4uIAAACGhoY5OTk8PDwAAADm5uZiYmIAAAAAAABvb2/l5eVsbGze3t5ERESOjo7u7u7j4+Ps7Ozx8fEAAACDg4M3NzcAAACZmZnQ0ND39/fHx8fz8/NycnLd3d22trY7OzsAAADk5OQAAAAAAADa2trExMSrq6sAAACYmJh+fn4AAAAAAAAAAADT09PPz89kZGSIiIhGRkYAAAAAAADCwsKRkZG6urqVlZXDw8Pg4ODg4OD29vbs7Ozh4eHy8vLe3t7Dw8P////6xlMmAAAAg3RSTlMAAAgmGAYWDyEqFR8OJQHbgCMRMVmy8yco5/MaCT4LExBABy7BNBxYJCB/hfQechQszrUKgQWzQheOPE1zwB0tgrQvW0dEDMNTKQ1Jsku3PFbNs8/cN11JEmqJ5o/aR6WGRSvEOhuokV8Ca2E2OzKanVFaOjA/k1SDUpK2tejOtNqkfR5eDHUAAALkSURBVHhe7dbXc9pMEADwCBWQhASSCKBQTTU1gB33uHfHcfyl9t57L18t+49Ht0J3wvgtL/GM9+lmfnNFe3d7OvETwR0MMWgGRY47FANSSAtJAYZ+E/hz+xlNEodRTwv8bwCRTCiISGchDbOSdAzgrGYi0llIw1hYInaq2u+Js8TrvJDNCnymhxbj+3OeOT1KRoomVTU5Eumb0F/tmPAMSIxb1qTPOK/nSdTGqt84OqerTWYUqTJjyJQZQ6bMGKLeBbhZZcYQs5SQE5gnP9JdzCk5zDDFoxjH4V2hQj6nKEouX9CHNls0U0ZCluWEkTLFAcQr1Jmd7nVL07MdY2pMP3D6dkvgRnc3MT/lHBgPRYmPxcGL+Mryg0RNEV3UTaPqmH1rpXzlaROguXl9/0Yr7GIh1bkNcHFyIcEXL1+9hN3btT6Ga22AyEiyIuX48swXHLpYCbiYN+Zs+NaZz+rXjFmbGCxtKTqivj1annn5Sn6c1sOtO70mQVoTCoJc2rh339KmxtKKUVxrPARbFgouBkNVcKJUN5RA4XTIevR5pjy6rSPqytYTwPiaWueeV4ovmn/EjDyHGKgUcRHnN5db62klZHUB6rWwi3kjBoiv32jzFa3YA7A7qYKLpvY2/q7h6MZ7a6H4oUsyYJi6i8Hax8wna9xRsLuY4SgvefVWVFq1lpqc8zJvz/nrkBgOp0nZmy7FwS4tZtCGawIJrAuH1QQSWBcQj2wcVwVyGnAbadOHAUlV8QDQJkVy6y/s4dHB5k7/xfbewTpERnghTZ7sKMS9O+a+oN8BiKbyKcfoi01fUFSZl4lBG3uyOVHXyoveiWdI9Xc0sjSGRJMT4MZ40rEB5LKq9Sdaw1Kz3DA2iP21StE/7DhgRCYHhyWG3wd/4xcNLIjaYvkfVP+niJJrUScJmI2MLwlhdQcN00cU00dx719imHiidV9PUdIyE226Zf/9798y+rd06Gaz/yx2TH7J+AE2SMy25fgy+AAAAABJRU5ErkJggg==);}
+
+body table.adminform {
+	width: 100%;
+}
+
+body table.adminform th {
+	text-align:center !important;
+	font-size:18px;
+	padding-bottom:20px;
+	color:#555;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+}
+
+#nicepageinstall-status {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	font-size:14px;
+	color:#fff;
+	padding: 25px 25px 10px 25px;
+	border:1px solid #ddd;
+	background:#f9f9f9;
+	border-radius:4px
+}
+
+#nicepageinstall-status li {
+	border-radius:4px;
+	margin-bottom:15px;
+	padding: 10px;
+}
+
+.nicepageinstall-icon > span {
+	display:block;
+	width:32px;
+	height:32px
+}
+
+#nicepageinstall-status .nicepageinstall-row {
+	display:block;
+	margin-left: 55px;
+}
+
+.nicepageinstall-icon {
+	display:block;
+	float:left;
+	vertical-align: middle;
+	background-repeat:no-repeat;
+	height:32px;
+	width:32px;
+	margin-left: 10px;
+	margin-top: -6px;
+}
+
+#nicepageinstall-status {
+	list-style:none
+}
+
+/* SUCCESS */
+.nicepageinstall-success {
+	background:#1a3867
+}
+
+.nicepageinstall-success .nicepageinstall-icon > span {
+	background-position:3px 6px
+}
+
+#nicepageinstall-status {
+	list-style:none
+}
+
+/* UPDATE */
+.nicepageinstall-update {
+	background:#0088CC
+}
+
+.nicepageinstall-update .nicepageinstall-icon > span {
+	background-position:3px -29px
+}
+
+/* FAILURE */
+.nicepageinstall-failure {
+	background: #f2dede;
+	border: 1px solid #ebccd1;
+}
+
+.nicepageinstall-failure .nicepageinstall-row {
+	font-weight: bold;
+	color: #a94442;
+}
+
+.nicepageinstall-failure .nicepageinstall-icon > span {
+	background-position:3px -64px
+}
+
+.nicepageinstall-failure .nicepageinstall-errormsg {
+	text-indent:0;
+	margin-left:55px;
+	display:block;
+	color: #a94442;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.nicepageinstall-failure .manage-link {
+	font-size: 13px;
+	color: #a94442;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.nicepageinstall-failure  span.extension-error {
+	display: inline-block;
+	padding: 5px 0 5px 0;
+}
+
+.nicepageinstall-failure span.extension-error span.ext-name {
+	font-weight: bold;
+	font-size: 13px;
+	color: #a94442;
+	display: inline-block;
+	background: #fff;
+	padding: 0 3px 0 3px;
+	border-radius: 2px;
+}

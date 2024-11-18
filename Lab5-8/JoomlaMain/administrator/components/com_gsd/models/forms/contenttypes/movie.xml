@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="contenttype">
+        <fields name="movie">
+            <field name="title" type="map"
+                label="NR_NAME"
+                description="GSD_MOVIE_TITLE_DESC"
+                hint="Lord of the Rings"
+                default="gsd.item.headline"
+                custom_class="input-xlarge"
+                required="true"
+            />
+            <field name="description" type="map"
+                label="GSD_ITEM_DESC"
+                description="GSD_MOVIE_ITEM_DESC"
+                default="gsd.item.description"
+                custom_class="input-xlarge"
+            />
+            <field name="image" type="mapimage"
+                label="NR_IMAGE"
+                description="GSD_MOVIE_IMAGE_DESC"
+                default="gsd.item.image"
+                required="true"
+            />
+            <field name="duration" type="map"
+                label="GSD_MOVIE_DURATION"
+                description="GSD_MOVIE_DURATION_DESC"
+            />
+            <field name="genre" type="map"
+                label="GSD_MOVIE_GENRE"
+                description="GSD_MOVIE_GENRE_DESC">
+                <subform>
+                    <field name="custom" type="subform"
+                        layout="joomla.form.field.subform.repeatable-table"
+                        multiple="true"
+                        default='{"name":""}'>
+                        <form>
+                            <field name="name" type="text"
+                                hint="GSD_MOVIE_GENRE_HINT"
+                                label="GSD_MOVIE_GENRE_NAME"
+                            />
+                        </form>
+                    </field>
+                </subform>
+            </field>
+            <field name="creators" type="map"
+                label="GSD_MOVIE_CREATORS"
+                description="GSD_MOVIE_CREATORS_DESC">
+                <subform>
+                    <field name="custom" type="subform"
+                        layout="joomla.form.field.subform.repeatable-table"
+                        multiple="true"
+                        default='{"name":""}'>
+                        <form>
+                            <field name="name" type="text"
+                                hint="GSD_MOVIE_CREATOR_NAME_HINT"
+                                label="GSD_MOVIE_CREATOR_NAME"
+                            />
+                        </form>
+                    </field>
+                </subform>
+            </field>
+            <field name="directors" type="map"
+                label="GSD_MOVIE_DIRECTORS"
+                description="GSD_MOVIE_DIRECTORS_DESC">
+                <subform>
+                    <field name="custom" type="subform"
+                        layout="joomla.form.field.subform.repeatable-table"
+                        multiple="true"
+                        default='{"name":""}'>
+                        <form>
+                            <field name="name" type="text"
+                                hint="GSD_MOVIE_DIRECTOR_HINT"
+                                label="GSD_MOVIE_DIRECTOR_NAME"
+                            />
+                        </form>
+                    </field>
+                </subform>
+            </field>
+            <field name="actors" type="map"
+                label="GSD_ACTORS"
+                description="GSD_ACTORS_DESC">
+                <subform>
+                    <field name="custom" type="subform"
+                        layout="joomla.form.field.subform.repeatable-table"
+                        multiple="true"
+                        default='{"name":""}'>
+                        <form>
+                            <field name="name" type="text"
+                                hint="GSD_MOVIE_ACTOR_HINT"
+                                label="GSD_ACTOR_NAME"
+                            />
+                        </form>
+                    </field>
+                </subform>
+            </field>
+
+            <field name="trailerUrl" type="map"
+                label="GSD_MOVIE_TRAILER_TRAILERURL"
+                description="GSD_VIDEO_CONTENTURL_DESC"
+                custom_class="input-xlarge"
+                hint="https://www.example.com/movie_trailer.mp4"
+            />
+            <field name="publish_up" type="mapdate"
+                label="GSD_MOVIE_RELEASE_DATE"
+                description="GSD_MOVIE_RELEASE_DATE_DESC"
+            />
+            <field type="spacer" name="label2" label="GSD_BUSINESSLISTING_RATING" />
+            <field name="rating_value" type="map"
+                label="GSD_RATE_VALUE"
+                description="GSD_RATE_VALUE_DESC"
+                default="gsd.item.ratingValue">
+                <subform>
+                    <field name="custom" type="nr_rate"/>
+                </subform>
+            </field>
+            <field name="review_count" type="map"
+                label="GSD_REVIEW_COUNT"
+                description="GSD_REVIEW_COUNT_DESC"
+                default="gsd.item.reviewCount"
+                hint="5"
+            />
+        </fields>
+    </fieldset>
+</form>

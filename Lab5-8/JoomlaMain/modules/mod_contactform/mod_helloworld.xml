@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>MOD_CONTACTFORM</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>Compact Contact Form Module</description>
+    <files>
+        <filename module="mod_contactform">mod_custommodule.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+</extension>

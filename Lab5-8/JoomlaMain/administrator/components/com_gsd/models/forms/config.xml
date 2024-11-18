@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="globaldata" label="GSD_GLOBAL_DATA" description="GSD_GLOBAL_DATA_DESC">
+        <!-- Site Name -->
+        <field name="sitenameblockstart" type="nr_well"
+            description="GSD_SITENAME_ENABLED_DESC"
+            label="GSD_SITENAME_NAME"
+            url="https://www.tassos.gr/joomla-extensions/google-structured-data-markup/docs/the-site-name-snippet"
+        />
+        <field name="sitename_enabled" type="nrtoggle"
+            label="JENABLED" 
+            description="GSD_SITENAME_ENABLED_DESC" 
+            checked="true"
+        />
+        <field name="sitename_name" type="nrtext" 
+            class="input-xxlarge"
+            showon="sitename_enabled:1" 
+            label="GSD_SITENAME_NAME"
+            description="GSD_SITENAME_NAME_DESC"
+            hint="GSD_SITENAME_NAME"
+        />
+        <field name="sitename_name_alt" type="text" 
+            showon="sitename_enabled:1" 
+            class="input-xxlarge"
+            label="GSD_SITENAME_NAME_ALT"
+            description="GSD_SITENAME_NAME_ALT_DESC"
+            hint="GSD_SITENAME_NAME_ALT"
+        />
+        <field name="sitename_url" type="url"
+            class="input-xxlarge"
+            showon="sitename_enabled:1"
+            label="GSD_SITENAME_URL"
+            description="GSD_SITENAME_URL_DESC"
+            hint="GSD_SITENAME_URL"
+        />
+        <field name="sitenameblockend" type="nr_well" 
+            end="1"
+        />
+        <!-- Breadcrumbs -->
+        <field name="breadcrumbsstart" type="nr_well" 
+            description="GSD_BREADCRUMBS_DESC"
+            label="GSD_BREADCRUMBS"
+            url="https://www.tassos.gr/joomla-extensions/google-structured-data-markup/docs/the-breadcrumbs-snippet"
+        />
+        <field name="breadcrumbs_enabled" type="nrtoggle"
+            label="JENABLED" 
+            description="GSD_BREADCRUMBS_DESC" 
+            checked="true"
+        />
+        <field name="include_home" type="nrtoggle"
+            label="GSD_BREADCRUMBS_INCLUDE_HOME" 
+            description="GSD_BREADCRUMBS_INCLUDE_HOME_DESC" 
+            checked="true"
+            showon="breadcrumbs_enabled:1"
+        />
+        <field name="breadcrumbs_home" type="text"
+            class="input-xxlarge"
+            showon="breadcrumbs_enabled:1[AND]include_home:1"
+            label="GSD_BREADCRUMBS_HOME_NAME"
+            description="GSD_BREADCRUMBS_HOME_NAME_DESC"
+            hint="GSD_BREADCRUMBS_HOME_NAME"
+        />
+        <field name="breadcrumbsend" type="nr_well" end="1"/>
+        <!-- Site Links -->
+        <field name="sitelinksblockstart" type="nr_well" 
+            description="GSD_SITELINKS_ENABLED_DESC"
+            url="https://www.tassos.gr/joomla-extensions/google-structured-data-markup/docs/the-sitelinks-searchbox-snippet"
+            label="GSD_SITELINKS_NAME"
+        />
+        <field name="sitelinks_enabled" type="list"
+            description="GSD_SITELINKS_SEARCH_URL_DESC"
+            label="GSD_SITELINKS_SEARCH_URL"
+            default="0">
+            <option value="0">JDISABLED</option>
+            <option value="1">GSD_SITELINKS_NATIVE_JOOMLA_SEARCH</option>
+            <option value="2">GSD_SITELINKS_NATIVE_JOOMLA_FINDER</option>
+            <option value="3">GSD_SITELINKS_CUSTOM_SEARCH_URL</option>
+        </field>
+        <field name="sitelinks_search_custom_url" type="url"
+            description="GSD_SITELINKS_CUSTOM_SEARCH_URL_DESC"
+            class="input-xxlarge"
+            hint="https://www.yourwebsite.com/search?q={search_term}"
+            showon="sitelinks_enabled:3"
+            label="GSD_SITELINKS_CUSTOM_SEARCH_URL"
+            validate="searchurl"
+            message="GSD_SITELINKS_CUSTOM_SEARCH_URL_INVALID"
+            optional="1"
+        />
+        <field name="sitelinksblockend" type="nr_well" 
+            end="1"
+        />
+        <!-- Logo -->
+        <field name="logostart" type="nr_well" 
+            description="GSD_LOGO_DESC"
+            url="https://www.tassos.gr/joomla-extensions/google-structured-data-markup/docs/the-sitelogo-snippet"
+            label="GSD_LOGO"
+        />
+        <field name="logo_file" type="media"
+            preview="tooltip"
+            label="GSD_LOGO_FILE"
+            description="GSD_LOGO_FILE_DESC"
+        />
+        <field name="logoend" type="nr_well" end="1"/>
+        <!-- Social Profiles -->
+        <field name="socialprofilestart" type="nr_well" 
+            description="GSD_SOCIALPROFILES_DESC"
+            label="GSD_SOCIALPROFILES"
+            url="https://www.tassos.gr/joomla-extensions/google-structured-data-markup/docs/the-social-profile-links-snippet"
+        />
+        <field name="socialprofiles_type" type="list" 
+            label="GSD_SOCIALPROFILE_TYPE" 
+            description="GSD_SOCIALPROFILE_TYPE_DESC" 
+            default="Organization">
+                <option value="Organization">GSD_ORGANIZATION</option>
+                <option value="Person">GSD_PERSON</option>
+        </field>
+        <field name="socialprofiles_facebook" type="url"
+            class="input-xxlarge"
+            hint="https://www.facebook.com"
+            label="Facebook"
+        />
+        <field name="socialprofiles_twitter" type="url"
+            class="input-xxlarge"
+            hint="https://www.twitter.com"
+            label="Twitter"
+        />
+        <field name="socialprofiles_instagram" type="url"
+            class="input-xxlarge"
+            hint="https://www.instagram.com"
+            label="Instagram"
+        />
+        <field name="socialprofiles_youtube" type="url"
+            class="input-xxlarge"
+            hint="https://www.youtube.com"
+            label="YouTube"
+        />
+        <field name="socialprofiles_linkedin" type="url"
+            class="input-xxlarge"
+            hint="https://www.linkedin.com"
+            label="LinkedIn"
+        />
+        <field name="socialprofiles_pinterest" type="url"
+            class="input-xxlarge"
+            hint="https://www.pinterest.com"
+            label="Pinterest"
+        />
+        <field name="socialprofiles_soundcloud" type="url"
+            class="input-xxlarge"
+            hint="https://www.soundcloud.com"
+            label="SoundCloud"
+        />
+        <field name="socialprofiles_tumblr" type="url"
+            class="input-xxlarge"
+            hint="https://www.tumblr.com"
+            label="Tumblr"
+        />
+        <field name="socialprofiles_other" type="textarea"
+            hint="GSD_SOCIALPROFILES_OTHER_HINT"
+            class="input-xxlarge"
+            rows="5"
+            description="GSD_SOCIALPROFILES_OTHER_DESC"
+            label="GSD_SOCIALPROFILES_OTHER"
+        />
+        <field name="socialprofilesend" type="nr_well" end="1"/>
+    </fieldset>
+    <fieldset name="contenttypes" label="GSD_CONTENT_TYPES">
+        <field name="ctStart" type="nr_well"
+            label="GSD_CONTENT_TYPES"
+            description="GSD_CONTENT_TYPE_DESC"
+        />
+        <field name="contenttypes" type="addons"
+            xmlfile="contenttypes"
+            pluginmode="false"
+        />
+        <field name="ctEnd" type="nr_well" 
+            end="true"
+        />
+    </fieldset>
+    <fieldset name="integrations" label="GSD_INTEGRATIONS">
+        <field name="intStart" type="nr_well"
+            label="GSD_INTEGRATIONS"
+            description="GSD_INTEGRATIONS_DESC"
+        />
+        <field name="integrations" type="addons"
+            xmlfile="integrations"
+        />
+        <field name="intEnd" type="nr_well" 
+            end="true"
+        />
+    </fieldset>
+    <fieldset name="advanced" label="GSD_CONFIG_ADVANCED">
+        <field name="advancedStart" type="nr_well"
+            label="GSD_CONFIG_ADVANCED"
+            description="GSD_CONFIG_ADVANCED_DESC"
+        />
+        <field name="preparecontent" type="nrtoggle"
+            label="GSD_PREPARE_CONTENT" 
+            description="GSD_PREPARE_CONTENT_DESC" 
+        />
+        <field name="minifyjson" type="nrtoggle"
+            label="GSD_MINIFY_JSON" 
+            description="GSD_MINIFY_JSON_DESC" 
+        />
+        <field name="wait_page_render" type="nrtoggle"
+            label="GSD_WAIT_PAGE_TO_RENDER" 
+            description="GSD_WAIT_PAGE_TO_RENDER_DESC" 
+        />
+        <field name="debug" type="nrtoggle"
+            label="NR_DEBUG" 
+            description="GSD_DEBUG_DESC" 
+        />
+        <field name="advancedEnd" type="nr_well" 
+            end="true"
+        />
+        <field name="microdataStart" type="nr_well" 
+            label="GSD_REMOVE_MICRODATA"
+            description="GSD_REMOVE_MICRODATA_DESC"
+        />
+        
+        
+        <field name="@removemicrodata" type="nr_pro"
+            label="GSD_REMOVE_MICRODATA"
+            description="GSD_REMOVE_MICRODATA_DESC"
+        />
+        
+        <field name="microdataEnd" type="nr_well" 
+            end="true"
+        />
+        <field name="customCodeStart" type="nr_well" 
+            label="GSD_CUSTOM_CODE"
+            description="GSD_CUSTOM_CODE_GLOBAL_DESC"
+        />
+        <field name="customcode" type="textarea"
+            label="GSD_CUSTOM_CODE"
+            description="GSD_CUSTOM_CODE_GLOBAL_DESC"
+            class="span12 input-full"
+            filter="raw"
+            rows="15"
+            hint="&lt;script type='application/ld+json'&gt;&lt;/script&gt;"
+        />
+        <field name="customcode_disclaimer" type="note" 
+            class="alert alert-danger"
+            description="GSD_CUSTOM_CODE_DISCLAIMER"
+        />  
+        <field name="customCodeEnd" type="nr_well" 
+            end="true"
+        />
+    </fieldset>
+</form>

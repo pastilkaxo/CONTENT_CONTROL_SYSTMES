@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="contenttype">
+        <fields name="person">
+            <field name="type" type="persontypes" 
+                default="Person" 
+                label="NR_TYPE"
+                description="GSD_PERSON_TYPE_DESC"
+			    layout="joomla.form.field.list-fancy-select"
+                required="true">
+            </field>
+            <field type="spacer" name="label" label="NR_NAME" />
+            <field name="headline" type="map"
+                label="NR_NAME"
+                description="GSD_PERSON_NAME_DESC"
+                hint="John Doe"
+                custom_class="input-xlarge"
+                default="gsd.item.headline"
+            />
+            <field name="honorificPrefix" type="map"
+                label="GSD_PERSON_HONORIFICPREFIX"
+                description="GSD_PERSON_HONORIFICPREFIX_DESC"
+                hint="Dr."
+                custom_class="input-xlarge"
+            />
+            <field name="honorificSuffix" type="map"
+                label="GSD_PERSON_HONORIFICSUFFIX"
+                description="GSD_PERSON_HONORIFICSUFFIX_DESC"
+                hint="PhD"
+                custom_class="input-xlarge"
+            />
+            <field name="alternateName" type="map"
+                label="GSD_ALTERNATE_NAME"
+                description="GSD_ALTERNATE_NAME_DESC"
+                custom_class="input-xlarge"
+                hint="Johny"
+            />
+            <field name="additionalName" type="map"
+                label="GSD_ADDITIONAL_NAME"
+                description="GSD_PERSON_ADDITIONAL_NAME"
+                custom_class="input-xlarge"
+                hint="George"
+            />
+            <field name="givenName" type="map"
+                label="GSD_GIVEN_NAME"
+                description="GSD_PERSON_GIVEN_NAME"
+                hint="John"
+                custom_class="input-xlarge"
+            />
+            <field name="familyName" type="map"
+                label="GSD_FAMILY_NAME"
+                hint="Doe"
+                description="GSD_PERSON_FAMILY_NAME"
+                custom_class="input-xlarge"
+            />
+            <field name="nationality" type="map"
+                label="GSD_NATIONALITY"
+                description="GSD_PERSON_NATIONALITY_DESC"
+                hint="US">
+                <subform>
+                    <field name="fixed" type="nr_geo"
+                        showon="option:fixed"
+                        showselect="false"
+                    />
+                </subform>
+            </field>
+            <field type="spacer" name="label2" label="NR_ADDRESS" />
+            <field name="addressCountry" type="map"
+                label="NR_COUNTRY"
+                description="GSD_PERSON_COUNTRY_DESC"
+                hint="US">
+                <subform>
+                    <field name="fixed" type="nr_geo"
+                        showon="option:fixed"
+                        showselect="false"
+                    />
+                </subform>
+            </field>
+            <field name="addressLocality" type="map"
+                label="NR_CITY"
+                description="GSD_PERSON_CITY_DESC"
+                hint="Mountain View"
+            />
+            <field name="streetAddress" type="map"
+                label="GSD_BUSINESSLISTING_STREET_ADDRESS"
+                description="GSD_PERSON_STREET_ADDRESS_DESC"
+                hint="GSD_BUSINESSLISTING_STREET_ADDRESS_HINT"
+            />
+            <field name="addressRegion" type="map"
+                label="GSD_BUSINESSLISTING_ADDRESS_REGION"
+                description="GSD_PERSON_REGION_DESC"
+                hint="GSD_BUSINESSLISTING_ADDRESS_REGION_HINT"
+            />
+            <field name="postalCode" type="map"
+                label="NR_POSTAL_CODE"
+                description="GSD_PERSON_POSTALCODE_DESC"
+                hint="GSD_BUSINESSLISTING_POSTAL_CODE_HINT"
+            />
+            <field type="spacer" name="label3" label="GSD_PERSON" />
+            <field name="description" type="map"
+                label="GSD_ITEM_DESC"
+                description="GSD_PERSON_TEXT_DESC"
+                default="gsd.item.description"
+                custom_class="input-xlarge"
+            />
+            <field name="email" type="map"
+                label="NR_EMAIL"
+                description="GSD_PERSON_EMAIL_DESC"
+                custom_class="input-xlarge"
+            />
+            <field name="telephone" type="map"
+                label="GSD_LOCALBUSINESS_PHONE"
+                description="GSD_PERSON_PHONE_DESC"
+                hint="GSD_BUSINESSLISTING_TELEPHONE_HINT"
+            />
+            <field name="gender" type="map"
+                label="GSD_GENDER"
+                description="GSD_PERSON_GENDER_DESC">
+                <subform>
+                    <field name="fixed" type="list"
+                        hiddenLabel="true"
+                        showon="option:fixed">
+                        <option value="https://schema.org/Male">GSD_MALE</option>
+                        <option value="https://schema.org/Female">GSD_FEMALE</option>
+                    </field>
+                </subform>
+            </field>
+            <field name="birthDate" type="mapdate"
+                label="GSD_BIRTH_DATE"
+                description="GSD_PERSON_BIRTH_DATE_DESC"
+                format="%Y-%m-%d"
+            />
+            <field name="memberOf" type="map"
+                label="GSD_MEMBER_OF"
+                description="GSD_PERSON_MEMBER_OF_DESC"
+                custom_value_multiple="true"
+            />
+            <field name="image" type="mapimage"
+                label="NR_IMAGE"
+                description="GSD_PERSON_IMAGE_DESC"
+                default="gsd.item.image"
+            />
+            <field name="jobTitle" type="map"
+                label="GSD_JOBPOSTING_TITLE"
+                description="GSD_PERSON_JOB_TITLE_DESC"
+                hint="Software Engineer"
+            />
+            <field name="worksFor" type="map"
+                label="GSD_WORKS_FOR"
+                description="GSD_PERSON_WORKS_FOR_DESC"
+                hint="Apple"
+            />
+            <field name="sameAs" type="map"
+                label="GSD_SAME_AS"
+                description="GSD_PERSON_SAME_AS_DESC"
+                subform_class="hide-custom-repeater-label subform-fullwidth">
+                <subform>
+                    <field name="custom" type="subform"
+                        layout="joomla.form.field.subform.repeatable-table"
+                        multiple="true"
+                        default='{"name":""}'>
+                        <form>
+                            <field name="name" type="text"
+                                hint="https://"
+                                label="NR_URL"
+                                class="input-xlarge"
+                            />
+                        </form>
+                    </field>
+                </subform>
+            </field>
+            <field name="affiliation" type="map"
+                label="GSD_AFFILIATION"
+                description="GSD_PERSON_AFFILIATION_DESC"
+                custom_value_multiple="true"
+            />
+            <field name="alumniOf" type="map"
+                label="GSD_ALUMNI_OF"
+                description="GSD_PERSON_ALUMNI_OF_DESC"
+                custom_value_multiple="true"
+            />
+            <field name="award" type="map"
+                label="GSD_AWARD"
+                description="GSD_PERSON_AWARD_DESC"
+                custom_value_multiple="true"
+            />
+            <field name="knowsAbout" type="map"
+                label="GSD_KNOWS_ABOUT"
+                description="GSD_PERSON_KNOWS_ABOUT_DESC"
+                custom_value_multiple="true"
+            />
+            <field name="hasCredential" type="map"
+                label="GSD_HAS_CREDENTIAL"
+                description="GSD_PERSON_HAS_CREDENTIAL_DESC"
+                custom_value_multiple="true"
+            />
+            <field type="spacer" name="label4" label="GSD_OCCUPATION" />
+            <field name="occupationName" type="map"
+                label="NR_NAME"
+                description="GSD_PERSON_OCCUPATION_NAME_DESC"
+                custom_class="input-xlarge"
+            />
+            <field name="occupationDescription" type="map"
+                label="GSD_ITEM_DESC"
+                description="GSD_OCCUPATION_DESCRIPTION_DESC"
+                custom_class="input-xlarge"
+            />
+            <field name="educationRequirements" type="map"
+                label="GSD_EDUCATIONAL_REQUIREMENTS"
+                description="GSD_PERSON_EDUCATIONAL_REQUIREMENTS_DESC"
+                custom_class="input-xlarge"
+            />
+            <field name="experienceRequirements" type="map"
+                label="GSD_EXPERIENCE_REQUIREMENTS"
+                description="GSD_EXPERIENCE_REQUIREMENTS_DESC"
+                custom_class="input-xlarge"
+            />
+            <field name="offerPrice" type="map"
+                real_type="pricerange"
+                label="GSD_SALARY_AMOUNT"
+                description="GSD_PERSON_SALARY_DESC"
+                default="gsd.item.offerprice"
+            />
+            <field name="currency" type="map"
+                label="NR_CURRENCY"
+                description="GSD_PERSON_CURRENCY_DESC"
+                hint="USD"
+                default="gsd.item.currency">
+                <subform>
+                    <field name="fixed" type="nr_currencies"
+                        showon="option:fixed"
+                        showselect="false"
+                    />
+                </subform>
+            </field>
+        </fields>
+    </fieldset>
+</form>

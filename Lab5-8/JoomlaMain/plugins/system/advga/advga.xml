@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.x" type="plugin" group="system" method="upgrade">
+	<name>System - Advanced Google Analytics</name>
+	<author>Alin Marcu</author>
+	<creationDate>Apr 2014</creationDate>
+	<copyright>Copyright (C) 2010 deconf.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorUrl>https://deconf.com/</authorUrl>
+	<version>1.8</version>
+    <description><![CDATA[
+	For Help and FAQ, go to <a href='https://deconf.com/advanced-google-analytics-joomla/' target='_blank'>Advanced Google Analytics for Joomla!</a>.<br /><br />
+	]]></description>
+	<languages>
+		<language tag="en-GB">languages/en-GB/en-GB.plg_system_advga.ini</language>
+	</languages>	
+	<files>
+		<filename plugin="advga">advga.php</filename>
+		<filename plugin="advga">index.html</filename>
+	</files>
+	<config>
+	  <fields name="params" addfieldpath="/plugins/system">
+	  	<fieldset name="basic">
+		  <field name="spacer1" type="spacer" default="" label="ADVGA_SETTINGS" description="" />  
+		  <field name="advga_googleid" type="text" default="" label="ADVGA_GOOGLEID" description="ADVGA_GOOGLEID_D"/>
+		  <field name="advga_domain" type="text" default="" label="ADVGA_DOMAIN" description="ADVGA_DOMAIN_D"/>
+		  <field name="spacer2" type="spacer" default="" label="ADVGA_CUSTOM" description="" />		  
+		  <field name="advga_authors" type="list" default="0" label="ADVGA_AUTHORS" description="ADVGA_AUTHORS_D">
+	  		<option value="0">ADVGA_NO</option>
+			<option value="1">ADVGA_YES</option>
+		  </field>
+		  <field name="advga_categories" type="list" default="0" label="ADVGA_CATEGORIES" description="ADVGA_CATEGORIES_D">
+	  		<option value="0">ADVGA_NO</option>
+			<option value="1">ADVGA_YES</option>
+		  </field>
+		  <field name="advga_pubyear" type="list" default="0" label="ADVGA_PUBYEAR" description="ADVGA_PUBYEAR_D">
+	  		<option value="0">ADVGA_NO</option>
+			<option value="1">ADVGA_YES</option>
+		  </field>
+		  <field name="advga_usertype" type="list" default="0" label="ADVGA_USERTYPE" description="ADVGA_USERTYPE_D">
+		    <option value="0">ADVGA_NO</option>
+		    <option value="1">ADVGA_YES</option>
+		  </field>	
+		  <field name="spacer3" type="spacer" default="" label="ADVGA_OTHER" description="" />
+		  <field name="advga_anonim" type="list" default="0" label="ADVGA_ANONIM" description="ADVGA_ANONIM_D">
+	  		<option value="0">ADVGA_NO</option>
+			<option value="1">ADVGA_YES</option>
+		  </field>
+		  <field name="advga_trackadmin" type="list" default="1" label="ADVGA_TRACKADMIN" description="ADVGA_TRACKADMIN_D">
+		     <option value="0">ADVGA_NO</option>
+		     <option value="1">ADVGA_YES</option>
+		  </field>			  
+		  <field name="spacer4" type="spacer" default="" label="ADVGA_UA" description="" />		  		  
+		  <field name="advga_event" type="list" default="0" label="ADVGA_EVENT" description="ADVGA_EVENT_D">
+	  		<option value="0">ADVGA_NO</option>
+			<option value="1">ADVGA_YES</option>
+		  </field>
+		  <field name="advga_downloadfjq" type="text" size="70" default="zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|jpe*g|png|gif|tiff|rar*" label="ADVGA_DOWNLOADFJQ" description="ADVGA_DOWNLOADFJQ_D" />		  		  		  
+		  <field name="advga_remarketing" type="list" default="1" label="ADVGA_REMARKETING" description="ADVGA_REMARKETING_D">
+		  </field>			  
+		  <field name="spacer9" type="spacer" default="" label="" description="" />				  
+		  <field name="spacer10" type="spacer" default="" label="&lt;span style='font-size:1em; color:green;font-weight:bold;'&gt;Try &lt;a href='https://clicky.com/66508224' target='_blank'&gt;Clicky Analytics&lt;/a&gt; - Free, Real Time, IP Based Analytics&lt;/font&gt;" description="" />	  			  		  
+        </fieldset>		
+	  </fields>
+	</config>		
+</extension>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>plg_system_osmylicensesmanager</name>
+    <author>Joomlashack</author>
+    <authorEmail>help@joomlashack.com</authorEmail>
+    <authorUrl>https://www.joomlashack.com</authorUrl>
+    <copyright>Copyright 2016-2023 Joomlashack. All rights reserved</copyright>
+    <license>GNU GPL; see LICENSE file</license>
+    <description>PLG_SYSTEM_OSMYLICENSESMANAGER_DESCRIPTION</description>
+    <version>2.0.16</version>
+    <creationDate>December 05 2023</creationDate>
+    <variant>FREE</variant>
+
+    <alledia>
+        <element publish="true">osmylicensesmanager</element>
+        <namespace>OSMyLicensesManager</namespace>
+        <name>Joomlashack Extension Support</name>
+        <license>free</license>
+        <platform>3.9</platform>
+        <phpminimum>7.2.5</phpminimum>
+
+        <relatedExtensions>
+            <extension type="library"
+                       element="allediaframework">ShackFramework</extension>
+        </relatedExtensions>
+
+        <include>ShackDefaultFiles</include>
+
+        <obsolete>
+            <file>/plugins/system/osmylicensesmanager/library/Free/UpdateHelper.php</file>
+
+            <extension type="plugin"
+                       group="system"
+                       element="ossystem"/>
+        </obsolete>
+    </alledia>
+
+    <scriptfile>script.installer.php</scriptfile>
+
+    <files>
+        <folder>form</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+        <folder>views</folder>
+
+        <filename plugin="osmylicensesmanager">osmylicensesmanager.php</filename>
+        <filename>include.php</filename>
+    </files>
+
+    <media destination="plg_system_osmylicensesmanager" folder="media">
+        <folder>css</folder>
+        <folder>images</folder>
+    </media>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/plugins/system/osmylicensesmanager/form/fields">
+                <field name="license-keys"
+                       type="text"
+                       label="PLG_SYSTEM_OSMYLICENSESMANAGER_FIELD_LICENSE_KEYS_LABEL"
+                       description="PLG_SYSTEM_OSMYLICENSESMANAGER_FIELD_LICENSE_KEYS_DESC"/>
+
+                <field type="customfooter"
+                       name="customfooter"
+                       media="plg_system_osmylicensesmanager"/>
+            </fieldset>
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" priority="1" name="Joomlashack Extension Support"><![CDATA[https://deploy.ostraining.com/client/update/free/stable/plg_system_osmylicensesmanager]]></server>
+    </updateservers>
+</extension>

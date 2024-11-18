@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="component" method="upgrade">
+    <name>GSD</name>
+    <description>GSD_DESC</description>
+    <version>1.0</version>
+    <creationDate>May 2017</creationDate>
+    <author>Tassos Marinos</author>
+    <authorEmail>info@tassos.gr</authorEmail>
+    <authorUrl>http://www.tassos.gr</authorUrl>
+    <copyright>Copyright © 2021 Tassos Marinos All Rights Reserved</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <scriptfile>script.install.php</scriptfile>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/gsd.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.gsd.sql</file>
+        </sql>
+    </uninstall>
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <administration>
+        <menu img="class:gsd">COM_GSD</menu>
+        <submenu>
+            <menu link="option=com_gsd">GSD_DASHBOARD</menu>
+            <menu link="option=com_gsd&amp;view=items" view="items">GSD_ITEMS</menu>
+            <menu link="option=com_gsd&amp;view=config" view="config">GSD_CONFIG</menu>
+        </submenu>
+        <files>
+            <folder>controllers</folder>
+            <folder>GSD</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+            <folder>layouts</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>gsd.php</filename>
+            <filename>script.install.helper.php</filename>
+            <filename>version.php</filename>
+            <filename>autoload.php</filename>
+        </files>
+    </administration>
+    <media folder="media" destination="com_gsd">
+        <folder>css</folder>
+        <folder>js</folder>
+    </media>
+</extension>

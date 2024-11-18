@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="gsd" method="upgrade">
+	<name>PLG_GSD_CONTENT</name>
+	<description>PLG_GSD_CONTENT_DESC</description>
+	<version>1.0</version>
+	<creationDate>May 2017</creationDate>
+	<author>Tassos Marinos</author>
+	<copyright>Copyright © 2021 Tassos Marinos All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>info@tassos.gr</authorEmail>
+	<authorUrl>http://www.tassos.gr</authorUrl>
+	<scriptfile>script.install.php</scriptfile>
+	<files>
+		<filename plugin="content">content.php</filename>
+		<filename>script.install.helper.php</filename>
+		<folder>language</folder>
+		<folder>form</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="plugins/system/nrframework/fields">
+				<field name="fastedit" type="nrtoggle"
+					label="GSD_ENABLE_FASTEDIT" 
+					description="PLG_GSD_CONTENT_FASTEDIT_DESC"
+					checked="true"
+				/>
+				<field name="load_custom_fields" type="nrtoggle"
+	                label="GSD_LOAD_CUSTOM_FIELDS"
+	                description="GSD_LOAD_CUSTOM_FIELDS_DESC"
+					checked="true"
+				/>
+				<field name="preparecontent" type="nrtoggle"
+					label="GSD_PREPARE_CONTENT" 
+					description="PLG_GSD_CONTENT_PREPARE_CONTENT_DESC"
+				/>
+				
+				<field name="@remove_default_schema" type="nr_pro"
+					label="GSD_REMOVE_DUPLICATE_SCHEMA"
+					description="GSD_REMOVE_DUPLICATE_SCHEMA_DESC"
+				/>
+				
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>

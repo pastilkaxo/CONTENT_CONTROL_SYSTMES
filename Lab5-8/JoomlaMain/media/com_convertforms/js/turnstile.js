@@ -1,0 +1,2 @@
+!function(t,e){"use strict";t.ConvertFormsInitCloudflareTurnstile=function(){e.querySelectorAll(".cf-turnstile").forEach(function(t){var e=t.closest(".convertforms"),n=turnstile.render(t);t.setAttribute("data-turnstile-widget-id",n),e.addEventListener("beforeSubmit",function(t){t.defaultPrevented||0<turnstile.getResponse(n).length||(t.preventDefault(),turnstile.execute(n))}),e.addEventListener("afterSubmit",function(t){turnstile.reset(n)})})}}(window,document);
+

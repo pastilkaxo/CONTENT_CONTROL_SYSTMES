@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="contenttype">
+        <fields name="book">
+            <field name="headline" type="map"
+                label="NR_TITLE"
+                description="GSD_BOOK_HEADLINE_DESC"
+                hint="The Book Title"
+                default="gsd.item.headline"
+                custom_class="input-xlarge"
+                required="true"
+            />
+            <field name="author" type="mapuser"
+                label="GSD_AUTHOR_NAME"
+                description="GSD_AUTHOR_DESC"
+                required="true"
+                default="user.name"
+            />
+            <field name="authorUrl" type="map"
+                label="GSD_AUTHOR_URL"
+                description="GSD_AUTHOR_URL_DESC"
+                required="true"
+                default="url"
+            />
+            <field name="image" type="mapimage"
+                label="NR_IMAGE"
+                description="GSD_BOOK_IMAGE_DESC"
+                default="gsd.item.image"
+            />
+            <field name="referenceURL" type="map"
+                label="GSD_SAME_AS"
+                description="GSD_BOOK_SAME_AS_DESC"
+            />
+            <field name="bookFormat" type="map"
+                label="GSD_BOOK_FORMAT"
+                description="GSD_BOOK_FORMAT_DESC"
+                required="true">
+                <subform>
+                    <field name="fixed" type="list"
+                        hiddenLabel="true"
+                        showon="option:fixed">
+                        <option value="AudiobookFormat">GSD_BOOK_AUDIOBOOK_FORMAT</option>
+                        <option value="EBook">GSD_BOOK_EBOOK</option>
+                        <option value="Hardcover">GSD_BOOK_HARDCOVER</option>
+                        <option value="Paperback">GSD_BOOK_PAPERBACK</option>
+                    </field>
+                </subform>
+            </field>
+            <field name="edition" type="map"
+                label="GSD_BOOK_EDITION"
+                description="GSD_BOOK_EDITION_DESC"
+                hint="2nd Edition"
+            />
+            <field name="inLanguage" type="map"
+                label="GSD_BOOK_MAIN_LANGUAGE"
+                description="GSD_BOOK_MAIN_LANGUAGE_DESC"
+                hint="en"
+                required="true">
+                <subform>
+                    <field name="fixed" type="nr_geo"
+                        showon="option:fixed"
+                        showselect="false"
+                    />
+                </subform>
+            </field>
+            <field name="isbn" type="map"
+                label="GSD_ISBN"
+                description="GSD_BOOK_ISBN_DESC"
+                required="true"
+            />
+            <field name="publish_up" type="mapdate"
+                label="GSD_DATE_PUBLISHED"
+                description="GSD_DATE_PUBLISHED_DESC"
+                default="gsd.item.publish_up"
+            />
+            <field name="identifier_oclc_number" type="map"
+                label="GSD_OCLC_NUMBER"
+                description="GSD_BOOK_OCLC_NUMBER_DESC"
+            />
+            <field name="identifier_lccn" type="map"
+                label="GSD_LCCN"
+                description="GSD_BOOK_LCCN_DESC"
+            />
+            <field name="identifier_jp_e_code" type="map"
+                label="GSD_JP_E_CODE"
+                description="GSD_BOOK_JP_E_CODE_DESC"
+            />
+            <field name="potentialAction" type="map"
+                label="GSD_ACTION"
+                description="GSD_BOOK_POTENTIAL_ACTION_DESC"
+                required="true">
+                <subform>
+                    <field name="fixed" type="list"
+                        hiddenLabel="true"
+                        showon="option:fixed">
+                        <option value="ReadAction">Read</option>
+                        <option value="BuyAction">Buy</option>
+                        <option value="SellAction">Sell</option>
+                        <option value="OrderAction">Order</option>
+                        <option value="PreOrderAction">Pre Order</option>
+                        <option value="RentAction">Rent</option>
+                        <option value="ReviewAction">Review</option>
+                        <option value="DownloadAction">Download</option>
+                        <option value="TipAction">Tip</option>
+                        <option value="DonateAction">Donate</option>
+                        <option value="BorrowAction">Borrow</option>
+                    </field>
+                </subform>
+            </field>
+            <field name="actionURL" type="map"
+                label="GSD_ACTION_URL"
+                description="GSD_BOOK_ACTION_URL_DESC"
+                required="true"
+            />
+        </fields>
+    </fieldset>
+</form>

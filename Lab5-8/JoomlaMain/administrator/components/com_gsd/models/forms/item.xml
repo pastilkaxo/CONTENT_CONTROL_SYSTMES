@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="top">
+        <field name="blockStart" type="nr_well"
+            label="GSD_ITEM_GENERAL"
+            description="GSD_ITEM_GENERAL_DESC"
+        />
+        <field name="title" type="text"
+            label="NR_TITLE"
+            description="GSD_ITEM_TITLE_DESC"
+            class="span12 input-"
+            required="true"
+        />
+        <field name="contenttype" type="contenttypes"
+            label="GSD_CONTENT_TYPE" 
+            description="GSD_CONTENT_TYPE_SELECT_DESC"
+            showhelp="true"
+            required="true"
+            showselect="true"
+            onchange="GSDReloadForm(this)"
+        />
+        <field name="plugin" type="integrations"
+            label="GSD_INTEGRATION" 
+            description="GSD_INTEGRATION_DESC"
+            showselect="true"
+            required="true"
+            onchange="GSDReloadForm(this)"
+        />
+        <field name="appview" type="views"
+            label="GSD_APP_VIEW" 
+            description="GSD_APP_VIEW_DESC"
+            required="true"
+            onchange="GSDReloadForm(this)"
+        />
+        <field name="blockEnd" type="nr_well" 
+            end="1"
+        />
+    </fieldset>
+    <fieldset name="main">
+        <field name="state" type="list"
+            label="JSTATUS"
+            description="NR_FIELD_STATE_DESC"
+            class="chzn-color-state custom-select-color-state"
+            size="1"
+            default="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="2">JARCHIVED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+		<field name="language" type="contentlanguage" 
+			label="JFIELD_LANGUAGE_LABEL"
+			description="GSD_ITEM_LANGUAGE_DESC">
+			<option value="*">JALL</option>
+		</field>
+        <field name="note" type="text" 
+            label="GSD_NOTE" 
+            description="GSD_NOTE_DESC" 
+        />
+        <field name="colorgroup" type="color" 
+            default="transparent"
+            label="NR_COLOR"
+            description="GSD_COLOR_DESC"
+            control="simple"
+            split="4"
+        />
+        <field name="id" type="hidden"
+            label="JGLOBAL_FIELD_ID_LABEL"
+            description="JGLOBAL_FIELD_ID_DESC"
+            default="0"
+            readonly="true"
+            class="readonly"
+        />
+    </fieldset>
+</form>

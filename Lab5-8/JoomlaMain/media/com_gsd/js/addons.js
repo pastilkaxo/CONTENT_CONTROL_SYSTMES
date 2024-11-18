@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.addEventListener("click",function(t){var e=t.target.closest(".pluginState");if(e){t.preventDefault();var n=e.closest(".nr-app-addons"),s=e.closest("tr").dataset.id,i=e.querySelector("span"),a=i.classList.contains("icon-publish")?0:1;fetch(n.dataset.base+"index.php?option=com_gsd&view=gsd&format=raw&do=pluginState&plugin_id="+s+"&state="+a).then(function(t){return t.text()}).then(function(t){i.removeAttribute("class"),i.classList.add("1"==t?"icon-publish":"icon-unpublish")})}})});
+
