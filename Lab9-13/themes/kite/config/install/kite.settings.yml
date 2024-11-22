@@ -1,0 +1,18 @@
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+slider_show: 1
+slider_image: {  }
+slider_time: ''
+slider_dots: 'true'
+slider_code: ''
+scrolltotop_on: 1
+copyright_text: 0
+css_extra: 0
+css_code: ''

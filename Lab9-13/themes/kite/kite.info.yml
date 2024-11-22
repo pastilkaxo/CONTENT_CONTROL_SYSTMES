@@ -1,0 +1,36 @@
+name: Kite
+type: theme
+base theme: false
+description: 'Kite'
+package: 'Custom'
+core_version_requirement: ^9 || ^10
+
+libraries:
+  - kite/global-styling # Library for all global css. These css will be loaded on every pages.
+regions:
+  header_top: 'Header Top'
+  site_branding: 'Site Branding'
+  primary_menu: 'Primary menu'
+  search_box: 'Full Page Search'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  content_top: 'Content Top'
+  content_bottom: 'Content Bottom'
+  content_home: 'Homepage Content'
+  sidebar_first: 'Sidebar Left'
+  sidebar_second: 'Sidebar Right'
+  footer_top: 'Footer Top'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_bottom: 'Footer Bottom'
+  hidden_blocks: 'Hidden Blocks'
+
+# Information added by Drupal.org packaging script on 2023-05-12
+version: '1.0.0-beta1'
+project: 'kite'
+datestamp: 1683876953

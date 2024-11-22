@@ -1,0 +1,7 @@
+slogan_module.slogan_page:
+  path: "/slogan-page"
+  defaults:
+    _controller: '\Drupal\slogan_module\Controller\SloganController::sloganPage'
+    _title: "Slogan Page"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * elegant's theme implementation to display a single Drupal page while offline.
+ *
+ * All available variables are mirrored in page.html.twig.
+ *
+ * @see template_preprocess_maintenance_page()
+ */
+ #}
+<header id="header" role="banner">
+  <div class="header">
+   <div class="container">
+      <div class="site-branding">
+         {% if site_name or site_slogan %}
+            <div class="site-name-slogan">
+               {% if site_name %}
+                  <div class="site-name">
+                     <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home"><h3>{{ site_name }}</h3></a>
+                  </div>
+               {% endif %}
+               {% if site_slogan %}
+                  <div class="site-slogan">{{ site_slogan }}</div>
+               {% endif %}
+            </div> <!--/.site-name-slogan -->
+         {% endif %}
+      </div> <!-- /.site-branding -->
+   </div> <!--/.container -->
+ </div> <!-- /.header -->
+</header>
+<main id="maintenance">
+   <div class="container">
+       <section class="section">
+            <a id="main-content"></a>
+            {% if title %}
+              <h1 class="title" id="page-title">{{ title }}</h1>
+            {% endif %}
+          <div class="maintenance-icon"><i class="fa fa-cogs" aria-hidden="true"></i></div>
+            {{ page.content }}
+          </section>
+   </div> <!-- /.container -->
+</main> <!-- /#maintenance -->

@@ -1,0 +1,10 @@
+name: Migrate
+type: module
+description: 'Provides a framework for migrating data to Drupal.'
+package: Migration
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2023-12-15
+version: '10.2.0'
+project: 'drupal'
+datestamp: 1702681766

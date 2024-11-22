@@ -1,0 +1,4 @@
+computed_field.computed_field:
+  label: 'Computed Field'
+  plugin_manager_service_id: plugin.manager.computed_field
+  plugin_definition_decorator_class: Drupal\plugin\PluginDefinition\ArrayPluginDefinitionDecorator

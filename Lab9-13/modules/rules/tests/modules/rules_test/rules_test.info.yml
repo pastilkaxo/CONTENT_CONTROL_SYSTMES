@@ -1,0 +1,11 @@
+name: Rules test
+type: module
+description: 'Support module for the Rules tests.'
+package: Testing
+dependencies:
+  - rules:rules
+
+# Information added by Drupal.org packaging script on 2024-07-22
+version: '8.x-3.0-alpha9'
+project: 'rules'
+datestamp: 1721608915

@@ -1,0 +1,5 @@
+# Schema for the configuration files of the KIte theme.
+
+kite.settings:
+  type: theme_settings
+  label: 'Kite settings'

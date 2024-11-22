@@ -1,0 +1,35 @@
+.views-ui-display-tab-bucket__title{
+  font-weight: 600;
+  font-size: var(--font-18);
+}
+.views-display-column {
+  border:1px solid lightgray;
+  padding: 15px;
+}
+#edit-displays-settings-settings-content-tab-content-details-columns-third{
+  border:1px solid lightgray;
+}
+.views-display-setting{
+  font-size: var(--font-15) !important;
+}
+.scroll{
+  display: block !important;
+}
+#views-display-extra-actions a{
+font-size: var(--font-15);
+}
+#preview-submit{
+  margin: 0;
+}
+.views-filterable-options-controls .form-item{
+  margin: 0;
+  
+}
+.views-filterable-options-controls{
+  gap: 12px;
+}
+.views-admin .unit-title {
+  font-size:  var(--font-20);
+  font-weight: 600;
+  font-family: var(--kite-font-family);
+}

@@ -1,0 +1,62 @@
+.secondary-tab {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.theme-selector {
+  box-shadow: 0 3px 10px RGB(0 0 0 / 20%);
+  padding: 20px;
+  margin: 20px 12px 0 0;
+  transition: 0.3s;
+}
+.theme-selector:hover{
+  background: #0000ff0d;
+  border: 1px solid #8d8dff;
+  border-radius: 10px;
+}
+
+
+.system-themes-list-installed .screenshot {
+  width: 500px !important;
+}
+.system-themes-list-installed .no-screenshot {
+  width: 500px !important;
+}
+.system-themes-list__header {
+  border: var(--border-grey);
+  padding: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: var(--kite-font-family);
+}
+.system-themes-list-uninstalled .theme-selector {
+  padding: 20px !important;
+}
+#edit-admin-theme {
+  border: var(--border-grey);
+  border-top: 0;
+}
+#edit-theme-settings,
+#edit-logo,
+#edit-favicon {
+  border: var(--border-grey);
+  border-top: 0;
+  margin-bottom: 16px;
+}
+#edit-olivero-utilities {
+  border: 1px solid grey;
+}
+// legend {
+//   padding: 5px 20px;
+//   background: #5a7893;
+//   color: white;
+// }
+#edit-olivero-utilities .fieldset-wrapper {
+  padding: 20px;
+}
+// .operations li a{
+//   border: var(--border-color-primary);
+//   padding: 8px;
+// }

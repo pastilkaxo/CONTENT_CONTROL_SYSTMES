@@ -1,0 +1,73 @@
+@mixin  button_lightgray {
+  border-color: var(--grey-200);
+  background-color:var(--grey-200);
+  color: var(--black);
+}
+
+@mixin button {
+  .btn {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 12px 27px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #999999;
+    background: #ffffff;
+    border: 3px solid #999999;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+}
+
+.btn.btn-border-1::after,
+.btn.btn-border-1::before {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
+}
+
+.btn.btn-border-1::after {
+    bottom: -3px;
+    right: -3px;
+    border-left: 3px solid #222222;
+    border-bottom: 3px solid #222222;
+    transition: width .1s ease .1s, height .1s ease, visibility 0s .2s;
+}
+
+.btn.btn-border-1::before {
+    top: -3px;
+    left: -3px;
+    border-top: 3px solid #222222;
+    border-right: 3px solid #222222;
+    transition: width .1s ease .3s, height .1s ease .2s, visibility 0s .4s;
+}
+
+.btn.btn-border-1:hover {
+    animation: pulse 1s ease-out .4s;
+    color: #222222;
+}
+
+.btn.btn-border-1:hover::after,
+.btn.btn-border-1:hover::before {
+    width: calc(100% + 3px);
+    height: calc(100% + 3px);
+    visibility: visible;
+    transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+}
+
+.btn.btn-border-1:hover::after {
+    transition: width .1s ease .2s, height .1s ease .3s, visibility 0s .2s;
+}
+
+.btn.btn-border-1:hover::before {
+    transition: width .1s ease, height .1s ease .1s;
+}
+
+
+}

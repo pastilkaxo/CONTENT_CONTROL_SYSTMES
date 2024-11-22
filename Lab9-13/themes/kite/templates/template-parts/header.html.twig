@@ -1,0 +1,58 @@
+<!-- Start: Header -->
+<header id="header">
+  {% if page.header_top or all_icons_show %}
+    {% include '@kite/template-parts/header_top.html.twig' %}
+  {% endif %}
+  <div class="header">
+    <div class="container">
+      <div class="header-container">
+        {% if page.site_branding %}
+          <div class="site-branding-region">
+            {{ page.site_branding }}
+          </div> <!--/.site-branding -->
+        {% endif %} <!--/.end if for site_branding -->
+        {% if page.search_box or  page.primary_menu %}
+          <div class="header-right">
+            <!-- Start: primary menu region -->
+            {% if page.primary_menu %}
+            <div class="mobile-menu">
+              {# <i class="fa fa-bars" aria-hidden="true"></i> #}
+            </div><!-- /mobile-menu -->
+            <div class="primary-menu-wrapper">
+              <div class="menu-wrap">
+                {# <div class="close-mobile-menu">X</div> #}
+                {{ page.primary_menu }}
+              </div>
+            </div><!-- /primary-menu-wrapper -->
+            {% endif %}<!-- end if for page.primary_menu -->
+            {% if page.search_box %}
+              <div class="full-page-search">
+                <div class="search-icon">
+                  <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </div> <!--/.search icon -->
+                <div class="search-box">
+                  <div class="search-box-close"></div>
+                  <div class="search-box-content">
+                    {{ page.search_box }}
+                  </div>
+                  <div class="search-box-close"></div>
+                </div><!--/.search-box -->
+              </div> <!--/.full-page-search -->
+            {% endif %} <!-- end if for page.search_box -->
+                {% if page.header_top %}
+                <div class="header-top-right header-top-block">
+                    {{ page.header_top }}
+                </div> <!--/.header-top-right -->
+             {% endif %}
+          </div> <!--/.header-right -->
+        {% endif %}<!-- end if for page.search_box or  page.primary_menu -->
+      </div> <!--/.header-container -->
+    </div> <!--/.container -->
+  </div><!-- /.header -->
+  {# {% if is_front and slider_show %}
+  {% include '@kite/template-parts/slider.html.twig' %}
+{% elseif not is_front %}
+  {# {% include '@kite/template-parts/page_header.html.twig' %} #}
+{# {% endif % #}
+</header>
+<!-- End: Header -->

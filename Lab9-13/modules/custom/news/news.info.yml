@@ -1,0 +1,5 @@
+name: "News Module"
+type: module
+description: "News module with block and admin link."
+core_version_requirement: ^10
+package: Custom

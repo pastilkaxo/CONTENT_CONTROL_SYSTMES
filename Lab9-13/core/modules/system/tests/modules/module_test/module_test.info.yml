@@ -1,0 +1,10 @@
+name: 'Module test'
+type: module
+description: 'Support module for module system testing.'
+package: Testing
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2023-12-15
+version: '10.2.0'
+project: 'drupal'
+datestamp: 1702681766

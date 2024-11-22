@@ -1,0 +1,3 @@
+'administer computed_field entities':
+  title: 'Administer Computed field entities'
+  restrict access: TRUE

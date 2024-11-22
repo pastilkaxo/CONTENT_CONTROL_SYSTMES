@@ -1,0 +1,22 @@
+uuid: 393178c2-ebef-4231-bd68-943d68d6524b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - kite
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: kite_secondary_local_tasks
+theme: kite
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

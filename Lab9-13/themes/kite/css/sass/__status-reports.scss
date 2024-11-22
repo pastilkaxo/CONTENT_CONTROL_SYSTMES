@@ -1,0 +1,62 @@
+.system-status-report-counters .system-status-report-counters__item {
+  background-color: #c4e3ff;
+}
+.system-status-general-info__item-title {
+  border: 0;
+  padding: 20px 0;
+}
+.system-status-report__entry {
+  box-shadow: 0 3px 10px RGB(0 0 0 / 20%);
+  margin-bottom: 20px;
+}
+.system-status-report__status-title {
+  background-color: #e7e7e7;
+  list-style: none;
+  color: #5a7893;
+}
+.system-status-report__entry__value {
+  padding: 30px;
+}
+.system-status-general-info__header {
+  margin: 20px 0;
+  background: #5a7893;
+  padding: 10px 20px;
+  color: var(--white);
+}
+
+.system-status-report__status-title::before {
+  position: absolute;
+  top: 45%;
+  left: 15px;
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  content: "";
+  transform: translateY(-50%) rotate(135deg);
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  background: none;
+  color: #5a7893;
+}
+details[open] > .system-status-report__status-title::before {
+  margin-top: -2px;
+  transform: translateY(-50%) rotate(314deg);
+  top: 57%;
+}
+
+.fa-drupal, .fa-brands, .fa-clock, .fa-database,.fa-server{
+  margin: 0 20px 0 0;
+}
+.system-status-general-info__item{
+  border: 1px solid #ccc;
+  border-left: 5px solid #5a7893;
+}
+
+.update{
+  box-shadow: 0 3px 10px RGB(0 0 0 / 20%);
+  margin-bottom: 30px;
+  width: 100%;
+}
+.update tbody tr td{
+  padding: 30px;
+}

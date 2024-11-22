@@ -1,0 +1,9 @@
+name: Typed Data
+type: module
+description: 'Extends the core Typed Data API with new APIs and features.'
+core_version_requirement: ^9.1 || ^10
+
+# Information added by Drupal.org packaging script on 2024-07-22
+version: '2.0.0'
+project: 'typed_data'
+datestamp: 1721608330

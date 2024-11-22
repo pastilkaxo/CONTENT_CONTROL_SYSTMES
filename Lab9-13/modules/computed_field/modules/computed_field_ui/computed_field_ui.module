@@ -1,0 +1,16 @@
+<?php
+
+use Drupal\computed_field_ui\Entity\Handler\ComputedFieldListBuilder;
+use Drupal\computed_field_ui\Form\ComputedFieldDeleteForm;
+use Drupal\computed_field_ui\Form\ComputedFieldForm;
+
+/**
+ * Implements hook_entity_type_build().
+ */
+function computed_field_ui_entity_type_build(array &$entity_types) {
+  $entity_types['computed_field']->setFormClass('default', ComputedFieldForm::class);
+  $entity_types['computed_field']->setFormClass('edit', ComputedFieldForm::class);
+  $entity_types['computed_field']->setFormClass('delete', ComputedFieldDeleteForm::class);
+  $entity_types['computed_field']->setListBuilderClass(ComputedFieldListBuilder::class);
+  $entity_types['computed_field']->setLinkTemplate('collection', '/admin/reports/fields/computed');
+}

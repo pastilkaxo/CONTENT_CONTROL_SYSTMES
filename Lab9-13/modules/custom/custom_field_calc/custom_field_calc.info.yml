@@ -1,0 +1,5 @@
+name: "Custom Field Calculation"
+type: module
+core_version_requirement: ^10
+description: "Calculates a field value based on other fields."
+package: Custom

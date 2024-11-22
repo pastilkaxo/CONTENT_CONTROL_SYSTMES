@@ -1,0 +1,243 @@
+.js-form-submit {
+  margin: 30px 0;
+  font-size: var(--font-15);
+  border: var(--border-color-primary-1);
+  padding: 5px 15px;
+  color: var(--black);
+  background: var(--white);
+  width: auto;
+
+}
+.js-form-submit:hover {
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+#edit-displays-settings-settings-content-tab-content-details-top-actions-duplicate:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-duplicate-as-attachment:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-delete:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-duplicate-as-block:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-duplicate-as-embed:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-duplicate-as-entity-reference:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-duplicate-as-feed:hover,
+#edit-displays-settings-settings-content-tab-content-details-top-actions-disable:hover{
+color: var(--color-primary);
+}
+#edit-submit-content {
+  margin-bottom: 5px;
+}
+
+//dropdown action
+.js .dropbutton .dropbutton-action > input,
+.js .dropbutton .dropbutton-action > a,
+.js .dropbutton .dropbutton-action > button {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* LTR */
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+}
+[dir="rtl"].js .dropbutton .dropbutton-action > input,
+[dir="rtl"].js .dropbutton .dropbutton-action > a,
+[dir="rtl"].js .dropbutton .dropbutton-action > button {
+  margin-left: 0; /* This is required to win over specificity of [dir="rtl"] .dropbutton-multiple .dropbutton .dropbutton-action > * */
+  text-align: right;
+}
+
+/**
+  * Overwrite Sevens button styling.
+  */
+.js .dropbutton-widget .button {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.js .dropbutton-multiple .dropbutton {
+  border-right: 0; /* LTR */
+}
+[dir="rtl"].js .dropbutton-multiple .dropbutton {
+  border-left: 0;
+}
+
+/**
+  * Show dropbutton elements as buttons when javascript is disabled
+  */
+.dropbutton {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.dropbutton li + li {
+  margin-top: 10px;
+}
+.js .dropbutton li {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.js .dropbutton li + li {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 37.5625em) {
+  /* 601px */
+  .dropbutton li {
+    display: inline-block;
+  }
+  .dropbutton li + li {
+    margin-top: 0;
+    margin-left: 1em;
+  }
+  .js .dropbutton li + li {
+    margin-left: 0;
+  }
+}
+
+/**
+  * Copied styling for .button. 
+  */
+.js .dropbutton-multiple .dropbutton-widget {
+  border: var(--border-color-primary-1);
+  background-color: var(--white);
+}
+
+.js .dropbutton-widget .dropbutton-action a,
+.js .dropbutton-widget .dropbutton-action input,
+.js .dropbutton-widget .dropbutton-action button {
+  display: block;
+  width: 100%;
+  padding: 4px 1.5em;
+}
+.dropbutton .secondary-action:first-child {
+  border-top: 1px solid black;
+}
+
+.dropbutton-single .dropbutton-widget {
+  position: static;
+  display: inline-block;
+  border: 0;
+  background: transparent;
+}
+.dropbutton-single .dropbutton-action a {
+  width: auto !important;
+  padding: 4px 1.5em;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  text-decoration: none;
+  color: #333;
+  border: var(--border-color-primary);
+  //  background-color: var(--color-primary);
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+}
+
+.js .dropbutton-wrapper .dropbutton-widget .dropbutton-toggle button {
+  border-left: var(--border-color-primary-1); /* LTR */
+  outline: none;
+}
+[dir="rtl"].js
+  .dropbutton-wrapper
+  .dropbutton-widget
+  .dropbutton-toggle
+  button {
+  border-right: var(--border-grey);
+  border-left: 0;
+}
+.dropbutton .dropbutton-action a:hover {
+  color: var(--color-primary);
+}
+.dropbutton-toggle button {
+  background: url("/themes/custom/kite/images/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+}
+.dropbutton-arrow {
+  display: none;
+}
+
+.dropbutton-multiple.open button {
+  height: 31px;
+  border-bottom: var(--border-color-primary-1);
+}
+.dropbutton-multiple.open .views-ui-settings-bucket-operations button {
+  height: 21px;
+}
+
+.dropbutton-multiple.open #views-display-extra-actions button {
+  height: 27px;
+}
+.dropbutton-multiple.open .dropbutton-action:first-child {
+  border-bottom: var(--border-color-primary-1);
+}
+//danger
+
+.button--danger {
+  border: var(--border-warning);
+  padding: 14px;
+  border-radius: 10px;
+  color: var(--warning);
+  text-decoration: none;
+}
+.button--danger:hover {
+  background-color: var(--warning);
+  color: var(--white);
+}
+#edit-cancel {
+  border: var(--border-color-primary-1);
+  padding: 14px;
+  border-radius: 10px;
+  color: var(--black);
+  text-decoration: none;
+}
+#edit-cancel:hover {
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+
+//radio
+.js-form-type-radio,
+.js-form-type-checkbox {
+  display: flex;
+  gap: 15px;
+}
+.form-radio,
+.form-checkbox {
+  height: 25px;
+  width: 18px;
+}
+
+// local actions
+.local-action-items {
+  padding: 10px;
+  border: var(--border-color-primary);
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 27px;
+  text-align: center;
+  font-size: var(--font-16);
+  letter-spacing: 1px;
+  background: var(--white);
+  cursor: pointer;
+}
+.local-action-items::before {
+  content: "+";
+  color: var(--black);
+  padding: 2px;
+}
+#block-kite-primary-admin-actions .local-action-items a {
+  color: var(--black);
+  text-decoration: none;
+}
+#block-kite-primary-admin-actions .local-action-items a:hover {
+  color: var(--color-primary);
+}
+ .dropbutton-action #edit-displays-settings-settings-content-tab-content-details-top-actions-path {
+font-size: var(--font-18);
+}
+.js .views-edit-view .dropbutton-wrapper .dropbutton .dropbutton-action  {
+  font-size: var(--font-12);
+}

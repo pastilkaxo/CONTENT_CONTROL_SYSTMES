@@ -1,0 +1,22 @@
+uuid: 949454b8-1765-4be5-9d59-313332754b89
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - kite
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: kite_help
+theme: kite
+region: header_top
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,5 @@
+name: "Slogan Module"
+type: module
+description: "Module to display and update the site slogan."
+core_version_requirement: ^10
+package: Custom

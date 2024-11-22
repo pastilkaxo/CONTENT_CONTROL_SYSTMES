@@ -1,0 +1,320 @@
+.breadcrumb-item {
+  list-style: none;
+  a {
+    color: var(--black);
+  }
+}
+.breadcrumb {
+  padding: 0;
+}
+.breadcrumb .breadcrumb-items {
+  display: flex;
+}
+.primary-tab {
+  display: flex;
+  list-style: none;
+  padding: 12px 0;
+  margin-top: 25px;
+  font-family: ui-sans-serif;
+}
+.page-tabs {
+  width: 100%;
+}
+.active-page-tab a {
+  color: var(--black);
+  border: var(--border-grey);
+  padding: 18px;
+  text-decoration: none;
+  font-size: var(--font-20);
+  font-weight: 600;
+}
+.primary-tab a:focus {
+  border: var(--border-color-primary-1);
+}
+.page-tabs .is-active {
+  color: var(--color-primary);
+}
+.primary-tab a {
+  color: var(--black);
+  border: var(--border-grey);
+  padding: 17px;
+  text-decoration: none;
+  font-size: var(--font-20);
+  font-weight: 600;
+}
+
+.primary-tab a:hover {
+  color: var(--color-primary);
+  background: #818ddd5c;
+}
+.breadcrumb {
+  background-color: var(--white);
+}
+.breadcrumb-items {
+  padding: 0;
+}
+.node-title a span {
+  color: var(--color-primary);
+  font-size: var(--font-40);
+}
+.node-title a {
+  color: var(--color-primary);
+}
+.node-title a span {
+  color: var(--black);
+}
+.node-title a span:hover {
+  color: var(--color-primary);
+}
+.primary-tab .active-page-tab a:after {
+  bottom: -13px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: var(--color-primary);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.primary-tab .active-page-tab a:after {
+  width: 100%;
+  left: 0;
+}
+.active-page-tab {
+  position: relative;
+}
+
+.node-header .node-submitted-details {
+  font-size: var(--font-20);
+  margin: 25px 0;
+}
+.add-comment-title {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.contextual-region {
+  margin-bottom: 50px;
+}
+.js-form-type-textarea {
+  margin: 25px 0;
+}
+.js-form-type-textarea label {
+  font-size: var(--font-30);
+}
+#edit-comment-body-0-format-help-about {
+  display: none;
+}
+.form-item-comment-body-0-format label {
+  font-size: var(--font-20);
+}
+.js-filter-list {
+  font-size: var(--font-20);
+}
+.comment-comment-form {
+  box-shadow: 0 3px 10px RGB(0 0 0 / 20%);
+  padding: 70px;
+}
+.page-content {
+  margin: 50px 0;
+}
+
+.form-required::after {
+  content: "*";
+  color: var(--warning);
+  padding: 8px;
+}
+.node-links-container .links {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  list-style: none;
+}
+.node-links-container .links a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.node-links-container .links a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transition: width 0.3s;
+}
+
+.node-links-container .links a:hover::after {
+  width: 100%;
+  //transition: width .3s;
+}
+.node-links-container .links a:hover {
+  color: var(--color-primary);
+}
+.single-comment-title a {
+  color: var(--black);
+}
+.single-comment-content .links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.single-comment-content .links li {
+  border: 1px solid var(--light-grey);
+  padding: 7px 30px;
+}
+.single-comment-content .links a {
+  color: var(--black);
+  font-size: var(--font-18);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.single-comment-content .links a:hover {
+  color: var(--color-primary);
+}
+.single-comment {
+  box-shadow: 0 3px 10px RGB(0 0 0 / 20%);
+  padding: 30px;
+}
+.node-header .node-submitted-details span a {
+  color: var(--black);
+  font-size: var(--font-20);
+}
+// .block-region .demo-block{
+//   background-color: (--white);
+// }
+// .block-region {
+//   background-color: white!important;
+// }
+
+.secondary-tab {
+  border-bottom: var(--border-black);
+  width: 100%;
+  padding-bottom: 20px;
+}
+.secondary-tab a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: var(--font-20);
+}
+.secondary-tab .active-page-tab a {
+  border: none;
+  padding: 0;
+}
+.secondary-tab .active-page-tab a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transition: width 0.3s;
+}
+
+.secondary-tab .active-page-tab a::after {
+  width: 100%;
+}
+.secondary-tab a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  transition: width 0.3s;
+}
+
+.secondary-tab a:hover::after {
+  width: 100%;
+}
+.secondary-tab a:hover {
+  color: var(--color-primary);
+}
+.block-content p {
+  font-size: var(--font-18);
+}
+.responsive-enabled {
+  width: 100%;
+  font-size: var(--font-18);
+}
+.responsive-enabled thead {
+  border-bottom: var(--border-grey);
+  padding: 20px;
+}
+.responsive-enabled tbody td {
+  border-bottom: var(--border-grey);
+  padding: 30px 15px;
+}
+.responsive-enabled tbody tr:hover {
+  background: #f3f3f3;
+  transition: 0.3s;
+}
+.responsive-enabled thead tr th {
+  padding: 16px 44px 20px 15px;
+}
+.region-title__action {
+  border: var(--border-color-primary);
+  padding: 10px;
+}
+a.tabledrag-handle .handle {
+  height: 25px;
+  width: 25px;
+  margin: 0 15px;
+}
+.region-title td {
+  font-size: var(--font-20);
+}
+.draggable td {
+  font-size: var(--font-18);
+}
+.block-region-select {
+  padding: 8px 25px;
+}
+select {
+  background: url("/themes/custom/kite/images/arrow.png");
+  background-position: right 12px center;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  appearance: none;
+}
+.form-item-default-value-input-default-date-type {
+  padding-bottom: 20px;
+}
+.tabledrag-toggle-weight{
+  margin-bottom: 25px;
+  border: var(--border-color-primary-1);
+  background: var(--white);
+  font-size: var(--font-18);
+  padding: 10px 25px;
+  position: relative;
+}
+.action-link--icon-show::before{
+ background-image: url("/themes/custom/kite/images/eye-regular.png");
+ content: "";
+ display: block;
+ position: absolute;
+ left: 3px;
+ right: 0;
+ top: 15px;
+ bottom: 0;
+ background-repeat: no-repeat;
+ background-size: 18px;
+ transition: transform 0.12s ease-in 0s;
+}
+.action-link--icon-hide::before{
+  background-image: url("/themes/custom/kite/images/eye-slash-regular.png");
+  content: "";
+  display: block;
+  position: absolute;
+  left: 3px;
+  right: 0;
+  top: 15px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  transition: transform 0.12s ease-in 0s;
+ }
+
+.page-title{
+  color: var(--color-primary);
+}

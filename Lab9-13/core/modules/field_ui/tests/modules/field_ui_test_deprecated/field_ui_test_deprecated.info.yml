@@ -1,0 +1,10 @@
+name: 'Field UI test deprecated'
+type: module
+description: 'Support module for testing deprecated Field UI functionality.'
+package: Testing
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2023-12-15
+version: '10.2.0'
+project: 'drupal'
+datestamp: 1702681766

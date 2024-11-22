@@ -1,0 +1,12 @@
+name: 'Datetime range test'
+type: module
+description: 'Provides a testing module for datetime_range.'
+package: Testing
+# version: VERSION
+dependencies:
+  - drupal:taxonomy
+
+# Information added by Drupal.org packaging script on 2023-12-15
+version: '10.2.0'
+project: 'drupal'
+datestamp: 1702681766

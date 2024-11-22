@@ -1,0 +1,25 @@
+.js-form-type-textfield label {
+    font-family: sans-serif;
+}
+.js-form-type-password label {
+    font-family: sans-serif;
+}
+#edit-name {
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+#edit-pass {
+    border: 0;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+}
+input:focus-visible {
+    outline: none;
+}
+#edit-name--description {
+    margin: 10px;
+}
+#edit-pass--description {
+    margin: 10px;
+}

@@ -1,0 +1,22 @@
+uuid: 5216a94a-bd8a-4288-8e2a-4c5859e80097
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kite
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: kite_powered
+theme: kite
+region: footer_bottom
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

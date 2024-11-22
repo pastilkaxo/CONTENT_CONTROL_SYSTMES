@@ -1,0 +1,6 @@
+services:
+  computed_field_ui.route_subscriber:
+    class: Drupal\computed_field_ui\Routing\ComputedFieldRouteSubscriber
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: event_subscriber, priority: '0' }

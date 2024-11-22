@@ -1,0 +1,11 @@
+name: Test Theme Depending on Nonexisting Module
+type: theme
+base theme: stark
+# version: VERSION
+dependencies:
+  - test_module_non_existing
+
+# Information added by Drupal.org packaging script on 2023-12-15
+version: '10.2.0'
+project: 'drupal'
+datestamp: 1702681766

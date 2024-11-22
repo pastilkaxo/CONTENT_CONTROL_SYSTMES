@@ -1,0 +1,10 @@
+name: 'Deprecated Twig Template Test'
+type: module
+description: 'Provides a deprecated Twig template for testing purposes.'
+package: Testing
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2023-12-15
+version: '10.2.0'
+project: 'drupal'
+datestamp: 1702681766

@@ -1,0 +1,13 @@
+name: Colorbox Inline
+type: module
+description: Enables the "colorbox inline" functionality for Drupal.
+package: Media
+core_version_requirement: ^9.2 || ^10
+
+dependencies:
+  - colorbox:colorbox
+
+# Information added by Drupal.org packaging script on 2022-12-14
+version: '2.0.0'
+project: 'colorbox_inline'
+datestamp: 1671057591

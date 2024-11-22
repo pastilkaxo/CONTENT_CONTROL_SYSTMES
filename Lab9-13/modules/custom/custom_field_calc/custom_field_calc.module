@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Entity\EntityInterface;
+
+/**
+ * Implements hook_entity_presave().
+ */
+function custom_field_calc_entity_presave(EntityInterface $entity) {
+  if ($entity->getEntityTypeId() === 'node') {
+    // Предположим, что у вас есть два числовых поля: field_number1 и field_number2.
+    $field1 = $entity->get('field_cena')->value;
+    $field2 = $entity->get('field_cena_po_skidke')->value;
+
+    // Результат записывается в вычисляемое поле field_computed.
+    $entity->set('field_total', $field1 + $field2);
+  }
+}

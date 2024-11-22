@@ -1,0 +1,23 @@
+uuid: c0e084ad-3c2a-41ab-a27a-299e848c5344
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - kite
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: kite_search_form_narrow
+theme: kite
+region: search_box
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

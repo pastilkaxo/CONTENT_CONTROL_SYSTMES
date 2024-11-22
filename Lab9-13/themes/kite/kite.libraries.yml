@@ -1,0 +1,33 @@
+global-styling:
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/style.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css: {}
+      css/font.css: {}
+      css/slider.css: {}
+
+  js:
+    js/custom.js: {}
+    js/messages.js: {}
+    js/bootstrap.min.js: {}
+    js/tabledrag.js: {}
+    js/tabledrag.es6.js: {}
+    js/slider.js: {}
+    # js/Drupal.behaviors.navigation.js: {}
+
+bootstrap-icons:
+  version: 1.9.1
+  css:
+    component:
+      css/bootstrap-icons.css: {}
+
+googlefontslocal:
+  css:
+    theme:
+      css/font.css: {}  
+
+
+  dependencies:
+    - core/jquery

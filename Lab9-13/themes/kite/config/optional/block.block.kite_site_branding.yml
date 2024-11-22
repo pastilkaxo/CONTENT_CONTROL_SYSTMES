@@ -1,0 +1,25 @@
+uuid: a41eb4f2-edb7-449f-92f6-14c1352dd380
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kite
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: kite_site_branding
+theme: kite
+region: site_branding
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

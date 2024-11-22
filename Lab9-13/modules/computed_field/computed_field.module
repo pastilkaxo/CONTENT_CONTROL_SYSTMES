@@ -1,0 +1,154 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for the Computed field module.
+ */
+
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\computed_field\Field\ComputedFieldDefinition;
+use Drupal\computed_field\Field\ComputedFieldDefinitionWithValuePluginInterface;
+use Drupal\Core\Entity\FieldableEntityInterface;
+
+/**
+ * Implements hook_help().
+ */
+function computed_field_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.computed_field':
+      return t("The Computed Field module allows creation of fields on entities which supply dynamically-computed values.");
+  }
+}
+
+/**
+ * Implements hook_entity_view_alter().
+ */
+function computed_field_entity_view_alter(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display) {
+  // This replaces the build array for a computed field with a lazy builder, if
+  // the computed field's plugin requests this. The lazy builder then returns
+  // the build array for just the computed field. This relies on the
+  // (undocumented!!) fact that viewing a single entity field doesn't invoke
+  // this hook, because otherwise this would be circular.
+  if (!$entity instanceof FieldableEntityInterface) {
+    return;
+  }
+
+  // Don't act if the entity does not have an ID, because the lazy builder will
+  // be unable to load it from storage. This happens for instance during a
+  // preview.
+  if (!$entity->id()) {
+    return;
+  }
+
+  $field_definitions = $entity->getFieldDefinitions();
+  foreach ($field_definitions as $field_definition) {
+    // Only act on our computed fields.
+    if (!$field_definition instanceof ComputedFieldDefinitionWithValuePluginInterface) {
+      continue;
+    }
+
+    /** @var \Drupal\computed_field\Field\ComputedFieldDefinitionWithValuePluginInterface \Drupal\Core\Field\FieldDefinitionInterface $field_definition */
+    $field_name = $field_definition->getName();
+
+    // Only act on fields present in the render array.
+    if (!isset($build[$field_name])) {
+      continue;
+    }
+
+    // Only act if the computed field plugin requests use of a lazy builder. If
+    // it doesn't, that means its value can be cached with the host entity.
+    $field_value_plugin = $field_definition->getFieldValuePlugin();
+    if (!$field_value_plugin->useLazyBuilder($entity, $field_definition)) {
+      continue;
+    }
+
+    /** @var \Drupal\Core\Entity\FieldableEntityInterface $entity */
+    $entity = $build['#' . $entity->getEntityTypeId()];
+
+    // Replace the field build array with our lazy builder.
+    $build[$field_name] = [
+      '#lazy_builder' => [
+        'computed_field.computed_field_builder:viewField',
+        [
+          $entity->getEntityTypeId(),
+          $entity->id(),
+          $field_name,
+          $display->getMode(),
+        ],
+      ],
+      '#create_placeholder' => TRUE,
+      '#weight' => $build[$field_name]['#weight'],
+    ];
+  }
+}
+
+/**
+ * Implements hook_entity_operation_alter().
+ */
+function computed_field_entity_operation_alter(array &$operations, EntityInterface $entity) {
+  // Remove the storage settings operation from computed fields shown on 'Manage
+  // fields' lists. This gets added by \Drupal\field_ui\FieldConfigListBuilder
+  // when we sneak our computed field entities into its lists.
+  if ($entity->getEntityTypeId() == 'computed_field') {
+    unset($operations['storage-settings']);
+  }
+}
+
+/**
+ * Implements hook_entity_base_field_info_alter().
+ */
+function computed_field_entity_base_field_info_alter(&$fields, EntityTypeInterface $entity_type) {
+  // Define base fields from automatic computed field plugins. We do this in
+  // the alter hook rather than the base hook so that computed field plugins
+  // can determine their attaching scope based on existing fields. This allows
+  // a computed field whose output is based on the values of stored fields to
+  // automatically show in the same places as the dependent fields.
+  $computed_field_plugin_manager = \Drupal::service('plugin.manager.computed_field');
+  $automatic_computed_field_plugins = $computed_field_plugin_manager->getAutomaticPlugins($entity_type);
+  foreach ($automatic_computed_field_plugins as $plugin_id => $plugin) {
+    $plugin->attachAsBaseField($fields, $entity_type);
+  }
+}
+
+/**
+ * Implements hook_entity_bundle_field_info().
+ */
+function computed_field_entity_bundle_field_info(EntityTypeInterface $entity_type, $bundle, array $base_field_definitions) {
+  // Define bundle fields from computed field config entities.
+  $fields = [];
+
+  $computed_fields = \Drupal::service('entity_type.manager')->getStorage('computed_field')->loadMultiple();
+
+  foreach ($computed_fields as $computed_field) {
+    if ($computed_field->getTargetEntityTypeId() != $entity_type->id()) {
+      continue;
+    }
+
+    if ($computed_field->getTargetBundle() != $bundle) {
+      continue;
+    }
+
+    $fields[$computed_field->getName()] = $computed_field;
+  }
+
+  return $fields;
+}
+
+/**
+ * Implements hook_entity_bundle_field_info_alter().
+ */
+function computed_field_entity_bundle_field_info_alter(&$fields, EntityTypeInterface $entity_type, $bundle) {
+  // Define bundle fields from automatic computed field plugins. We do this in
+  // the alter hook rather than the base hook so that computed field plugins
+  // can determine their attaching scope based on existing fields. This allows
+  // a computed field whose output is based on the values of stored fields to
+  // automatically show in the same places as the dependent fields.
+  $computed_field_plugin_manager = \Drupal::service('plugin.manager.computed_field');
+  $automatic_computed_field_plugins = $computed_field_plugin_manager->getAutomaticPlugins($entity_type);
+  foreach ($automatic_computed_field_plugins as $plugin_id => $plugin) {
+    $plugin->attachAsBundleField($fields, $entity_type, $bundle);
+  }
+}

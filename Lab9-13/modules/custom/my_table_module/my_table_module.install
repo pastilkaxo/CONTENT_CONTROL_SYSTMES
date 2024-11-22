@@ -1,0 +1,43 @@
+<?php
+
+use Drupal\Core\Database\Database;
+
+/**
+ * Implements hook_install().
+ */
+function my_table_module_install() {
+    $schema = \Drupal::database()->schema();
+    if (!$schema->tableExists('my_custom_table')) {
+        $schema->createTable('my_custom_table', [
+            'fields' => [
+                'id' => [
+                    'type' => 'serial',
+                    'not null' => TRUE,
+                    'description' => 'Primary Key',
+                ],
+                'title' => [
+                    'type' => 'varchar',
+                    'length' => 255,
+                    'not null' => TRUE,
+                    'description' => 'Title field',
+                ],
+                'created' => [
+                    'type' => 'int',
+                    'not null' => TRUE,
+                    'description' => 'Creation timestamp',
+                ],
+            ],
+            'primary key' => ['id'],
+        ]);
+    }
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function my_table_module_uninstall() {
+    $schema = \Drupal::database()->schema();
+    if ($schema->tableExists('my_custom_table')) {
+        $schema->dropTable('my_custom_table');
+    }
+}

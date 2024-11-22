@@ -1,0 +1,3 @@
+computed_field_ui.computed_field_add:
+  class: \Drupal\Core\Menu\LocalActionDefault
+  deriver: \Drupal\computed_field_ui\Plugin\Derivative\ComputedFieldLocalAction

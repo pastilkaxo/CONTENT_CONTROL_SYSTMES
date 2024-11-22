@@ -1,0 +1,21 @@
+.module-description::before {
+  position: absolute;
+  top: 45%;
+  left: -23px;
+  display: block;
+  width: 0.625rem;
+  height: 0.625rem;
+  content: "";
+  transform: translateY(-50%) rotate(135deg);
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+}
+.module-description {
+  position: relative;
+  list-style: none;
+  font-size: var(--font-16);
+  font-weight: 600;
+}
+summary {
+  list-style: none;
+}

@@ -1,0 +1,11 @@
+services:
+  plugin.manager.computed_field:
+    class: Drupal\computed_field\ComputedFieldManager
+    parent: default_plugin_manager
+
+  computed_field.computed_field_builder:
+    class: Drupal\computed_field\ComputedFieldBuilder
+    arguments: ['@entity_type.manager', '@render_placeholder_generator']
+
+  computed_field.computed_field_class_factory:
+    class: Drupal\computed_field\ComputedFieldClassFactory

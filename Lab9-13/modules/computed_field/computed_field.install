@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for Computed Field.
+ */
+
+/**
+ * Install the new computed_field_ui submodule.
+ */
+function computed_field_update_8001(): void {
+  \Drupal::service('module_installer')
+    ->install(['computed_field_ui']);
+}

@@ -1,0 +1,5 @@
+name: "My Table Module"
+type: module
+description: "Module to create tables in the database."
+core_version_requirement: ^10
+package: Custom

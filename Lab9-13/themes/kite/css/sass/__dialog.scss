@@ -1,0 +1,38 @@
+.ui-dialog {
+  top: 10% !important;
+}
+.ui-dialog-content  .action-links{
+  padding:0;
+}
+.ui-dialog-titlebar{
+background: #002D62;
+position: relative;
+}
+.ui-dialog .ui-dialog-titlebar-close::before{
+  content: "x";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -15px;
+  bottom: 0;
+  font-size: var(--font-30);
+  color: var(--white);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  transition: transform 0.12s ease-in 0s;
+}
+.ui-dialog-titlebar-close{
+  background: transparent;
+  border: 0;
+}
+.ui-dialog-title{
+  color: var(--white);
+}
+.block-filter-text {
+  margin-bottom: 25px;
+}
+
+.views-filterable-options-controls{
+  display: flex !important;
+}

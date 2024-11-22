@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function slogan_module_install() {
+    $config = \Drupal::configFactory()->getEditable('system.site');
+    if (!$config->get('slogan')) {
+        $config->set('slogan', 'This is the new Vlad slogan')->save();
+    }
+}

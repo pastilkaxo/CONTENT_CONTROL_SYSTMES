@@ -1,0 +1,47 @@
+computed_field.settings:
+  type: config_object
+  label: 'Computed field settings'
+  mapping:
+    field_prefix:
+      type: string
+      label: 'The prefix for new compued fields created via Field UI'
+
+computed_field.computed_field.*:
+  type: config_entity
+  label: 'Computed field'
+  mapping:
+    id:
+      type: text
+      label: 'Machine name'
+    field_name:
+      type: text
+      label: 'Field name'
+    label:
+      type: label
+      label: Name
+    entity_type:
+      type: string
+      label: 'Entity type'
+    bundle:
+      type: text
+      label: 'Bundle'
+    plugin_id:
+      type: text
+      label: 'Plugin'
+    plugin_config:
+      type: computed_field.computed_field_plugin.[%parent.plugin_id]
+      label: 'Plugin configuration'
+
+computed_field.computed_field_plugin.*:
+  type: mapping
+  label: 'Computed field configuration'
+
+computed_field.computed_field_plugin.reverse_entity_reference:
+  type: mapping
+  label: 'Reverse entity reference computed field configuration'
+  mapping:
+    # The referencing field, in the format HOST_ENTITY_TYPE-FIELD_NAME. For
+    # example, 'node-uid'.
+    reference_field:
+      type: text
+      label: 'Reference field'

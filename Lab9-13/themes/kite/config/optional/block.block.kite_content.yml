@@ -1,0 +1,22 @@
+uuid: d6bd921b-09c6-420c-b296-f9f47358ceac
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kite
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: kite_content
+theme: kite
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
